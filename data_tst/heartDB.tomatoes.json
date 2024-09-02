@@ -1,0 +1,770 @@
+[{
+  "_id": {
+    "$oid": "66b0e96e86f44f1b3375a720"
+  },
+  "user_id": "default",
+  "tomato_duration": 45,
+  "tomato_time": {
+    "$date": "2024-08-05T23:02:09.149Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66b3368b3d9bc71ce27e308f"
+  },
+  "user_id": "15171102010",
+  "tomato_duration": 45,
+  "tomato_time": {
+    "$date": "2024-08-07T16:55:36.394Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b33c5b3d9bc71ce27e309d"
+  },
+  "user_id": "15171102010",
+  "tomato_duration": 45,
+  "tomato_time": {
+    "$date": "2024-08-07T17:20:24.517Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b33c6d3d9bc71ce27e309f"
+  },
+  "user_id": "15171102010",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-07T17:20:44.293Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b341dc3d9bc71ce27e30a3"
+  },
+  "user_id": "12345678900",
+  "tomato_duration": 60,
+  "tomato_time": {
+    "$date": "2024-08-07T17:43:58.817Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b341e23d9bc71ce27e30a4"
+  },
+  "user_id": "12345678900",
+  "tomato_duration": 45,
+  "tomato_time": {
+    "$date": "2024-08-07T17:44:05.281Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b343fd3d9bc71ce27e30ac"
+  },
+  "user_id": "12345678900",
+  "tomato_duration": 60,
+  "tomato_time": {
+    "$date": "2024-08-07T17:53:03.642Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b343ff3d9bc71ce27e30ad"
+  },
+  "user_id": "12345678900",
+  "tomato_duration": 45,
+  "tomato_time": {
+    "$date": "2024-08-07T17:53:06.410Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b495dd3d9bc71ce27e30c0"
+  },
+  "user_id": "18392440042",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-08T17:54:39.864Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b495eb3d9bc71ce27e30c2"
+  },
+  "user_id": "18392440042",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-08T17:54:53.614Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b496373d9bc71ce27e30c4"
+  },
+  "user_id": "18392440042",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-08T17:56:10.131Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b496613d9bc71ce27e30ca"
+  },
+  "user_id": "12345678900",
+  "tomato_duration": 60,
+  "tomato_time": {
+    "$date": "2024-08-08T17:56:50.007Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6c7af3d9bc71ce27e30d4"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 45,
+  "tomato_time": {
+    "$date": "2024-08-10T09:51:45.597Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6c7b33d9bc71ce27e30d5"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-10T09:51:49.946Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6c8083d9bc71ce27e30d6"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-10T09:53:14.221Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6c8113d9bc71ce27e30d7"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-10T09:53:24.054Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6c8143d9bc71ce27e30d8"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-10T09:53:26.438Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6c85f3d9bc71ce27e30d9"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-10T09:54:41.368Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6c8663d9bc71ce27e30da"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-10T09:54:48.719Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6c8c33d9bc71ce27e30dc"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 45,
+  "tomato_time": {
+    "$date": "2024-08-10T09:56:22.166Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6c92f3d9bc71ce27e30dd"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 45,
+  "tomato_time": {
+    "$date": "2024-08-10T09:58:09.846Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6c9413d9bc71ce27e30de"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 45,
+  "tomato_time": {
+    "$date": "2024-08-10T09:58:27.431Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6c9693d9bc71ce27e30df"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-10T09:59:08.014Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6c9933d9bc71ce27e30e0"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-10T09:59:49.459Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6ca053d9bc71ce27e30e1"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-10T10:01:43.941Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66b6ca2f3d9bc71ce27e30e2"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-10T10:02:25.756Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6cc813d9bc71ce27e30e4"
+  },
+  "user_id": "12312351235",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-10T10:12:19.562Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b74448404e8453e937f084"
+  },
+  "user_id": "12345678900",
+  "tomato_duration": 45,
+  "tomato_time": {
+    "$date": "2024-08-10T18:43:22.363Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b74456404e8453e937f087"
+  },
+  "user_id": "12345678900",
+  "tomato_duration": 60,
+  "tomato_time": {
+    "$date": "2024-08-10T18:43:36.875Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66b74701404e8453e937f08b"
+  },
+  "user_id": "18235959360",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-10T18:54:59.299Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66bb151144f0618f88eb6dc6"
+  },
+  "user_id": "12345678901",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-13T16:10:58.313Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2d8a5d119ec79e1c61b58"
+  },
+  "user_id": "12345678900",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-19T13:31:33.430Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2d993d119ec79e1c61b5a"
+  },
+  "user_id": "11111111111",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-19T13:35:31.647Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2da49d119ec79e1c61b5e"
+  },
+  "user_id": "77777777777",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-19T13:38:34.283Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2dbf1d119ec79e1c61b5f"
+  },
+  "user_id": "12345678900",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-19T13:45:37.860Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2e02b2b7cfaec7d640c6b"
+  },
+  "user_id": "77777777777",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-19T14:03:40.423Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66c2f7cf2f874d2e2032b413"
+  },
+  "user_id": "77777778888",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-19T15:44:32.503Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2f86536d33e229fec703c"
+  },
+  "user_id": "77777778888",
+  "tomato_duration": 1,
+  "tomato_time": {
+    "$date": "2024-08-19T15:47:02.342Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66c2f8e62f874d2e2032b414"
+  },
+  "user_id": "77777778888",
+  "tomato_duration": 1,
+  "tomato_time": {
+    "$date": "2024-08-19T15:49:11.353Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66c2f92d36d33e229fec703d"
+  },
+  "user_id": "77777778888",
+  "tomato_duration": 1,
+  "tomato_time": {
+    "$date": "2024-08-19T15:50:22.736Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66c2f99a36d33e229fec703e"
+  },
+  "user_id": "77777778888",
+  "tomato_duration": 1,
+  "tomato_time": {
+    "$date": "2024-08-19T15:52:11.065Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66c2fa082f874d2e2032b415"
+  },
+  "user_id": "77777778888",
+  "tomato_duration": 1,
+  "tomato_time": {
+    "$date": "2024-08-19T15:54:01.823Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66c2fdd62f874d2e2032b417"
+  },
+  "user_id": "77777777777",
+  "tomato_duration": 1,
+  "tomato_time": {
+    "$date": "2024-08-19T16:10:15.794Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2fdd82f874d2e2032b418"
+  },
+  "user_id": "77777777777",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-19T16:10:17.622Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2fdda2f874d2e2032b419"
+  },
+  "user_id": "77777777777",
+  "tomato_duration": 1,
+  "tomato_time": {
+    "$date": "2024-08-19T16:10:19.463Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2fddc2f874d2e2032b41a"
+  },
+  "user_id": "77777777777",
+  "tomato_duration": 45,
+  "tomato_time": {
+    "$date": "2024-08-19T16:10:21.491Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2fde12f874d2e2032b41b"
+  },
+  "user_id": "77777777777",
+  "tomato_duration": 60,
+  "tomato_time": {
+    "$date": "2024-08-19T16:10:23.913Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2fffd1968e70cec83db6c"
+  },
+  "user_id": "12345678900",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-19T16:19:26.585Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c301711968e70cec83db6d"
+  },
+  "user_id": "77777778888",
+  "tomato_duration": 1,
+  "tomato_time": {
+    "$date": "2024-08-19T16:25:38.271Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c301741968e70cec83db6e"
+  },
+  "user_id": "77777778888",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-19T16:25:42.071Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c3019c8412a3c7b708db68"
+  },
+  "user_id": "77777778888",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-19T16:26:21.304Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c309991968e70cec83db72"
+  },
+  "user_id": "12345678900",
+  "tomato_duration": 1,
+  "tomato_time": {
+    "$date": "2024-08-19T17:00:26.049Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66c30a238412a3c7b708db69"
+  },
+  "user_id": "77777777777",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-19T17:02:36.188Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c4115bc8408d0247fc1b48"
+  },
+  "user_id": "18392440042",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-20T11:45:50.576Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c45d3c6d315701066f5d16"
+  },
+  "user_id": "18038829820",
+  "tomato_duration": 60,
+  "tomato_time": {
+    "$date": "2024-08-20T17:09:36.382Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c45da451d0752134b43ba9"
+  },
+  "user_id": "18372772013",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-20T17:11:18.402Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c571046d315701066f5d7a"
+  },
+  "user_id": "18392440042",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-21T12:46:19.129Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c72f23295066ab2a10eec6"
+  },
+  "user_id": "15178181483",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-22T20:29:24.762Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c75ff263f47c76f974174f"
+  },
+  "user_id": "18208660066",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-22T23:57:37.110Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c77ba463f47c76f9741754"
+  },
+  "user_id": "17857310325",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-23T01:55:50.030Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66c8564663f47c76f974177f"
+  },
+  "user_id": "17857310325",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-23T17:28:42.178Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66c85fe3295066ab2a10ef0e"
+  },
+  "user_id": "15178181483",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-23T18:09:43.336Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66c9d24c63f47c76f97417b6"
+  },
+  "user_id": "18963809846",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-24T20:30:11.144Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66cacbd1295066ab2a10ef59"
+  },
+  "user_id": "18235959360",
+  "tomato_duration": 45,
+  "tomato_time": {
+    "$date": "2024-08-25T14:14:50.225Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66cae50663f47c76f97417d0"
+  },
+  "user_id": "13370792083",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-25T16:02:23.921Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66d14de23c1e636bfda387d4"
+  },
+  "user_id": "18963809846",
+  "tomato_duration": 45,
+  "tomato_time": {
+    "$date": "2024-08-30T12:43:17.064Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66d18eba3c1e636bfda3884c"
+  },
+  "user_id": "15178181483",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-08-30T17:19:57.466Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66d1b915a83af78cab523802"
+  },
+  "user_id": "13370792083",
+  "tomato_duration": 30,
+  "tomato_time": {
+    "$date": "2024-08-30T20:20:40.499Z"
+  },
+  "tomato_status": true
+},
+{
+  "_id": {
+    "$oid": "66d48dfb3c1e636bfda389c9"
+  },
+  "user_id": "18368437211",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-09-01T23:53:35.680Z"
+  },
+  "tomato_status": false
+},
+{
+  "_id": {
+    "$oid": "66d50db1a83af78cab523969"
+  },
+  "user_id": "13377908331",
+  "tomato_duration": 15,
+  "tomato_time": {
+    "$date": "2024-09-02T08:58:29.209Z"
+  },
+  "tomato_status": false
+}]

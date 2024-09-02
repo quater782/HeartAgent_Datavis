@@ -1,0 +1,7221 @@
+[{
+  "_id": {
+    "$oid": "66b19cfcddea81ce19e4579d"
+  },
+  "user_id": "default",
+  "mood_indicator": 0.9,
+  "mood_keywords": [
+    "开心",
+    "满足"
+  ],
+  "mood_factors": [
+    "社交",
+    "家庭",
+    "个人兴趣"
+  ],
+  "mood_time_logged": {
+    "$date": "2023-07-01T21:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b19cfcddea81ce19e4579e"
+  },
+  "user_id": "default",
+  "mood_indicator": 0.5,
+  "mood_keywords": [
+    "无聊",
+    "空虚"
+  ],
+  "mood_factors": [
+    "个人兴趣"
+  ],
+  "mood_time_logged": {
+    "$date": "2023-08-01T21:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b19cfcddea81ce19e4579f"
+  },
+  "user_id": "default",
+  "mood_indicator": 0.6,
+  "mood_keywords": [
+    "轻松",
+    "压力大"
+  ],
+  "mood_factors": [
+    "工作",
+    "社交"
+  ],
+  "mood_time_logged": {
+    "$date": "2023-08-02T21:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b19cfcddea81ce19e457a0"
+  },
+  "user_id": "default",
+  "mood_indicator": 0.7,
+  "mood_keywords": [
+    "成就感",
+    "不安"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2023-08-03T21:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b19cfcddea81ce19e457a1"
+  },
+  "user_id": "default",
+  "mood_indicator": 0.8,
+  "mood_keywords": [
+    "放松",
+    "温馨"
+  ],
+  "mood_factors": [
+    "健康",
+    "家庭"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-04T21:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b19cfcddea81ce19e457a2"
+  },
+  "user_id": "default",
+  "mood_indicator": 0.4,
+  "mood_keywords": [
+    "焦虑",
+    "压力大"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-05T21:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b1be16eb375ca3f35e098b"
+  },
+  "user_id": "default",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "自豪",
+    "勇敢"
+  ],
+  "mood_factors": [
+    "自我",
+    "约会"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-06T14:09:28.995Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b1c0f4a73c3b06dba45b52"
+  },
+  "user_id": "11111111111",
+  "mood_indicator": 0.36,
+  "mood_keywords": [
+    "勇敢",
+    "自豪"
+  ],
+  "mood_factors": [
+    "自我",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-06T14:21:42.863Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b336493d9bc71ce27e308d"
+  },
+  "user_id": "15171102010",
+  "mood_indicator": 0.77,
+  "mood_keywords": [
+    "厌恶",
+    "焦虑",
+    "沮丧",
+    "嫉妒"
+  ],
+  "mood_factors": [
+    "健康",
+    "心灵",
+    "朋友",
+    "旅行",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-07T16:54:30.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b336bd3d9bc71ce27e3090"
+  },
+  "user_id": "15171102010",
+  "mood_indicator": 0,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-07T16:56:29.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b336cb3d9bc71ce27e3091"
+  },
+  "user_id": "15171102010",
+  "mood_indicator": 0.24,
+  "mood_keywords": [
+    "自豪",
+    "勇敢",
+    "感恩"
+  ],
+  "mood_factors": [
+    "伴侣",
+    "旅行",
+    "约会"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-07T16:56:42.738Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b338d63d9bc71ce27e3095"
+  },
+  "user_id": "15171102010",
+  "mood_indicator": 0.51,
+  "mood_keywords": [
+    "勇敢"
+  ],
+  "mood_factors": [
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-07T17:05:24.265Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b338ff3d9bc71ce27e3096"
+  },
+  "user_id": "15171102010",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "满意"
+  ],
+  "mood_factors": [
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-07T17:06:06.169Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b3397b3d9bc71ce27e3097"
+  },
+  "user_id": "15171102010",
+  "mood_indicator": 0.4,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-07T17:08:10.696Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b33c153d9bc71ce27e309b"
+  },
+  "user_id": "15171102010",
+  "mood_indicator": 0.32,
+  "mood_keywords": [
+    "惊喜"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-07T17:19:14.691Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b341fa3d9bc71ce27e30a7"
+  },
+  "user_id": "12345678900",
+  "mood_indicator": 0.16,
+  "mood_keywords": [
+    "自豪",
+    "勇敢",
+    "感恩",
+    "热忱"
+  ],
+  "mood_factors": [
+    "自我",
+    "约会",
+    "伴侣",
+    "旅行",
+    "教育",
+    "朋友",
+    "心灵",
+    "健身",
+    "健康",
+    "爱好",
+    "家人",
+    "事实",
+    "金钱",
+    "工作",
+    "天气",
+    "家务",
+    "社群",
+    "身份"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-07T17:44:28.763Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b3421f3d9bc71ce27e30a8"
+  },
+  "user_id": "12345678900",
+  "mood_indicator": 1,
+  "mood_keywords": [
+    "孤独",
+    "力竭",
+    "冷漠",
+    "惊讶",
+    "无望",
+    "压力",
+    "尴尬",
+    "内疚",
+    "羞愧",
+    "厌恶",
+    "沮丧",
+    "伤心",
+    "愤火",
+    "焦虑",
+    "嫉妒",
+    "害怕",
+    "挫败",
+    "烦躁",
+    "愤怒",
+    "忧虑"
+  ],
+  "mood_factors": [
+    "健康",
+    "健身",
+    "自我",
+    "身份",
+    "社群",
+    "约会",
+    "心灵",
+    "爱好",
+    "家人",
+    "朋友",
+    "伴侣",
+    "家务",
+    "天气",
+    "旅行",
+    "教育",
+    "工作",
+    "事实",
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-07T17:45:06.349Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b342c03d9bc71ce27e30ab"
+  },
+  "user_id": "12345678900",
+  "mood_indicator": 0.67,
+  "mood_keywords": [
+    "孤独",
+    "压力",
+    "尴尬"
+  ],
+  "mood_factors": [
+    "自我",
+    "约会"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-07T17:47:46.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b360a63d9bc71ce27e30b1"
+  },
+  "user_id": "18392440042",
+  "mood_indicator": 0.51,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-07T19:55:19.504Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b4099b3d9bc71ce27e30b2"
+  },
+  "user_id": "12345678900",
+  "mood_indicator": 0.52,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "身份"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-08T07:56:13.516Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b495b43d9bc71ce27e30be"
+  },
+  "user_id": "18392440042",
+  "mood_indicator": 0.26,
+  "mood_keywords": [
+    "希望"
+  ],
+  "mood_factors": [
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-08T17:53:58.983Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b6cc8e3d9bc71ce27e30e5"
+  },
+  "user_id": "12312351235",
+  "mood_indicator": 0.56,
+  "mood_keywords": [
+    "满意"
+  ],
+  "mood_factors": [
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T10:12:31.998Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b6ccd23d9bc71ce27e30e6"
+  },
+  "user_id": "11111111111",
+  "mood_indicator": 1,
+  "mood_keywords": [
+    "尴尬"
+  ],
+  "mood_factors": [
+    "身份"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T10:13:40.284Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b6d1313d9bc71ce27e30e8"
+  },
+  "user_id": "12222222222",
+  "mood_indicator": 0.32,
+  "mood_keywords": [
+    "自豪",
+    "勇敢",
+    "感恩"
+  ],
+  "mood_factors": [
+    "约会",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T10:32:19.946Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b6d1b83d9bc71ce27e30e9"
+  },
+  "user_id": "13333333333",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "自豪"
+  ],
+  "mood_factors": [
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T10:34:35.142Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b6d2333d9bc71ce27e30eb"
+  },
+  "user_id": "14444444444",
+  "mood_indicator": 0.7,
+  "mood_keywords": [
+    "孤独"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T10:36:37.669Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b6d3883d9bc71ce27e30ed"
+  },
+  "user_id": "15555555555",
+  "mood_indicator": 0.77,
+  "mood_keywords": [
+    "孤独"
+  ],
+  "mood_factors": [
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T10:42:18.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b6d5023d9bc71ce27e30ef"
+  },
+  "user_id": "10000000000",
+  "mood_indicator": 0.75,
+  "mood_keywords": [
+    "冷漠",
+    "力竭",
+    "孤独",
+    "尴尬",
+    "惊讶",
+    "无望",
+    "压力",
+    "内疚",
+    "伤心",
+    "沮丧",
+    "厌恶",
+    "羞愧",
+    "害怕",
+    "嫉妒",
+    "焦虑",
+    "愤火"
+  ],
+  "mood_factors": [
+    "健身",
+    "心灵",
+    "教育",
+    "朋友",
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T10:48:37.028Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b6d5ce3d9bc71ce27e30f1"
+  },
+  "user_id": "00000000000",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "自信",
+    "自豪",
+    "愉悦",
+    "希望",
+    "兴奋",
+    "勇敢",
+    "满意",
+    "满足",
+    "开心",
+    "感恩",
+    "热忱",
+    "释然",
+    "平静",
+    "平和",
+    "惊喜",
+    "惊讶"
+  ],
+  "mood_factors": [
+    "健康",
+    "爱好",
+    "家人",
+    "工作",
+    "事实",
+    "健身",
+    "心灵",
+    "朋友",
+    "教育",
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T10:52:00.736Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b6d6c53d9bc71ce27e30f3"
+  },
+  "user_id": "00000010001",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "自信",
+    "兴奋",
+    "开心",
+    "平静",
+    "平和",
+    "感恩",
+    "自豪"
+  ],
+  "mood_factors": [
+    "健身",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T10:56:07.657Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b6d7be3d9bc71ce27e30f5"
+  },
+  "user_id": "00000000012",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "自信",
+    "自豪",
+    "愉悦",
+    "希望",
+    "兴奋",
+    "勇敢",
+    "满意",
+    "满足",
+    "开心",
+    "感恩",
+    "热忱",
+    "释然",
+    "平静",
+    "平和",
+    "惊喜",
+    "惊讶"
+  ],
+  "mood_factors": [
+    "健康",
+    "健身",
+    "自我",
+    "身份",
+    "爱好",
+    "心灵",
+    "约会",
+    "社群",
+    "家人",
+    "朋友",
+    "伴侣",
+    "家务",
+    "工作",
+    "教育",
+    "旅行",
+    "天气",
+    "事实",
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T11:00:17.226Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b6da5e3d9bc71ce27e30f7"
+  },
+  "user_id": "00000000013",
+  "mood_indicator": 0.23,
+  "mood_keywords": [
+    "自信",
+    "自豪",
+    "愉悦",
+    "希望",
+    "兴奋",
+    "勇敢",
+    "满意",
+    "满足",
+    "开心",
+    "感恩",
+    "热忱",
+    "释然",
+    "平静",
+    "平和",
+    "惊喜",
+    "惊讶"
+  ],
+  "mood_factors": [
+    "健康",
+    "爱好",
+    "家人",
+    "工作",
+    "事实",
+    "金钱",
+    "教育",
+    "心灵",
+    "朋友",
+    "健身"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T11:11:28.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b73125404e8453e937f07e"
+  },
+  "user_id": "12345678900",
+  "mood_indicator": 0.17,
+  "mood_keywords": [
+    "愉悦",
+    "自豪"
+  ],
+  "mood_factors": [
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T17:21:43.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b73a0b404e8453e937f082"
+  },
+  "user_id": "18392440042",
+  "mood_indicator": 0.15,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-10T17:59:41.585Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b73a2f404e8453e937f083"
+  },
+  "user_id": "15171102010",
+  "mood_indicator": 0.28,
+  "mood_keywords": [
+    "满意"
+  ],
+  "mood_factors": [
+    "旅行",
+    "教育",
+    "朋友",
+    "爱好",
+    "健康",
+    "健身",
+    "心灵",
+    "约会",
+    "自我",
+    "身份"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T18:00:15.373Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b745e3404e8453e937f088"
+  },
+  "user_id": "18235959360",
+  "mood_indicator": 0.25,
+  "mood_keywords": [
+    "愉悦",
+    "满足"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-10T18:50:13.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b88b5fea7ed099944fdff0"
+  },
+  "user_id": "00100010001",
+  "mood_indicator": 0.16,
+  "mood_keywords": [
+    "自豪",
+    "勇敢"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-11T17:58:57.487Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b88da3ea7ed099944fdff3"
+  },
+  "user_id": "12345678900",
+  "mood_indicator": 1,
+  "mood_keywords": [
+    "孤独",
+    "压力",
+    "厌恶",
+    "嫉妒",
+    "愤怒",
+    "焦虑",
+    "沮丧",
+    "无望",
+    "力竭"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-11T18:08:38.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b88e6cea7ed099944fdff6"
+  },
+  "user_id": "99999999999",
+  "mood_indicator": 0,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-11T18:11:59.020Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b89346ea7ed099944fdff9"
+  },
+  "user_id": "88888888888",
+  "mood_indicator": 0.15,
+  "mood_keywords": [
+    "自豪",
+    "勇敢"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-11T18:32:40.428Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b893a8ea7ed099944fdffc"
+  },
+  "user_id": "66666666666",
+  "mood_indicator": 0.21,
+  "mood_keywords": [
+    "满意"
+  ],
+  "mood_factors": [
+    "朋友",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-11T18:34:19.111Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b8b6f3efd8dc7a099a62ef"
+  },
+  "user_id": "12345678000",
+  "mood_indicator": 0.57,
+  "mood_keywords": [
+    "热忱",
+    "惊讶",
+    "释然",
+    "惊喜",
+    "满足",
+    "满意"
+  ],
+  "mood_factors": [
+    "健身",
+    "心灵",
+    "朋友",
+    "伴侣",
+    "自我",
+    "约会",
+    "社群",
+    "身份"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-11T21:04:53.413Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bb177944f0618f88eb6dc7"
+  },
+  "user_id": "11111111111",
+  "mood_indicator": 0.23,
+  "mood_keywords": [
+    "希望"
+  ],
+  "mood_factors": [
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-13T16:21:13.572Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bc211c44f0618f88eb6dc8"
+  },
+  "user_id": "12345678900",
+  "mood_indicator": 0.34,
+  "mood_keywords": [
+    "自豪",
+    "勇敢",
+    "感恩",
+    "平和",
+    "惊喜",
+    "热忱",
+    "满意",
+    "愉悦"
+  ],
+  "mood_factors": [
+    "身份",
+    "社群",
+    "天气",
+    "旅行",
+    "伴侣",
+    "约会",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-14T11:14:37.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bc9a2b1666041a03fb9949"
+  },
+  "user_id": "15171102010",
+  "mood_indicator": 0.41,
+  "mood_keywords": [
+    "满意",
+    "热忱"
+  ],
+  "mood_factors": [
+    "家务"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-14T19:51:08.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bca0691666041a03fb9954"
+  },
+  "user_id": "00987654321",
+  "mood_indicator": 0.45,
+  "mood_keywords": [
+    "愉悦",
+    "释然",
+    "开心",
+    "惊喜",
+    "平和",
+    "满意",
+    "感恩",
+    "热忱",
+    "满足",
+    "自信"
+  ],
+  "mood_factors": [
+    "约会",
+    "金钱",
+    "教育",
+    "朋友",
+    "天气",
+    "伴侣",
+    "旅行"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-14T20:17:47.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bd91fcf815ee7f21c224fe"
+  },
+  "user_id": "12345678900",
+  "mood_indicator": 0.22,
+  "mood_keywords": [
+    "愉悦",
+    "希望",
+    "释然",
+    "热忱",
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "约会",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-15T13:28:32.158Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bda71eeaed81dbcb3ecacc"
+  },
+  "user_id": "18392440042",
+  "mood_indicator": 0.63,
+  "mood_keywords": [
+    "压力"
+  ],
+  "mood_factors": [
+    "约会"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-15T14:58:41.686Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bf1a6dae2536238f74ac1b"
+  },
+  "user_id": "12345678900",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "惊喜",
+    "平和",
+    "感恩"
+  ],
+  "mood_factors": [
+    "约会",
+    "伴侣",
+    "旅行"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-16T17:23:01.262Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c071217eab803435a41a9d"
+  },
+  "user_id": "12345678900",
+  "mood_indicator": 0.18,
+  "mood_keywords": [
+    "愉悦",
+    "满意",
+    "热忱"
+  ],
+  "mood_factors": [
+    "心灵",
+    "朋友",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-17T17:45:12.527Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c2d27bd119ec79e1c61b57"
+  },
+  "user_id": "77777777777",
+  "mood_indicator": 0.24,
+  "mood_keywords": [
+    "自豪",
+    "勇敢",
+    "热忱"
+  ],
+  "mood_factors": [
+    "心灵",
+    "旅行",
+    "天气",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-19T13:05:15.905Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c349ef9076232f4a8acdd4"
+  },
+  "user_id": "18392440042",
+  "mood_indicator": 0.22,
+  "mood_keywords": [
+    "自豪",
+    "满意"
+  ],
+  "mood_factors": [
+    "自我",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-19T21:34:56.704Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c402e71ba7501e73ebf78e"
+  },
+  "user_id": "12345678900",
+  "mood_indicator": 0.27,
+  "mood_keywords": [
+    "希望",
+    "释然",
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "工作",
+    "朋友",
+    "自我",
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T10:44:09.618Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c445b16d315701066f5ced"
+  },
+  "user_id": "13523426691",
+  "mood_indicator": 0.51,
+  "mood_keywords": [
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T15:29:09.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4464d6d315701066f5cee"
+  },
+  "user_id": "18150061030",
+  "mood_indicator": 0.27,
+  "mood_keywords": [
+    "开心",
+    "平静",
+    "平和",
+    "愉悦"
+  ],
+  "mood_factors": [
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T15:31:40.824Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4480b6d315701066f5cf1"
+  },
+  "user_id": "19119732512",
+  "mood_indicator": 0.46,
+  "mood_keywords": [
+    "平静",
+    "满足",
+    "感恩",
+    "开心"
+  ],
+  "mood_factors": [
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T15:39:11.682Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c449216d315701066f5cf8"
+  },
+  "user_id": "15111816459",
+  "mood_indicator": 0.24,
+  "mood_keywords": [
+    "满足"
+  ],
+  "mood_factors": [
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T15:43:49.171Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4518b6d315701066f5d06"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0.5,
+  "mood_keywords": [
+    "释然"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T16:19:20.639Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c451b851d0752134b43ba1"
+  },
+  "user_id": "18931628795",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "自信"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T16:20:06.718Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c452916d315701066f5d0b"
+  },
+  "user_id": "18208660066",
+  "mood_indicator": 0.35,
+  "mood_keywords": [
+    "满足",
+    "愉悦"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-20T16:24:05.004Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4529351d0752134b43ba3"
+  },
+  "user_id": "18743527817",
+  "mood_indicator": 0.58,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T16:24:07.758Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c47e4151d0752134b43bb2"
+  },
+  "user_id": "18368437211",
+  "mood_indicator": 0.54,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "健康",
+    "朋友",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T19:30:29.366Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c48e136d315701066f5d25"
+  },
+  "user_id": "18924915953",
+  "mood_indicator": 0.75,
+  "mood_keywords": [
+    "愤火",
+    "沮丧",
+    "伤心",
+    "焦虑"
+  ],
+  "mood_factors": [
+    "自我",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T20:38:00.349Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c48e9e51d0752134b43bb8"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "兴奋",
+    "开心",
+    "满足",
+    "热忱"
+  ],
+  "mood_factors": [
+    "旅行",
+    "天气",
+    "家人",
+    "爱好",
+    "自我",
+    "约会",
+    "心灵",
+    "朋友",
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T20:40:18.446Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c490166d315701066f5d26"
+  },
+  "user_id": "19527398569",
+  "mood_indicator": 0.53,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T20:46:34.526Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4912a6d315701066f5d27"
+  },
+  "user_id": "15178181483",
+  "mood_indicator": 0.35,
+  "mood_keywords": [
+    "愉悦",
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "家人",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T20:51:11.210Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c492396d315701066f5d29"
+  },
+  "user_id": "13918664140",
+  "mood_indicator": 0.25,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-20T20:55:39.068Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4934451d0752134b43bb9"
+  },
+  "user_id": "13662064265",
+  "mood_indicator": 0.23,
+  "mood_keywords": [
+    "平和",
+    "自信",
+    "开心"
+  ],
+  "mood_factors": [
+    "天气",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T21:00:09.688Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c497536d315701066f5d2d"
+  },
+  "user_id": "19818277026",
+  "mood_indicator": 0.53,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T21:17:28.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c49d416d315701066f5d2f"
+  },
+  "user_id": "15956956373",
+  "mood_indicator": 0.18,
+  "mood_keywords": [
+    "满意",
+    "开心",
+    "愉悦"
+  ],
+  "mood_factors": [
+    "家人",
+    "天气",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T21:42:46.520Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c49e6851d0752134b43bc2"
+  },
+  "user_id": "18049067425",
+  "mood_indicator": 0.14,
+  "mood_keywords": [
+    "愉悦",
+    "开心",
+    "满足"
+  ],
+  "mood_factors": [
+    "朋友",
+    "天气",
+    "约会"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T21:47:40.841Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4a0c56d315701066f5d32"
+  },
+  "user_id": "13764851394",
+  "mood_indicator": 0.7,
+  "mood_keywords": [
+    "压力",
+    "沮丧",
+    "焦虑",
+    "烦躁"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T21:57:46.174Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4a39e6d315701066f5d36"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.49,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T22:09:54.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4a3d26d315701066f5d37"
+  },
+  "user_id": "18586127686",
+  "mood_indicator": 0.26,
+  "mood_keywords": [
+    "愉悦",
+    "满足"
+  ],
+  "mood_factors": [
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T22:10:43.034Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4a4426d315701066f5d38"
+  },
+  "user_id": "18372772013",
+  "mood_indicator": 0.14,
+  "mood_keywords": [
+    "惊喜"
+  ],
+  "mood_factors": [
+    "心灵",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T22:12:39.199Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4a4476d315701066f5d39"
+  },
+  "user_id": "15073142501",
+  "mood_indicator": 0.22,
+  "mood_keywords": [
+    "愉悦",
+    "满足",
+    "平和"
+  ],
+  "mood_factors": [
+    "健身",
+    "健康",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T22:12:44.174Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4a59e51d0752134b43bca"
+  },
+  "user_id": "19707045120",
+  "mood_indicator": 0.53,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-20T22:18:27.635Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4a64c51d0752134b43bcc"
+  },
+  "user_id": "13916874074",
+  "mood_indicator": 0.48,
+  "mood_keywords": [
+    "释然",
+    "平和",
+    "热忱"
+  ],
+  "mood_factors": [
+    "自我",
+    "伴侣",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T22:21:21.374Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4a6686d315701066f5d3c"
+  },
+  "user_id": "19707045120",
+  "mood_indicator": 0.47,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "心灵",
+    "健康",
+    "家人",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T22:21:49.374Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4abe151d0752134b43bd1"
+  },
+  "user_id": "18120040923",
+  "mood_indicator": 0.14,
+  "mood_keywords": [
+    "满足",
+    "开心",
+    "愉悦"
+  ],
+  "mood_factors": [
+    "爱好",
+    "伴侣",
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T22:45:10.717Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4afe76d315701066f5d42"
+  },
+  "user_id": "17857310325",
+  "mood_indicator": 0.65,
+  "mood_keywords": [
+    "压力",
+    "烦躁"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T23:02:20.485Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4b2ee51d0752134b43bd2"
+  },
+  "user_id": "18963809846",
+  "mood_indicator": 0.21,
+  "mood_keywords": [
+    "释然",
+    "平静",
+    "开心"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T23:15:14.916Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4bc5b51d0752134b43bd4"
+  },
+  "user_id": "13050920803",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "满意",
+    "兴奋",
+    "开心"
+  ],
+  "mood_factors": [
+    "健身",
+    "健康",
+    "自我",
+    "爱好",
+    "心灵",
+    "朋友",
+    "旅行"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-20T23:55:28.930Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4bfbd6d315701066f5d48"
+  },
+  "user_id": "13896520229",
+  "mood_indicator": 0.36,
+  "mood_keywords": [
+    "平和",
+    "愉悦"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-21T00:09:54.340Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c4d6df51d0752134b43bd9"
+  },
+  "user_id": "17859910206",
+  "mood_indicator": 0.72,
+  "mood_keywords": [
+    "平静",
+    "平和",
+    "压力",
+    "伤心",
+    "焦虑",
+    "害怕",
+    "忧虑",
+    "烦躁"
+  ],
+  "mood_factors": [
+    "工作",
+    "天气",
+    "金钱",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T01:48:36.797Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c54bba51d0752134b43c06"
+  },
+  "user_id": "18743527817",
+  "mood_indicator": 0.38,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "心灵",
+    "健康",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T10:07:12.724Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c555936d315701066f5d79"
+  },
+  "user_id": "12345678900",
+  "mood_indicator": 0.19,
+  "mood_keywords": [
+    "热忱",
+    "满意",
+    "满足",
+    "释然"
+  ],
+  "mood_factors": [
+    "伴侣",
+    "约会",
+    "旅行",
+    "教育",
+    "朋友",
+    "心灵",
+    "健身",
+    "自我",
+    "身份"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T10:49:14.509Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c59ef2758a6f96aac673ac"
+  },
+  "user_id": "18150061030",
+  "mood_indicator": 0.6,
+  "mood_keywords": [
+    "害怕",
+    "忧虑"
+  ],
+  "mood_factors": [
+    "家人",
+    "教育",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T16:02:17.013Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5aa50e8cc6580550fdc17"
+  },
+  "user_id": "18931628795",
+  "mood_indicator": 0.51,
+  "mood_keywords": [
+    "满足"
+  ],
+  "mood_factors": [
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T16:50:47.382Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5ad2de8cc6580550fdc18"
+  },
+  "user_id": "18931628795",
+  "mood_indicator": 0.55,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T17:03:01.045Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5b19d8ac3ee4d7b8834b8"
+  },
+  "user_id": "15111816459",
+  "mood_indicator": 0.43,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T17:21:56.534Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5c4e4e8cc6580550fdc24"
+  },
+  "user_id": "13918664140",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T18:44:12.279Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5df9c8ac3ee4d7b8834c3"
+  },
+  "user_id": "19119732512",
+  "mood_indicator": 1,
+  "mood_keywords": [
+    "冷漠",
+    "伤心",
+    "害怕",
+    "烦躁"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T20:38:11.581Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5e837e8cc6580550fdc28"
+  },
+  "user_id": "18924915953",
+  "mood_indicator": 0.74,
+  "mood_keywords": [
+    "害怕",
+    "内疚",
+    "无望"
+  ],
+  "mood_factors": [
+    "自我",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T21:14:54.662Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5efa28ac3ee4d7b8834c6"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "开心",
+    "平和",
+    "释然",
+    "满足"
+  ],
+  "mood_factors": [
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T21:46:34.167Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5f0c4e8cc6580550fdc29"
+  },
+  "user_id": "13764851394",
+  "mood_indicator": 0.39,
+  "mood_keywords": [
+    "愉悦",
+    "开心"
+  ],
+  "mood_factors": [
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T21:51:24.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5f15d8ac3ee4d7b8834c9"
+  },
+  "user_id": "19707045120",
+  "mood_indicator": 0.34,
+  "mood_keywords": [
+    "愉悦",
+    "平和"
+  ],
+  "mood_factors": [
+    "心灵",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T21:53:56.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5f68de8cc6580550fdc30"
+  },
+  "user_id": "18586127686",
+  "mood_indicator": 0.47,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-21T22:16:02.940Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5f7ff8ac3ee4d7b8834cd"
+  },
+  "user_id": "15956956373",
+  "mood_indicator": 0.46,
+  "mood_keywords": [
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "家人",
+    "爱好",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T22:22:15.551Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5f8938ac3ee4d7b8834d2"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "兴奋",
+    "开心"
+  ],
+  "mood_factors": [
+    "自我",
+    "天气",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T22:24:43.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5fb248ac3ee4d7b8834d4"
+  },
+  "user_id": "17857310325",
+  "mood_indicator": 0.47,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T22:35:40.634Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5fc218ac3ee4d7b8834d6"
+  },
+  "user_id": "13523426691",
+  "mood_indicator": 0.27,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "事实"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T22:39:53.085Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5fd258ac3ee4d7b8834d8"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.39,
+  "mood_keywords": [
+    "自豪",
+    "开心",
+    "平和",
+    "释然"
+  ],
+  "mood_factors": [
+    "自我",
+    "工作",
+    "朋友",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T22:44:13.639Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c600348ac3ee4d7b8834d9"
+  },
+  "user_id": "13662064265",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "满足"
+  ],
+  "mood_factors": [
+    "教育",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T22:57:16.485Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c6008ae8cc6580550fdc3a"
+  },
+  "user_id": "18049067425",
+  "mood_indicator": 0.47,
+  "mood_keywords": [
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "教育",
+    "金钱",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T22:58:42.517Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c601668ac3ee4d7b8834db"
+  },
+  "user_id": "18372772013",
+  "mood_indicator": 0.15,
+  "mood_keywords": [
+    "满意"
+  ],
+  "mood_factors": [
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T23:02:21.800Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c6036f8ac3ee4d7b8834de"
+  },
+  "user_id": "18208660066",
+  "mood_indicator": 0.66,
+  "mood_keywords": [
+    "孤独",
+    "内疚",
+    "忧虑"
+  ],
+  "mood_factors": [
+    "社群",
+    "爱好",
+    "自我",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T23:11:03.715Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c60943e8cc6580550fdc3e"
+  },
+  "user_id": "18368437211",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "满足",
+    "开心",
+    "平和"
+  ],
+  "mood_factors": [
+    "朋友",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T23:35:55.334Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c6096c8ac3ee4d7b8834e4"
+  },
+  "user_id": "15073142501",
+  "mood_indicator": 0.66,
+  "mood_keywords": [
+    "沮丧",
+    "挫败",
+    "愤怒",
+    "忧虑",
+    "伤心",
+    "压力"
+  ],
+  "mood_factors": [
+    "教育",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T23:36:36.537Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c60bc48ac3ee4d7b8834e8"
+  },
+  "user_id": "18159658021",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "满意",
+    "平和"
+  ],
+  "mood_factors": [
+    "健身",
+    "爱好",
+    "朋友",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-21T23:46:36.718Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c60f84e8cc6580550fdc40"
+  },
+  "user_id": "19818277026",
+  "mood_indicator": 0.55,
+  "mood_keywords": [
+    "平静",
+    "释然"
+  ],
+  "mood_factors": [
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T00:02:37.005Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c6146be8cc6580550fdc42"
+  },
+  "user_id": "13916874074",
+  "mood_indicator": 0.35,
+  "mood_keywords": [
+    "释然",
+    "热忱",
+    "满足"
+  ],
+  "mood_factors": [
+    "朋友",
+    "事实",
+    "身份"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T00:23:31.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c619f6e8cc6580550fdc43"
+  },
+  "user_id": "15178181483",
+  "mood_indicator": 0.25,
+  "mood_keywords": [
+    "愉悦",
+    "满意",
+    "开心"
+  ],
+  "mood_factors": [
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T00:47:10.683Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c61d17e8cc6580550fdc45"
+  },
+  "user_id": "18120040923",
+  "mood_indicator": 0.05,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "爱好",
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T01:00:32.105Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c69d898ac3ee4d7b883542"
+  },
+  "user_id": "12345678900",
+  "mood_indicator": 0.4,
+  "mood_keywords": [
+    "释然",
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T10:08:34.713Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c72f4e63f47c76f9741732"
+  },
+  "user_id": "17859910206",
+  "mood_indicator": 0.42,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "社群",
+    "爱好",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T20:30:06.907Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c72f86295066ab2a10eec7"
+  },
+  "user_id": "15111816459",
+  "mood_indicator": 0.16,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "心灵",
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T20:31:02.899Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c72f96295066ab2a10eec8"
+  },
+  "user_id": "19527398569",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T20:31:19.282Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c72fb063f47c76f9741734"
+  },
+  "user_id": "18924915953",
+  "mood_indicator": 0.62,
+  "mood_keywords": [
+    "内疚",
+    "害怕"
+  ],
+  "mood_factors": [
+    "朋友",
+    "自我",
+    "家人",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T20:31:45.207Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c7307563f47c76f9741735"
+  },
+  "user_id": "18368437211",
+  "mood_indicator": 0.63,
+  "mood_keywords": [
+    "焦虑",
+    "忧虑"
+  ],
+  "mood_factors": [
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T20:35:01.720Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c7337463f47c76f9741738"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0.22,
+  "mood_keywords": [
+    "平和",
+    "平静",
+    "希望"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T20:47:48.949Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c73450295066ab2a10eecd"
+  },
+  "user_id": "18150061030",
+  "mood_indicator": 0.56,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "教育",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T20:51:29.558Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c734af63f47c76f9741739"
+  },
+  "user_id": "18159658021",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "满足",
+    "平和"
+  ],
+  "mood_factors": [
+    "自我",
+    "爱好",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T20:53:03.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c73d1163f47c76f974173d"
+  },
+  "user_id": "19707045120",
+  "mood_indicator": 0.37,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T21:28:50.372Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c73ef163f47c76f974173e"
+  },
+  "user_id": "13662064265",
+  "mood_indicator": 0.12,
+  "mood_keywords": [
+    "愉悦",
+    "满足"
+  ],
+  "mood_factors": [
+    "伴侣",
+    "教育",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T21:36:50.720Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c73ff563f47c76f9741740"
+  },
+  "user_id": "18963809846",
+  "mood_indicator": 0.5,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "事实",
+    "朋友",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T21:41:08.583Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c74489295066ab2a10eed2"
+  },
+  "user_id": "18931628795",
+  "mood_indicator": 1,
+  "mood_keywords": [
+    "压力"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T22:00:42.223Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c7457f63f47c76f9741744"
+  },
+  "user_id": "18743527817",
+  "mood_indicator": 0.63,
+  "mood_keywords": [
+    "烦躁",
+    "力竭",
+    "无望"
+  ],
+  "mood_factors": [
+    "健康"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T22:04:48.496Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c7470063f47c76f9741747"
+  },
+  "user_id": "18208660066",
+  "mood_indicator": 0.43,
+  "mood_keywords": [
+    "感恩",
+    "满足",
+    "平静"
+  ],
+  "mood_factors": [
+    "家人",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T22:11:13.941Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c747f3295066ab2a10eed8"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.48,
+  "mood_keywords": [
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "自我",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T22:15:05.022Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c7497f295066ab2a10eedb"
+  },
+  "user_id": "19119732512",
+  "mood_indicator": 0.23,
+  "mood_keywords": [
+    "平静",
+    "愉悦",
+    "满足",
+    "满意"
+  ],
+  "mood_factors": [
+    "旅行"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T22:21:51.879Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c752b6295066ab2a10eedc"
+  },
+  "user_id": "15073142501",
+  "mood_indicator": 0.21,
+  "mood_keywords": [
+    "自信",
+    "希望",
+    "勇敢"
+  ],
+  "mood_factors": [
+    "健康",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T23:01:11.923Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c7538763f47c76f974174a"
+  },
+  "user_id": "18586127686",
+  "mood_indicator": 0.15,
+  "mood_keywords": [
+    "惊喜"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-22T23:04:38.142Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c75590295066ab2a10eedd"
+  },
+  "user_id": "15956956373",
+  "mood_indicator": 0.65,
+  "mood_keywords": [
+    "压力",
+    "尴尬"
+  ],
+  "mood_factors": [
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T23:13:21.801Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c75e1b63f47c76f974174d"
+  },
+  "user_id": "13896520229",
+  "mood_indicator": 0.61,
+  "mood_keywords": [
+    "烦躁",
+    "挫败",
+    "压力",
+    "孤独",
+    "沮丧"
+  ],
+  "mood_factors": [
+    "自我",
+    "朋友",
+    "家人",
+    "家务",
+    "教育",
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T23:49:49.050Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c7601563f47c76f9741750"
+  },
+  "user_id": "13050920803",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "希望",
+    "兴奋",
+    "开心"
+  ],
+  "mood_factors": [
+    "心灵",
+    "天气",
+    "健康",
+    "健身",
+    "朋友",
+    "爱好",
+    "旅行"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T23:58:14.539Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c77d62295066ab2a10eee6"
+  },
+  "user_id": "17857310325",
+  "mood_indicator": 0.67,
+  "mood_keywords": [
+    "挫败"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T02:03:15.684Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c797bc63f47c76f9741757"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T03:55:41.882Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c7f95f295066ab2a10eeeb"
+  },
+  "user_id": "13377908331",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "自信",
+    "自豪",
+    "愉悦"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-23T10:52:18.348Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c800f9295066ab2a10eeed"
+  },
+  "user_id": "18743527817",
+  "mood_indicator": 0.32,
+  "mood_keywords": [
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-23T11:24:44.184Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c80e7663f47c76f974175e"
+  },
+  "user_id": "19527398569",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T12:22:17.067Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c86c84295066ab2a10ef0f"
+  },
+  "user_id": "19119732512",
+  "mood_indicator": 0.68,
+  "mood_keywords": [
+    "焦虑",
+    "烦躁"
+  ],
+  "mood_factors": [
+    "自我",
+    "事实"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T19:03:36.428Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c886e863f47c76f9741783"
+  },
+  "user_id": "19707045120",
+  "mood_indicator": 0.15,
+  "mood_keywords": [
+    "开心",
+    "热忱",
+    "感恩",
+    "满意",
+    "满足",
+    "愉悦"
+  ],
+  "mood_factors": [
+    "约会",
+    "朋友",
+    "伴侣",
+    "心灵",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T20:56:12.345Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8925263f47c76f9741784"
+  },
+  "user_id": "18372772013",
+  "mood_indicator": 0.55,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T21:44:51.542Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c892eb295066ab2a10ef10"
+  },
+  "user_id": "18931628795",
+  "mood_indicator": 0.68,
+  "mood_keywords": [
+    "嫉妒"
+  ],
+  "mood_factors": [
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T21:47:17.660Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c892f963f47c76f9741785"
+  },
+  "user_id": "13918664140",
+  "mood_indicator": 0.54,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-23T21:47:42.121Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c89899295066ab2a10ef14"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "兴奋"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T22:11:41.870Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c898a163f47c76f9741788"
+  },
+  "user_id": "17859910206",
+  "mood_indicator": 0.3,
+  "mood_keywords": [
+    "开心"
+  ],
+  "mood_factors": [
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T22:11:49.017Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c89a0c63f47c76f974178b"
+  },
+  "user_id": "18120040923",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "开心",
+    "满足"
+  ],
+  "mood_factors": [
+    "朋友",
+    "约会",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T22:17:52.865Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8a16e63f47c76f974178e"
+  },
+  "user_id": "15178181483",
+  "mood_indicator": 0.68,
+  "mood_keywords": [
+    "伤心",
+    "烦躁",
+    "沮丧"
+  ],
+  "mood_factors": [
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T22:49:22.218Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8a2b4295066ab2a10ef15"
+  },
+  "user_id": "18049067425",
+  "mood_indicator": 0.11,
+  "mood_keywords": [
+    "满足",
+    "满意"
+  ],
+  "mood_factors": [
+    "约会",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T22:54:49.321Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8a490295066ab2a10ef16"
+  },
+  "user_id": "15073142501",
+  "mood_indicator": 0.1,
+  "mood_keywords": [
+    "平静",
+    "平和",
+    "开心",
+    "满意",
+    "满足"
+  ],
+  "mood_factors": [
+    "天气",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T23:02:44.222Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8a68e63f47c76f9741791"
+  },
+  "user_id": "15956956373",
+  "mood_indicator": 0.55,
+  "mood_keywords": [
+    "平静",
+    "满意",
+    "平和"
+  ],
+  "mood_factors": [
+    "家人",
+    "旅行",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T23:11:14.381Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8a7cc295066ab2a10ef17"
+  },
+  "user_id": "18963809846",
+  "mood_indicator": 0.13,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T23:16:33.160Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8a82063f47c76f9741794"
+  },
+  "user_id": "13916874074",
+  "mood_indicator": 0.38,
+  "mood_keywords": [
+    "希望",
+    "平和",
+    "热忱"
+  ],
+  "mood_factors": [
+    "自我",
+    "爱好",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T23:17:56.840Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8a88c295066ab2a10ef19"
+  },
+  "user_id": "15111816459",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "兴奋",
+    "开心"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T23:19:44.902Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8a9d063f47c76f9741796"
+  },
+  "user_id": "13764851394",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "满意",
+    "满足"
+  ],
+  "mood_factors": [
+    "爱好",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T23:25:08.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8ad3663f47c76f9741798"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.25,
+  "mood_keywords": [
+    "愉悦",
+    "满足",
+    "释然"
+  ],
+  "mood_factors": [
+    "心灵",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T23:39:38.449Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8b17d295066ab2a10ef1e"
+  },
+  "user_id": "19818277026",
+  "mood_indicator": 0.19,
+  "mood_keywords": [
+    "满足"
+  ],
+  "mood_factors": [
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-23T23:57:53.857Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8b49763f47c76f974179c"
+  },
+  "user_id": "18208660066",
+  "mood_indicator": 0.4,
+  "mood_keywords": [
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T00:11:08.611Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8b56263f47c76f974179d"
+  },
+  "user_id": "18931628795",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "兴奋",
+    "开心",
+    "勇敢",
+    "感恩"
+  ],
+  "mood_factors": [
+    "自我",
+    "身份",
+    "约会",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T00:14:31.034Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8b84063f47c76f97417a0"
+  },
+  "user_id": "13523426691",
+  "mood_indicator": 0.63,
+  "mood_keywords": [
+    "烦躁"
+  ],
+  "mood_factors": [
+    "事实"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T00:26:45.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8bb39295066ab2a10ef23"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "满足",
+    "惊喜"
+  ],
+  "mood_factors": [
+    "爱好",
+    "约会",
+    "朋友",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T00:39:23.110Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c8bce163f47c76f97417a1"
+  },
+  "user_id": "18159658021",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "满足",
+    "平和"
+  ],
+  "mood_factors": [
+    "自我",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T00:46:30.303Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c92b13295066ab2a10ef25"
+  },
+  "user_id": "18150061030",
+  "mood_indicator": 0.62,
+  "mood_keywords": [
+    "焦虑"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T08:36:41.353Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c94a17295066ab2a10ef26"
+  },
+  "user_id": "17807988871",
+  "mood_indicator": 0.66,
+  "mood_keywords": [
+    "沮丧"
+  ],
+  "mood_factors": [
+    "健康"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T10:49:01.342Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c94e51295066ab2a10ef28"
+  },
+  "user_id": "17859910206",
+  "mood_indicator": 0.44,
+  "mood_keywords": [
+    "惊讶"
+  ],
+  "mood_factors": [
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T11:07:03.354Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9bff163f47c76f97417b0"
+  },
+  "user_id": "19527398569",
+  "mood_indicator": 0.85,
+  "mood_keywords": [
+    "沮丧"
+  ],
+  "mood_factors": [
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T19:11:44.232Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9c6e1295066ab2a10ef3b"
+  },
+  "user_id": "18586127686",
+  "mood_indicator": 0.26,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-24T19:41:26.318Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9dc9e63f47c76f97417b7"
+  },
+  "user_id": "18743527817",
+  "mood_indicator": 0.33,
+  "mood_keywords": [
+    "希望"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-24T21:14:14.376Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9e21a295066ab2a10ef3c"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0.57,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-24T21:37:37.672Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9e72a63f47c76f97417b9"
+  },
+  "user_id": "18368437211",
+  "mood_indicator": 0.52,
+  "mood_keywords": [
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T21:59:12.759Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9e99e63f47c76f97417ba"
+  },
+  "user_id": "15178181483",
+  "mood_indicator": 0.66,
+  "mood_keywords": [
+    "烦躁",
+    "愤怒"
+  ],
+  "mood_factors": [
+    "家人",
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T22:09:40.928Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9eb36295066ab2a10ef3f"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.31,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T22:16:25.653Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9ee7b295066ab2a10ef42"
+  },
+  "user_id": "19119732512",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "开心",
+    "满足",
+    "愉悦",
+    "满意"
+  ],
+  "mood_factors": [
+    "旅行",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T22:30:27.572Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9f0ee63f47c76f97417bf"
+  },
+  "user_id": "13662064265",
+  "mood_indicator": 0.06,
+  "mood_keywords": [
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T22:40:54.134Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9f5af295066ab2a10ef43"
+  },
+  "user_id": "18159658021",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "满足",
+    "平和"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T23:01:11.069Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9f5bd63f47c76f97417c0"
+  },
+  "user_id": "15073142501",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "兴奋",
+    "开心",
+    "满足",
+    "愉悦"
+  ],
+  "mood_factors": [
+    "天气",
+    "事实",
+    "爱好",
+    "工作",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T23:01:24.592Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9faf6295066ab2a10ef44"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "满意",
+    "愉悦",
+    "满足",
+    "热忱"
+  ],
+  "mood_factors": [
+    "伴侣",
+    "旅行",
+    "天气",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T23:23:41.521Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9fcef295066ab2a10ef46"
+  },
+  "user_id": "13764851394",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "兴奋",
+    "满足",
+    "开心"
+  ],
+  "mood_factors": [
+    "自我",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T23:32:07.079Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9fd2b63f47c76f97417c3"
+  },
+  "user_id": "13050920803",
+  "mood_indicator": 0.3,
+  "mood_keywords": [
+    "自信",
+    "愉悦",
+    "希望",
+    "兴奋",
+    "满足",
+    "开心",
+    "感恩",
+    "释然",
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "身份",
+    "社群",
+    "朋友",
+    "金钱",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T23:33:07.167Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9febb295066ab2a10ef49"
+  },
+  "user_id": "18049067425",
+  "mood_indicator": 0.54,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "自我",
+    "家人",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T23:39:47.544Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c9ff88295066ab2a10ef4b"
+  },
+  "user_id": "15111816459",
+  "mood_indicator": 0.34,
+  "mood_keywords": [
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T23:43:05.638Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ca001863f47c76f97417c6"
+  },
+  "user_id": "18963809846",
+  "mood_indicator": 0.49,
+  "mood_keywords": [
+    "平静",
+    "释然"
+  ],
+  "mood_factors": [
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T23:45:35.623Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ca00f663f47c76f97417c7"
+  },
+  "user_id": "18924915953",
+  "mood_indicator": 0.17,
+  "mood_keywords": [
+    "感恩",
+    "开心"
+  ],
+  "mood_factors": [
+    "朋友",
+    "旅行"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-24T23:49:18.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ca115663f47c76f97417c9"
+  },
+  "user_id": "13523426691",
+  "mood_indicator": 0.51,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "事实"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T00:59:09.961Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ca539563f47c76f97417cb"
+  },
+  "user_id": "18931628795",
+  "mood_indicator": 0.26,
+  "mood_keywords": [
+    "自信",
+    "愉悦"
+  ],
+  "mood_factors": [
+    "工作",
+    "旅行"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T05:41:50.279Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cab1f563f47c76f97417cd"
+  },
+  "user_id": "13896520229",
+  "mood_indicator": 0.42,
+  "mood_keywords": [
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "天气",
+    "工作",
+    "家人",
+    "朋友",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T12:24:31.250Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cab7ef295066ab2a10ef57"
+  },
+  "user_id": "18150061030",
+  "mood_indicator": 1,
+  "mood_keywords": [
+    "伤心",
+    "焦虑",
+    "害怕"
+  ],
+  "mood_factors": [
+    "教育",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T12:50:00.461Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cabfa2295066ab2a10ef58"
+  },
+  "user_id": "17807988871",
+  "mood_indicator": 0.49,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T13:22:52.336Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cac1b763f47c76f97417ce"
+  },
+  "user_id": "17857310325",
+  "mood_indicator": 0.34,
+  "mood_keywords": [
+    "希望"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T13:31:44.696Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cae1bc295066ab2a10ef5b"
+  },
+  "user_id": "13050920803",
+  "mood_indicator": 0.19,
+  "mood_keywords": [
+    "满足",
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "天气",
+    "健身",
+    "健康"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T15:48:22.643Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb119a63f47c76f97417d1"
+  },
+  "user_id": "18235959360",
+  "mood_indicator": 0.75,
+  "mood_keywords": [
+    "力竭"
+  ],
+  "mood_factors": [
+    "自我",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T19:12:33.185Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb25fb63f47c76f97417d3"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.14,
+  "mood_keywords": [
+    "开心",
+    "满足"
+  ],
+  "mood_factors": [
+    "自我",
+    "工作",
+    "伴侣",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T20:39:33.934Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb2f1b63f47c76f97417d5"
+  },
+  "user_id": "19119732512",
+  "mood_indicator": 0.33,
+  "mood_keywords": [
+    "满意",
+    "满足",
+    "热忱"
+  ],
+  "mood_factors": [
+    "旅行"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T21:18:29.966Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb320063f47c76f97417d7"
+  },
+  "user_id": "19818277026",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-25T21:30:50.826Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb33eb295066ab2a10ef60"
+  },
+  "user_id": "15073142501",
+  "mood_indicator": 0.19,
+  "mood_keywords": [
+    "平静",
+    "开心"
+  ],
+  "mood_factors": [
+    "自我",
+    "事实",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T21:39:01.340Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb395b295066ab2a10ef61"
+  },
+  "user_id": "18743527817",
+  "mood_indicator": 0.69,
+  "mood_keywords": [
+    "伤心"
+  ],
+  "mood_factors": [
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T22:02:14.334Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb3c38295066ab2a10ef62"
+  },
+  "user_id": "15956956373",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "开心",
+    "惊喜"
+  ],
+  "mood_factors": [
+    "家人",
+    "伴侣",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T22:14:27.086Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb3e0c63f47c76f97417d8"
+  },
+  "user_id": "13662064265",
+  "mood_indicator": 0.06,
+  "mood_keywords": [
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T22:22:15.131Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb40a563f47c76f97417db"
+  },
+  "user_id": "18208660066",
+  "mood_indicator": 0.71,
+  "mood_keywords": [
+    "伤心",
+    "忧虑",
+    "愤怒",
+    "焦虑",
+    "烦躁",
+    "羞愧",
+    "厌恶",
+    "压力"
+  ],
+  "mood_factors": [
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T22:33:19.930Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb457d295066ab2a10ef63"
+  },
+  "user_id": "13764851394",
+  "mood_indicator": 0.45,
+  "mood_keywords": [],
+  "mood_factors": [
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T22:54:00.603Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb4869295066ab2a10ef65"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.19,
+  "mood_keywords": [
+    "愉悦",
+    "满足"
+  ],
+  "mood_factors": [
+    "自我",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T23:06:28.516Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb4af663f47c76f97417df"
+  },
+  "user_id": "19707045120",
+  "mood_indicator": 0.42,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T23:17:21.561Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb4b0563f47c76f97417e0"
+  },
+  "user_id": "19527398569",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T23:17:34.350Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb5048295066ab2a10ef69"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "平静",
+    "平和",
+    "开心"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-25T23:40:03.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb506863f47c76f97417e2"
+  },
+  "user_id": "15178181483",
+  "mood_indicator": 0.45,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T23:40:34.798Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb519063f47c76f97417e3"
+  },
+  "user_id": "18372772013",
+  "mood_indicator": 0.43,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "自我",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T23:45:31.035Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb523663f47c76f97417e4"
+  },
+  "user_id": "18049067425",
+  "mood_indicator": 0.33,
+  "mood_keywords": [
+    "平静",
+    "平和",
+    "满足"
+  ],
+  "mood_factors": [
+    "伴侣",
+    "家人",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T23:48:17.656Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb524e63f47c76f97417e5"
+  },
+  "user_id": "13916874074",
+  "mood_indicator": 0.6,
+  "mood_keywords": [
+    "忧虑",
+    "害怕",
+    "冷漠"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T23:48:41.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb54db63f47c76f97417e7"
+  },
+  "user_id": "18963809846",
+  "mood_indicator": 0.22,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T23:59:34.362Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb5502295066ab2a10ef6f"
+  },
+  "user_id": "18120040923",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "开心"
+  ],
+  "mood_factors": [
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T00:00:08.917Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb550f63f47c76f97417e8"
+  },
+  "user_id": "17859910206",
+  "mood_indicator": 0.44,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T00:00:26.115Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cb555563f47c76f97417e9"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "满意"
+  ],
+  "mood_factors": [
+    "爱好",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T00:01:35.803Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cbcf6e63f47c76f97417eb"
+  },
+  "user_id": "13377908331",
+  "mood_indicator": 0.66,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-26T08:42:34.084Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cbcfe0295066ab2a10ef70"
+  },
+  "user_id": "13377908331",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "自信",
+    "愉悦",
+    "满意",
+    "平和",
+    "开心",
+    "满足",
+    "勇敢"
+  ],
+  "mood_factors": [
+    "健康",
+    "家人",
+    "朋友",
+    "伴侣",
+    "健身"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T08:44:28.921Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc3c4a63f47c76f974180a"
+  },
+  "user_id": "15111816459",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "开心"
+  ],
+  "mood_factors": [
+    "家人",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T16:27:03.773Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc652726d62222c52ce1db"
+  },
+  "user_id": "18372772013",
+  "mood_indicator": 0.72,
+  "mood_keywords": [
+    "焦虑",
+    "孤独"
+  ],
+  "mood_factors": [
+    "身份",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T19:21:25.186Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc7adec88808b44af9e2e5"
+  },
+  "user_id": "19707045120",
+  "mood_indicator": 0.36,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T20:54:03.966Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc7fbe1cbdf6ee94434d05"
+  },
+  "user_id": "18150061030",
+  "mood_indicator": 0.48,
+  "mood_keywords": [
+    "兴奋",
+    "平和"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T21:14:51.803Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc86fdab972d8e65c98b64"
+  },
+  "user_id": "19707045120",
+  "mood_indicator": 0.59,
+  "mood_keywords": [],
+  "mood_factors": [
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T21:45:47.449Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc8764ab972d8e65c98b66"
+  },
+  "user_id": "18208660066",
+  "mood_indicator": 0.29,
+  "mood_keywords": [
+    "开心",
+    "满足",
+    "平和",
+    "平静",
+    "感恩",
+    "满意"
+  ],
+  "mood_factors": [
+    "家人",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T21:47:30.550Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc880bab972d8e65c98b67"
+  },
+  "user_id": "18235959360",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "自信",
+    "愉悦",
+    "满足",
+    "开心",
+    "释然"
+  ],
+  "mood_factors": [
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T21:50:16.829Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc8aef1cbdf6ee94434d08"
+  },
+  "user_id": "13764851394",
+  "mood_indicator": 0.56,
+  "mood_keywords": [],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T22:02:36.837Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc92a4ab972d8e65c98b69"
+  },
+  "user_id": "13523426691",
+  "mood_indicator": 0.62,
+  "mood_keywords": [
+    "伤心"
+  ],
+  "mood_factors": [
+    "事实"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T22:35:30.301Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc9307ab972d8e65c98b6b"
+  },
+  "user_id": "19119732512",
+  "mood_indicator": 0.23,
+  "mood_keywords": [
+    "满意",
+    "满足"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T22:37:09.065Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc96ef1cbdf6ee94434d0b"
+  },
+  "user_id": "17857310325",
+  "mood_indicator": 0.42,
+  "mood_keywords": [
+    "希望",
+    "平静"
+  ],
+  "mood_factors": [
+    "教育",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T22:53:48.704Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc9ae8ab972d8e65c98b6f"
+  },
+  "user_id": "15956956373",
+  "mood_indicator": 0.26,
+  "mood_keywords": [
+    "勇敢",
+    "满足"
+  ],
+  "mood_factors": [
+    "教育",
+    "家人",
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T23:10:46.075Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc9c851cbdf6ee94434d10"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0.3,
+  "mood_keywords": [
+    "平和",
+    "满意"
+  ],
+  "mood_factors": [
+    "天气",
+    "社群",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T23:17:38.599Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc9cf91cbdf6ee94434d11"
+  },
+  "user_id": "18963809846",
+  "mood_indicator": 0.28,
+  "mood_keywords": [
+    "满意"
+  ],
+  "mood_factors": [
+    "天气",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T23:19:35.711Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc9f42ab972d8e65c98b72"
+  },
+  "user_id": "13916874074",
+  "mood_indicator": 0.19,
+  "mood_keywords": [
+    "希望",
+    "平和",
+    "热忱"
+  ],
+  "mood_factors": [
+    "自我",
+    "爱好",
+    "事实",
+    "约会"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T23:29:20.394Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cc9f471cbdf6ee94434d13"
+  },
+  "user_id": "18150061030",
+  "mood_indicator": 0.42,
+  "mood_keywords": [
+    "兴奋",
+    "平和"
+  ],
+  "mood_factors": [
+    "教育",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T23:29:24.241Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cca222ab972d8e65c98b75"
+  },
+  "user_id": "13050920803",
+  "mood_indicator": 0.3,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "健康"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T23:41:36.670Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cca4a81cbdf6ee94434d17"
+  },
+  "user_id": "18931628795",
+  "mood_indicator": 0.68,
+  "mood_keywords": [
+    "压力"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T23:52:22.243Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cca4ed1cbdf6ee94434d18"
+  },
+  "user_id": "18368437211",
+  "mood_indicator": 0.42,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "自我",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T23:53:31.677Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cca89a1cbdf6ee94434d1a"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0.01,
+  "mood_keywords": [
+    "自信",
+    "自豪",
+    "愉悦"
+  ],
+  "mood_factors": [
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T00:09:12.893Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cca90fab972d8e65c98b7e"
+  },
+  "user_id": "18120040923",
+  "mood_indicator": 0.15,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "事实"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T00:11:09.002Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ccaaa7ab972d8e65c98b80"
+  },
+  "user_id": "18924915953",
+  "mood_indicator": 0.62,
+  "mood_keywords": [
+    "嫉妒",
+    "无望",
+    "沮丧"
+  ],
+  "mood_factors": [
+    "工作",
+    "教育",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T00:17:56.923Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ccab901cbdf6ee94434d1c"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "满意",
+    "自信",
+    "兴奋",
+    "开心",
+    "热忱",
+    "惊喜"
+  ],
+  "mood_factors": [
+    "心灵",
+    "朋友",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T00:21:45.449Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ccac18ab972d8e65c98b81"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.23,
+  "mood_keywords": [
+    "满足"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T00:24:07.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ccac32ab972d8e65c98b82"
+  },
+  "user_id": "13896520229",
+  "mood_indicator": 0.65,
+  "mood_keywords": [
+    "焦虑",
+    "烦躁",
+    "愤怒"
+  ],
+  "mood_factors": [
+    "家人",
+    "工作",
+    "朋友",
+    "天气",
+    "事实",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T00:24:32.043Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ccb1ab1cbdf6ee94434d1f"
+  },
+  "user_id": "18159658021",
+  "mood_indicator": 0.35,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "健康",
+    "自我",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T00:47:53.146Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cd3d02ab972d8e65c98b8b"
+  },
+  "user_id": "18743527817",
+  "mood_indicator": 0.72,
+  "mood_keywords": [
+    "沮丧",
+    "无望",
+    "压力",
+    "孤独",
+    "焦虑",
+    "害怕",
+    "忧虑",
+    "烦躁"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T10:42:25.457Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cd477e6c161875f5ac55b9"
+  },
+  "user_id": "string",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    ""
+  ],
+  "mood_factors": [
+    ""
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T03:26:52.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cd531e4bfb2b7779a726d2"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.3,
+  "mood_keywords": [
+    "满足"
+  ],
+  "mood_factors": [
+    "家庭",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cd53321cceae8628a3a8f5"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0,
+  "mood_keywords": [],
+  "mood_factors": [
+    "约会",
+    "爱好",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-25T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cd53381cceae8628a3a8f6"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0,
+  "mood_keywords": [],
+  "mood_factors": [
+    "朋友",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cd53424bfb2b7779a726d4"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0.5,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "自我",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cd53494bfb2b7779a726d5"
+  },
+  "user_id": "15178181483",
+  "mood_indicator": 0.1,
+  "mood_keywords": [],
+  "mood_factors": [
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cd53541cceae8628a3a8f7"
+  },
+  "user_id": "13662064265",
+  "mood_indicator": 0.392,
+  "mood_keywords": [
+    "沮丧",
+    "忧虑"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cd54144bfb2b7779a726d6"
+  },
+  "user_id": "15073142501",
+  "mood_indicator": 0.53,
+  "mood_keywords": [
+    "厌恶",
+    "愤怒",
+    "烦躁"
+  ],
+  "mood_factors": [
+    "家人",
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cd78e133a0ad1fbf80d317"
+  },
+  "user_id": "17859910206",
+  "mood_indicator": 0.46,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T14:57:37.313Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cdc5965a7d6014c7c766a7"
+  },
+  "user_id": "18743527817",
+  "mood_indicator": 0.56,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-27T20:24:54.998Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cdd14f94b53d1d4422e88a"
+  },
+  "user_id": "17857310325",
+  "mood_indicator": 0.99,
+  "mood_keywords": [
+    "焦虑",
+    "烦躁"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T21:14:55.627Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cdd3b8f4c4c17d7a4452ae"
+  },
+  "user_id": "13050920803",
+  "mood_indicator": 0.7,
+  "mood_keywords": [
+    "忧虑"
+  ],
+  "mood_factors": [
+    "健康",
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T21:24:56.812Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cddc4e5f61796f715f0236"
+  },
+  "user_id": "15111816459",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "开心"
+  ],
+  "mood_factors": [
+    "健康",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T22:01:50.871Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cde6915ab3c7b4424fdbe0"
+  },
+  "user_id": "15956956373",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "兴奋",
+    "希望"
+  ],
+  "mood_factors": [
+    "家人",
+    "心灵",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T22:45:37.869Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cde6965ab3c7b4424fdbe1"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "满意",
+    "开心",
+    "兴奋",
+    "满足"
+  ],
+  "mood_factors": [
+    "健身",
+    "爱好",
+    "朋友",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T22:45:42.670Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cde87a8f5ee3cecd291448"
+  },
+  "user_id": "13662064265",
+  "mood_indicator": 0.21,
+  "mood_keywords": [
+    "释然"
+  ],
+  "mood_factors": [
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T22:53:43.582Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cde8858f5ee3cecd291449"
+  },
+  "user_id": "18368437211",
+  "mood_indicator": 0.29,
+  "mood_keywords": [
+    "平和",
+    "满意",
+    "希望"
+  ],
+  "mood_factors": [
+    "自我",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T22:53:57.661Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cdeaea8f5ee3cecd29144a"
+  },
+  "user_id": "13916874074",
+  "mood_indicator": 0.24,
+  "mood_keywords": [
+    "愉悦",
+    "热忱",
+    "平和"
+  ],
+  "mood_factors": [
+    "自我",
+    "心灵",
+    "爱好",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T23:04:10.663Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cdec8a8f5ee3cecd29144c"
+  },
+  "user_id": "18208660066",
+  "mood_indicator": 0.35,
+  "mood_keywords": [
+    "满意",
+    "愉悦",
+    "自信",
+    "自豪",
+    "平静"
+  ],
+  "mood_factors": [
+    "自我",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T23:11:07.289Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cded348f5ee3cecd29144e"
+  },
+  "user_id": "13523426691",
+  "mood_indicator": 0.34,
+  "mood_keywords": [
+    "开心",
+    "勇敢"
+  ],
+  "mood_factors": [
+    "事实",
+    "伴侣",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T23:13:56.610Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cded6f8f5ee3cecd291450"
+  },
+  "user_id": "18208660066",
+  "mood_indicator": 0.37,
+  "mood_keywords": [
+    "惊喜",
+    "平和",
+    "愉悦",
+    "自豪",
+    "满意",
+    "满足"
+  ],
+  "mood_factors": [
+    "自我",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T23:14:55.929Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cdf2c18f5ee3cecd291454"
+  },
+  "user_id": "15178181483",
+  "mood_indicator": 0.3,
+  "mood_keywords": [
+    "愉悦",
+    "自豪",
+    "满意"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T23:37:37.631Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cdf6c9e6f9591256786513"
+  },
+  "user_id": "15073142501",
+  "mood_indicator": 0.23,
+  "mood_keywords": [
+    "释然",
+    "平静",
+    "满意",
+    "勇敢",
+    "开心"
+  ],
+  "mood_factors": [
+    "自我",
+    "教育",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-27T23:54:49.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ce0bace6f9591256786515"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0.36,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "朋友",
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T01:23:56.835Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ce8214e6f9591256786517"
+  },
+  "user_id": "13896520229",
+  "mood_indicator": 0.29,
+  "mood_keywords": [
+    "兴奋"
+  ],
+  "mood_factors": [
+    "工作",
+    "金钱",
+    "教育",
+    "朋友",
+    "家人",
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T09:49:09.237Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ce968de6f9591256786519"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "平静",
+    "平和",
+    "开心"
+  ],
+  "mood_factors": [
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T11:16:29.813Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ce9d95e6f959125678651a"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.46,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "工作",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T11:46:29.758Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cea50404ec3da0af6e1882"
+  },
+  "user_id": "13662064265",
+  "mood_indicator": 0.09,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "教育",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T12:18:13.010Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cecc2a71caee5e1abf7f8f"
+  },
+  "user_id": "15111816459",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "朋友",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T15:05:15.700Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cecec271caee5e1abf7f90"
+  },
+  "user_id": "13050920803",
+  "mood_indicator": 0.28,
+  "mood_keywords": [
+    "平和",
+    "平静",
+    "满足"
+  ],
+  "mood_factors": [
+    "健康",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T15:16:18.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ced53571caee5e1abf7f97"
+  },
+  "user_id": "17807988871",
+  "mood_indicator": 0.36,
+  "mood_keywords": [
+    "平和",
+    "释然"
+  ],
+  "mood_factors": [
+    "金钱",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T15:43:50.297Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cee45a04ec3da0af6e1951"
+  },
+  "user_id": "13523426691",
+  "mood_indicator": 0.25,
+  "mood_keywords": [
+    "开心"
+  ],
+  "mood_factors": [
+    "自我",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T16:48:27.788Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ceea0004ec3da0af6e1953"
+  },
+  "user_id": "18049067425",
+  "mood_indicator": 0.65,
+  "mood_keywords": [
+    "烦躁",
+    "冷漠"
+  ],
+  "mood_factors": [
+    "自我",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T17:12:33.655Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf060304ec3da0af6e1958"
+  },
+  "user_id": "13916874074",
+  "mood_indicator": 0.16,
+  "mood_keywords": [
+    "希望",
+    "平静",
+    "热忱"
+  ],
+  "mood_factors": [
+    "自我",
+    "天气",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T19:11:59.772Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf273c04ec3da0af6e19c6"
+  },
+  "user_id": "13764851394",
+  "mood_indicator": 0.54,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-28T21:33:37.735Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf2f2f71caee5e1abf806f"
+  },
+  "user_id": "18743527817",
+  "mood_indicator": 0.39,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-28T22:07:44.154Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf325204ec3da0af6e19cc"
+  },
+  "user_id": "17859910206",
+  "mood_indicator": 0.5,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T22:21:07.273Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf346e71caee5e1abf8074"
+  },
+  "user_id": "15073142501",
+  "mood_indicator": 0.15,
+  "mood_keywords": [
+    "自信",
+    "愉悦",
+    "满足"
+  ],
+  "mood_factors": [
+    "自我",
+    "身份",
+    "社群",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T22:30:07.413Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf378c04ec3da0af6e19ce"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0.61,
+  "mood_keywords": [
+    "内疚",
+    "压力",
+    "伤心",
+    "焦虑",
+    "害怕",
+    "忧虑",
+    "沮丧"
+  ],
+  "mood_factors": [
+    "家人",
+    "社群",
+    "事实",
+    "身份",
+    "心灵",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T22:43:25.919Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf3aa171caee5e1abf8076"
+  },
+  "user_id": "19707045120",
+  "mood_indicator": 0.41,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-28T22:56:34.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf3aff71caee5e1abf8078"
+  },
+  "user_id": "15956956373",
+  "mood_indicator": 0.23,
+  "mood_keywords": [
+    "开心",
+    "释然"
+  ],
+  "mood_factors": [
+    "家人",
+    "健康"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T22:58:08.175Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf3d9304ec3da0af6e19d1"
+  },
+  "user_id": "18931628795",
+  "mood_indicator": 0.47,
+  "mood_keywords": [
+    "释然"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T23:09:08.659Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf3dff71caee5e1abf807f"
+  },
+  "user_id": "18120040923",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "满足",
+    "开心"
+  ],
+  "mood_factors": [
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T23:10:56.316Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf41b671caee5e1abf8082"
+  },
+  "user_id": "15178181483",
+  "mood_indicator": 0.21,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "自我",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T23:26:48.143Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf453f71caee5e1abf8084"
+  },
+  "user_id": "18963809846",
+  "mood_indicator": 0.44,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "家人",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T23:41:51.163Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf457371caee5e1abf8086"
+  },
+  "user_id": "18150061030",
+  "mood_indicator": 0.68,
+  "mood_keywords": [
+    "伤心",
+    "无望",
+    "沮丧"
+  ],
+  "mood_factors": [
+    "教育",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-28T23:42:43.503Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf4d5e04ec3da0af6e19d9"
+  },
+  "user_id": "17857310325",
+  "mood_indicator": 0.55,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T00:16:31.137Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf4fe604ec3da0af6e19dd"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0.78,
+  "mood_keywords": [
+    "沮丧"
+  ],
+  "mood_factors": [
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T00:27:19.275Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cf5ecd04ec3da0af6e19e1"
+  },
+  "user_id": "18159658021",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "自信",
+    "平和"
+  ],
+  "mood_factors": [
+    "自我",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T01:30:54.928Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66cff11666eba285fffa7fe7"
+  },
+  "user_id": "15111816459",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T11:55:02.417Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d019912e9961ea1d50904d"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.16,
+  "mood_keywords": [
+    "满意",
+    "满足",
+    "热忱",
+    "释然"
+  ],
+  "mood_factors": [
+    "工作",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T14:47:46.558Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d026b03c1e636bfda38715"
+  },
+  "user_id": "13662064265",
+  "mood_indicator": 0.06,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T15:43:46.295Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d04d4a3c1e636bfda3875f"
+  },
+  "user_id": "18931628795",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "释然"
+  ],
+  "mood_factors": [
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T18:28:27.701Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d070eb3c1e636bfda38799"
+  },
+  "user_id": "13916874074",
+  "mood_indicator": 0.27,
+  "mood_keywords": [
+    "愉悦",
+    "热忱",
+    "释然",
+    "满足"
+  ],
+  "mood_factors": [
+    "自我",
+    "心灵",
+    "朋友",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T21:00:28.915Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d07460a83af78cab523716"
+  },
+  "user_id": "19119732512",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "开心",
+    "愉悦"
+  ],
+  "mood_factors": [
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T21:15:14.058Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d076153c1e636bfda387a0"
+  },
+  "user_id": "18208660066",
+  "mood_indicator": 0.37,
+  "mood_keywords": [
+    "平和",
+    "平静",
+    "开心",
+    "愉悦"
+  ],
+  "mood_factors": [
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T21:22:31.037Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d07696a83af78cab523717"
+  },
+  "user_id": "18924915953",
+  "mood_indicator": 0.14,
+  "mood_keywords": [
+    "开心",
+    "平和",
+    "满足"
+  ],
+  "mood_factors": [
+    "朋友",
+    "家人",
+    "自我",
+    "旅行"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T21:24:40.800Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d0774b3c1e636bfda387a2"
+  },
+  "user_id": "19707045120",
+  "mood_indicator": 0.28,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "约会",
+    "朋友",
+    "天气",
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T21:27:40.833Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d078bb3c1e636bfda387a8"
+  },
+  "user_id": "13050920803",
+  "mood_indicator": 0.48,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T21:33:48.932Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d07bd3a83af78cab523719"
+  },
+  "user_id": "18368437211",
+  "mood_indicator": 0.61,
+  "mood_keywords": [],
+  "mood_factors": [
+    "家人",
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T21:47:01.033Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d07e833c1e636bfda387b1"
+  },
+  "user_id": "19527398569",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "满意",
+    "开心"
+  ],
+  "mood_factors": [
+    "自我",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T21:58:28.930Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d080913c1e636bfda387b2"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.18,
+  "mood_keywords": [
+    "愉悦",
+    "满足"
+  ],
+  "mood_factors": [
+    "自我",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T22:07:14.989Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d0891ea83af78cab52371e"
+  },
+  "user_id": "15073142501",
+  "mood_indicator": 0.37,
+  "mood_keywords": [
+    "平静",
+    "感恩"
+  ],
+  "mood_factors": [
+    "社群",
+    "健康"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T22:43:43.879Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d08c493c1e636bfda387b7"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 0.22,
+  "mood_keywords": [
+    "平静",
+    "开心"
+  ],
+  "mood_factors": [
+    "工作",
+    "天气",
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T22:57:15.820Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d08f3aa83af78cab52371f"
+  },
+  "user_id": "18235959360",
+  "mood_indicator": 0.67,
+  "mood_keywords": [
+    "压力",
+    "孤独",
+    "力竭",
+    "焦虑",
+    "挫败",
+    "烦躁"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T23:09:47.987Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d091c63c1e636bfda387c0"
+  },
+  "user_id": "18159658021",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "开心"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T23:20:40.330Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d0969da83af78cab523728"
+  },
+  "user_id": "18963809846",
+  "mood_indicator": 0.25,
+  "mood_keywords": [
+    "满意",
+    "满足"
+  ],
+  "mood_factors": [
+    "天气",
+    "约会"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T23:41:19.384Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d096d63c1e636bfda387c2"
+  },
+  "user_id": "13896520229",
+  "mood_indicator": 0.21,
+  "mood_keywords": [
+    "兴奋",
+    "开心",
+    "惊喜"
+  ],
+  "mood_factors": [
+    "爱好",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T23:42:16.220Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d097273c1e636bfda387c3"
+  },
+  "user_id": "18049067425",
+  "mood_indicator": 0.11,
+  "mood_keywords": [
+    "满足",
+    "开心"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T23:43:37.164Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d099543c1e636bfda387c5"
+  },
+  "user_id": "15956956373",
+  "mood_indicator": 0.68,
+  "mood_keywords": [
+    "焦虑"
+  ],
+  "mood_factors": [
+    "旅行"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-29T23:52:54.498Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d0a430a83af78cab523733"
+  },
+  "user_id": "17857310325",
+  "mood_indicator": 0.68,
+  "mood_keywords": [
+    "烦躁"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T00:39:13.460Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d0f17ca83af78cab523736"
+  },
+  "user_id": "13764851394",
+  "mood_indicator": 0.53,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-30T06:09:01.931Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d12c9f3c1e636bfda387d3"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "满意",
+    "满足",
+    "释然"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T10:21:21.833Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d15a78a83af78cab52377a"
+  },
+  "user_id": "18368437211",
+  "mood_indicator": 0.47,
+  "mood_keywords": [
+    "满足",
+    "平和",
+    "平静"
+  ],
+  "mood_factors": [
+    "自我",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T13:36:58.714Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d15a79a83af78cab52377b"
+  },
+  "user_id": "15111816459",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "开心"
+  ],
+  "mood_factors": [
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T13:36:59.572Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d166103c1e636bfda38811"
+  },
+  "user_id": "18120040923",
+  "mood_indicator": 0.27,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T14:26:26.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1661c3c1e636bfda38812"
+  },
+  "user_id": "18159658021",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "开心"
+  ],
+  "mood_factors": [
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T14:26:38.470Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d19b563c1e636bfda38851"
+  },
+  "user_id": "18150061030",
+  "mood_indicator": 0.85,
+  "mood_keywords": [
+    "沮丧",
+    "伤心"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T18:13:45.015Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1b40f3c1e636bfda38881"
+  },
+  "user_id": "13896520229",
+  "mood_indicator": 0.74,
+  "mood_keywords": [
+    "压力",
+    "沮丧",
+    "厌恶",
+    "焦虑",
+    "烦躁",
+    "伤心",
+    "忧虑"
+  ],
+  "mood_factors": [
+    "家人",
+    "工作",
+    "金钱",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T19:59:14.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1b4c0a83af78cab5237fa"
+  },
+  "user_id": "18586127686",
+  "mood_indicator": 0.25,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-30T20:02:10.922Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1b5483c1e636bfda38882"
+  },
+  "user_id": "18743527817",
+  "mood_indicator": 0.24,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-30T20:04:27.371Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1b860a83af78cab5237fd"
+  },
+  "user_id": "17857310325",
+  "mood_indicator": 0.63,
+  "mood_keywords": [],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T20:17:38.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1c4573c1e636bfda3888b"
+  },
+  "user_id": "18150061030",
+  "mood_indicator": 0.66,
+  "mood_keywords": [
+    "伤心"
+  ],
+  "mood_factors": [
+    "自我",
+    "健康"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T21:08:41.788Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1c6dca83af78cab523805"
+  },
+  "user_id": "13764851394",
+  "mood_indicator": 0.63,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-30T21:19:27.631Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1c751a83af78cab523807"
+  },
+  "user_id": "18963809846",
+  "mood_indicator": 0.72,
+  "mood_keywords": [
+    "害怕",
+    "伤心",
+    "无望",
+    "焦虑"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T21:21:18.539Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1cf29a83af78cab52380d"
+  },
+  "user_id": "18372772013",
+  "mood_indicator": 0.74,
+  "mood_keywords": [
+    "焦虑"
+  ],
+  "mood_factors": [
+    "健康",
+    "旅行",
+    "家务"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T21:54:51.739Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1cfa43c1e636bfda38894"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.23,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "工作",
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T21:56:55.004Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1d04ca83af78cab52380e"
+  },
+  "user_id": "15178181483",
+  "mood_indicator": 0.69,
+  "mood_keywords": [
+    "烦躁",
+    "焦虑",
+    "压力"
+  ],
+  "mood_factors": [
+    "朋友",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T21:59:43.476Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1d8bfa83af78cab523811"
+  },
+  "user_id": "13523426691",
+  "mood_indicator": 0.71,
+  "mood_keywords": [
+    "压力"
+  ],
+  "mood_factors": [
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T22:35:46.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1da453c1e636bfda3889d"
+  },
+  "user_id": "13050920803",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T22:42:16.269Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1dbbc3c1e636bfda3889e"
+  },
+  "user_id": "19707045120",
+  "mood_indicator": 0.44,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-30T22:48:30.466Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1dc263c1e636bfda3889f"
+  },
+  "user_id": "19119732512",
+  "mood_indicator": 0.34,
+  "mood_keywords": [
+    "满意"
+  ],
+  "mood_factors": [
+    "自我",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T22:50:17.289Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1dcd0a83af78cab523814"
+  },
+  "user_id": "18931628795",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "热忱"
+  ],
+  "mood_factors": [
+    "旅行"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T22:53:01.674Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1deb1a83af78cab523816"
+  },
+  "user_id": "15073142501",
+  "mood_indicator": 0.27,
+  "mood_keywords": [
+    "平静",
+    "释然"
+  ],
+  "mood_factors": [
+    "天气",
+    "朋友",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T23:01:07.821Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1e07b3c1e636bfda388a8"
+  },
+  "user_id": "18268155717",
+  "mood_indicator": 1,
+  "mood_keywords": [
+    "烦躁"
+  ],
+  "mood_factors": [
+    "朋友",
+    "事实"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T23:08:45.221Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1e0863c1e636bfda388a9"
+  },
+  "user_id": "13662064265",
+  "mood_indicator": 0.07,
+  "mood_keywords": [
+    "希望",
+    "满足",
+    "平和"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T23:08:57.503Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1e48aa83af78cab52381a"
+  },
+  "user_id": "18208660066",
+  "mood_indicator": 0.32,
+  "mood_keywords": [
+    "兴奋",
+    "开心"
+  ],
+  "mood_factors": [
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T23:26:05.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1e932a83af78cab52381d"
+  },
+  "user_id": "19527398569",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T23:45:56.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1e96ea83af78cab52381e"
+  },
+  "user_id": "15956956373",
+  "mood_indicator": 0.04,
+  "mood_keywords": [
+    "兴奋",
+    "开心"
+  ],
+  "mood_factors": [
+    "约会",
+    "朋友",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T23:46:57.670Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1eaf33c1e636bfda388af"
+  },
+  "user_id": "18049067425",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "兴奋",
+    "满意",
+    "满足",
+    "开心"
+  ],
+  "mood_factors": [
+    "伴侣",
+    "朋友",
+    "约会",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T23:53:25.899Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d1ebd9a83af78cab523822"
+  },
+  "user_id": "13916874074",
+  "mood_indicator": 0.26,
+  "mood_keywords": [
+    "释然",
+    "平和",
+    "平静",
+    "满意"
+  ],
+  "mood_factors": [
+    "自我",
+    "健康",
+    "家人",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-30T23:57:15.947Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d20e91a83af78cab523825"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T02:25:17.455Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d24f8aa83af78cab523826"
+  },
+  "user_id": "18931628795",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "惊喜"
+  ],
+  "mood_factors": [
+    "旅行"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T07:02:37.469Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d285643c1e636bfda388be"
+  },
+  "user_id": "15111816459",
+  "mood_indicator": 0.07,
+  "mood_keywords": [
+    "惊喜",
+    "惊讶"
+  ],
+  "mood_factors": [
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T10:52:23.972Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d310b93c1e636bfda388f8"
+  },
+  "user_id": "13764851394",
+  "mood_indicator": 0,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-08-31T20:46:52.614Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d3110aa83af78cab523887"
+  },
+  "user_id": "18159658021",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦",
+    "开心"
+  ],
+  "mood_factors": [
+    "自我",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T20:48:14.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d3114ca83af78cab523889"
+  },
+  "user_id": "19119732512",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "满足",
+    "愉悦",
+    "满意",
+    "开心"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T20:49:20.017Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d3118aa83af78cab52388a"
+  },
+  "user_id": "18368437211",
+  "mood_indicator": 0.4,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "自我",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T20:50:21.621Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d31327a83af78cab52388e"
+  },
+  "user_id": "19707045120",
+  "mood_indicator": 0.35,
+  "mood_keywords": [
+    "兴奋",
+    "希望",
+    "平和",
+    "感恩"
+  ],
+  "mood_factors": [
+    "家人",
+    "心灵",
+    "自我",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T20:57:14.335Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d315dc3c1e636bfda38900"
+  },
+  "user_id": "18924915953",
+  "mood_indicator": 0.62,
+  "mood_keywords": [
+    "内疚",
+    "尴尬",
+    "压力",
+    "害怕",
+    "力竭"
+  ],
+  "mood_factors": [
+    "健康",
+    "自我",
+    "工作",
+    "家人",
+    "事实"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T21:08:47.433Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d316b8a83af78cab523896"
+  },
+  "user_id": "13050920803",
+  "mood_indicator": 0.29,
+  "mood_keywords": [
+    "开心",
+    "满足",
+    "希望"
+  ],
+  "mood_factors": [
+    "健康",
+    "天气",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T21:12:28.017Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d3180f3c1e636bfda38905"
+  },
+  "user_id": "17857310325",
+  "mood_indicator": 0.64,
+  "mood_keywords": [
+    "焦虑"
+  ],
+  "mood_factors": [
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T21:18:06.667Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d31893a83af78cab52389a"
+  },
+  "user_id": "18372772013",
+  "mood_indicator": 0.22,
+  "mood_keywords": [
+    "满意"
+  ],
+  "mood_factors": [
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T21:20:22.737Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d32b5d3c1e636bfda3890c"
+  },
+  "user_id": "18963809846",
+  "mood_indicator": 0.25,
+  "mood_keywords": [
+    "满意",
+    "满足"
+  ],
+  "mood_factors": [
+    "天气",
+    "家务"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T22:40:32.278Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d32bc0a83af78cab52389e"
+  },
+  "user_id": "13916874074",
+  "mood_indicator": 0.56,
+  "mood_keywords": [
+    "释然",
+    "平静"
+  ],
+  "mood_factors": [
+    "自我",
+    "家人",
+    "身份",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T22:42:12.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d332eda83af78cab52389f"
+  },
+  "user_id": "15073142501",
+  "mood_indicator": 0.15,
+  "mood_keywords": [
+    "自信",
+    "自豪",
+    "愉悦",
+    "满足",
+    "开心"
+  ],
+  "mood_factors": [
+    "自我",
+    "爱好",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T23:12:48.997Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d3335e3c1e636bfda38912"
+  },
+  "user_id": "13896520229",
+  "mood_indicator": 0.62,
+  "mood_keywords": [
+    "伤心",
+    "沮丧",
+    "厌恶",
+    "焦虑",
+    "愤火",
+    "忧虑",
+    "挫败",
+    "压力"
+  ],
+  "mood_factors": [
+    "家人",
+    "工作",
+    "金钱",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T23:14:41.488Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d33bcb3c1e636bfda38916"
+  },
+  "user_id": "15956956373",
+  "mood_indicator": 0.66,
+  "mood_keywords": [
+    "力竭",
+    "压力"
+  ],
+  "mood_factors": [
+    "朋友",
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T23:50:39.517Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d33c4da83af78cab5238ab"
+  },
+  "user_id": "18049067425",
+  "mood_indicator": 0.51,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T23:52:48.709Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d33d79a83af78cab5238ad"
+  },
+  "user_id": "18208660066",
+  "mood_indicator": 0.46,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "自我",
+    "朋友",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T23:57:48.948Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d33de93c1e636bfda38918"
+  },
+  "user_id": "15178181483",
+  "mood_indicator": 0.64,
+  "mood_keywords": [
+    "沮丧",
+    "伤心",
+    "烦躁"
+  ],
+  "mood_factors": [
+    "工作",
+    "社群",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-08-31T23:59:41.075Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d33e373c1e636bfda38919"
+  },
+  "user_id": "18743527817",
+  "mood_indicator": 0.78,
+  "mood_keywords": [
+    "压力"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-09-01T00:00:59.343Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d34f54a83af78cab5238af"
+  },
+  "user_id": "13523426691",
+  "mood_indicator": 0.38,
+  "mood_keywords": [
+    "开心"
+  ],
+  "mood_factors": [
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T01:13:59.664Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d3e6c0a83af78cab5238b0"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.13,
+  "mood_keywords": [
+    "满足",
+    "释然",
+    "希望"
+  ],
+  "mood_factors": [
+    "自我",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T12:00:03.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d430caa83af78cab523902"
+  },
+  "user_id": "18931628795",
+  "mood_indicator": 0,
+  "mood_keywords": [],
+  "mood_factors": [
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T17:15:57.969Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d44bcf3c1e636bfda38972"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "开心"
+  ],
+  "mood_factors": [
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T19:11:15.395Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d44e3a3c1e636bfda38976"
+  },
+  "user_id": "19527398569",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "愉悦"
+  ],
+  "mood_factors": [
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T19:21:34.330Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d464a33c1e636bfda3899e"
+  },
+  "user_id": "19707045120",
+  "mood_indicator": 0.24,
+  "mood_keywords": [],
+  "mood_factors": [
+    "天气",
+    "家人",
+    "自我",
+    "身份",
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T20:57:11.736Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d4691fa83af78cab52393c"
+  },
+  "user_id": "13662064265",
+  "mood_indicator": 0.1,
+  "mood_keywords": [
+    "平和"
+  ],
+  "mood_factors": [
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T21:16:18.890Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d47467a83af78cab523940"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.1,
+  "mood_keywords": [
+    "愉悦",
+    "满意",
+    "满足",
+    "希望",
+    "兴奋"
+  ],
+  "mood_factors": [
+    "朋友",
+    "伴侣"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T22:04:27.396Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d474ce3c1e636bfda389a7"
+  },
+  "user_id": "18150061030",
+  "mood_indicator": 1,
+  "mood_keywords": [
+    "伤心"
+  ],
+  "mood_factors": [
+    "家人",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T22:06:10.248Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d484bfa83af78cab52394f"
+  },
+  "user_id": "15073142501",
+  "mood_indicator": 0.21,
+  "mood_keywords": [
+    "平静",
+    "满足"
+  ],
+  "mood_factors": [
+    "自我",
+    "爱好",
+    "金钱"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T23:14:11.537Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d487813c1e636bfda389bf"
+  },
+  "user_id": "13050920803",
+  "mood_indicator": 0.14,
+  "mood_keywords": [
+    "平静",
+    "希望"
+  ],
+  "mood_factors": [
+    "金钱",
+    "健康",
+    "朋友"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T23:25:58.406Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d487ef3c1e636bfda389c0"
+  },
+  "user_id": "18049067425",
+  "mood_indicator": 0.27,
+  "mood_keywords": [
+    "满意",
+    "平和",
+    "愉悦"
+  ],
+  "mood_factors": [
+    "朋友",
+    "约会",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T23:27:47.881Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d4884aa83af78cab523959"
+  },
+  "user_id": "18924915953",
+  "mood_indicator": 0.16,
+  "mood_keywords": [
+    "开心",
+    "希望"
+  ],
+  "mood_factors": [
+    "朋友",
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T23:29:19.197Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d489993c1e636bfda389c1"
+  },
+  "user_id": "13896520229",
+  "mood_indicator": 0.67,
+  "mood_keywords": [
+    "无望",
+    "压力",
+    "沮丧",
+    "厌恶",
+    "焦虑",
+    "忧虑",
+    "愤怒",
+    "烦躁",
+    "孤独"
+  ],
+  "mood_factors": [
+    "家人",
+    "朋友",
+    "工作",
+    "教育",
+    "事实",
+    "金钱",
+    "天气",
+    "心灵",
+    "自我",
+    "身份",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T23:34:53.170Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d48c0d3c1e636bfda389c2"
+  },
+  "user_id": "15956956373",
+  "mood_indicator": 0.51,
+  "mood_keywords": [
+    "满意",
+    "满足"
+  ],
+  "mood_factors": [
+    "天气",
+    "朋友",
+    "爱好"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T23:45:21.404Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d48ddba83af78cab52395d"
+  },
+  "user_id": "18368437211",
+  "mood_indicator": 0.37,
+  "mood_keywords": [
+    "自信",
+    "平静",
+    "平和",
+    "希望"
+  ],
+  "mood_factors": [
+    "自我",
+    "心灵",
+    "社群"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T23:53:02.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d48de5a83af78cab52395e"
+  },
+  "user_id": "18963809846",
+  "mood_indicator": 0.23,
+  "mood_keywords": [
+    "开心"
+  ],
+  "mood_factors": [
+    "家务",
+    "约会",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T23:53:14.198Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d48e193c1e636bfda389ca"
+  },
+  "user_id": "18372772013",
+  "mood_indicator": 0.66,
+  "mood_keywords": [
+    "焦虑"
+  ],
+  "mood_factors": [
+    "社群",
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T23:54:05.625Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d48e42a83af78cab523960"
+  },
+  "user_id": "13916874074",
+  "mood_indicator": 0.19,
+  "mood_keywords": [
+    "希望",
+    "热忱",
+    "平静"
+  ],
+  "mood_factors": [
+    "自我",
+    "朋友",
+    "身份",
+    "教育"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-01T23:54:46.634Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d48ec2a83af78cab523962"
+  },
+  "user_id": "18208660066",
+  "mood_indicator": 0.39,
+  "mood_keywords": [
+    "惊喜",
+    "开心",
+    "愉悦"
+  ],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-09-01T23:56:55.095Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d49062a83af78cab523963"
+  },
+  "user_id": "18743527817",
+  "mood_indicator": 0.45,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-09-02T00:03:51.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d4939a3c1e636bfda389cd"
+  },
+  "user_id": "17857310325",
+  "mood_indicator": 0.61,
+  "mood_keywords": [
+    "焦虑",
+    "烦躁"
+  ],
+  "mood_factors": [
+    "教育",
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-02T00:17:34.455Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d53733a83af78cab523970"
+  },
+  "user_id": "13050920803",
+  "mood_indicator": 0.47,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "天气"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-02T11:55:36.043Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d537f8a83af78cab523971"
+  },
+  "user_id": "18159658021",
+  "mood_indicator": 0.75,
+  "mood_keywords": [
+    "无望",
+    "压力",
+    "焦虑",
+    "愤火"
+  ],
+  "mood_factors": [
+    "工作"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-02T11:58:53.302Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d53a2fa83af78cab523974"
+  },
+  "user_id": "18038829820",
+  "mood_indicator": 0.45,
+  "mood_keywords": [
+    "平静",
+    "平和"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-02T12:08:20.264Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d53fd0a83af78cab523975"
+  },
+  "user_id": "15111816459",
+  "mood_indicator": 0,
+  "mood_keywords": [
+    "惊喜",
+    "开心"
+  ],
+  "mood_factors": [
+    "家人"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-02T12:32:21.702Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d55b663c1e636bfda38a07"
+  },
+  "user_id": "17859910206",
+  "mood_indicator": 0.44,
+  "mood_keywords": [
+    "平静"
+  ],
+  "mood_factors": [
+    "自我"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-02T14:30:03.357Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d560133c1e636bfda38a0a"
+  },
+  "user_id": "13764851394",
+  "mood_indicator": 0,
+  "mood_keywords": [],
+  "mood_factors": [],
+  "mood_time_logged": {
+    "$date": "2024-09-02T14:50:00.480Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d584d43c1e636bfda38a34"
+  },
+  "user_id": "13370792083",
+  "mood_indicator": 0.09,
+  "mood_keywords": [
+    "愉悦",
+    "自信",
+    "满足"
+  ],
+  "mood_factors": [
+    "自我",
+    "心灵"
+  ],
+  "mood_time_logged": {
+    "$date": "2024-09-02T17:26:48.877Z"
+  }
+}]

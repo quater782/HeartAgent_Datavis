@@ -1,0 +1,1144 @@
+[{
+  "_id": {
+    "$oid": "66b0e94886f44f1b3375a71e"
+  },
+  "user_id": "default",
+  "mindful_duration": 3,
+  "mindful_time": {
+    "$date": "2024-08-05T23:01:31.034Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66b0e96986f44f1b3375a71f"
+  },
+  "user_id": "default",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-05T23:02:03.929Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66b0eb00d620b61a83433920"
+  },
+  "user_id": "default",
+  "mindful_duration": 1,
+  "mindful_time": {
+    "$date": "2024-08-05T23:08:51.017Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b0eb42d620b61a83433921"
+  },
+  "user_id": "default",
+  "mindful_duration": 1,
+  "mindful_time": {
+    "$date": "2024-08-05T23:09:56.583Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66b336603d9bc71ce27e308e"
+  },
+  "user_id": "15171102010",
+  "mindful_duration": 1,
+  "mindful_time": {
+    "$date": "2024-08-07T16:54:52.681Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b338893d9bc71ce27e3094"
+  },
+  "user_id": "15171102010",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-07T17:04:08.548Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b33c4c3d9bc71ce27e309c"
+  },
+  "user_id": "15171102010",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-07T17:20:08.074Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b33c653d9bc71ce27e309e"
+  },
+  "user_id": "15171102010",
+  "mindful_duration": 1,
+  "mindful_time": {
+    "$date": "2024-08-07T17:20:33.696Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b341e73d9bc71ce27e30a5"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-07T17:44:09.517Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b341eb3d9bc71ce27e30a6"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 3,
+  "mindful_time": {
+    "$date": "2024-08-07T17:44:13.450Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b344043d9bc71ce27e30ae"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-07T17:53:10.612Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b495d33d9bc71ce27e30bf"
+  },
+  "user_id": "18392440042",
+  "mindful_duration": 3,
+  "mindful_time": {
+    "$date": "2024-08-08T17:54:30.201Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b495e73d9bc71ce27e30c1"
+  },
+  "user_id": "18392440042",
+  "mindful_duration": 1,
+  "mindful_time": {
+    "$date": "2024-08-08T17:54:49.879Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b496333d9bc71ce27e30c3"
+  },
+  "user_id": "18392440042",
+  "mindful_duration": 3,
+  "mindful_time": {
+    "$date": "2024-08-08T17:56:05.833Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b4963d3d9bc71ce27e30c5"
+  },
+  "user_id": "18392440042",
+  "mindful_duration": 1,
+  "mindful_time": {
+    "$date": "2024-08-08T17:56:15.614Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b4963f3d9bc71ce27e30c6"
+  },
+  "user_id": "18392440042",
+  "mindful_duration": 1,
+  "mindful_time": {
+    "$date": "2024-08-08T17:56:17.999Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b496413d9bc71ce27e30c7"
+  },
+  "user_id": "18392440042",
+  "mindful_duration": 1,
+  "mindful_time": {
+    "$date": "2024-08-08T17:56:19.832Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b4965a3d9bc71ce27e30c8"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 1,
+  "mindful_time": {
+    "$date": "2024-08-08T17:56:43.111Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b4965c3d9bc71ce27e30c9"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-08T17:56:46.610Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b496613d9bc71ce27e30cb"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-08T17:56:52.003Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b496633d9bc71ce27e30cc"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 3,
+  "mindful_time": {
+    "$date": "2024-08-08T17:56:53.400Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b496773d9bc71ce27e30cd"
+  },
+  "user_id": "18392440042",
+  "mindful_duration": 1,
+  "mindful_time": {
+    "$date": "2024-08-08T17:57:13.555Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6c8b93d9bc71ce27e30db"
+  },
+  "user_id": "12312351235",
+  "mindful_duration": 3,
+  "mindful_time": {
+    "$date": "2024-08-10T09:56:11.317Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b6ca343d9bc71ce27e30e3"
+  },
+  "user_id": "12312351235",
+  "mindful_duration": 1,
+  "mindful_time": {
+    "$date": "2024-08-10T10:02:30.988Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b7444c404e8453e937f085"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-10T18:43:26.581Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b74453404e8453e937f086"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-10T18:43:33.447Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b746fb404e8453e937f08a"
+  },
+  "user_id": "18235959360",
+  "mindful_duration": 1,
+  "mindful_time": {
+    "$date": "2024-08-10T18:54:52.969Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66b88e6eea7ed099944fdff7"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-11T18:12:00.556Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66bdc924eaed81dbcb3ecad7"
+  },
+  "user_id": "18392440042",
+  "mindful_duration": 1,
+  "mindful_time": {
+    "$date": "2024-08-15T17:23:52.436Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c05052f48280f6b996329f"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-17T15:25:16.786Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c05069f48280f6b99632a0"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-17T15:25:39.802Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c050f5f48280f6b99632a1"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-17T15:28:00.469Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c050fef48280f6b99632a2"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-17T15:28:08.951Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c05126f48280f6b99632a3"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-17T15:28:48.967Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c0512ef48280f6b99632a4"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-17T15:28:56.818Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c05165f48280f6b99632a5"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 15,
+  "mindful_time": {
+    "$date": "2024-08-17T15:29:51.984Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c05171f48280f6b99632a6"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-17T15:30:04.049Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c0517bf48280f6b99632a7"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-17T15:30:13.699Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c051e3f48280f6b99632a8"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-17T15:31:57.683Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c051edf48280f6b99632a9"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-17T15:32:07.650Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c052e2f48280f6b99632aa"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-17T15:36:13.462Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c052e7f48280f6b99632ab"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 15,
+  "mindful_time": {
+    "$date": "2024-08-17T15:36:17.828Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c05402f48280f6b99632ac"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-17T15:41:01.186Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c054daf48280f6b99632ad"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-17T15:44:36.955Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c05668f48280f6b99632ae"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-17T15:51:14.570Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c06c4d7eab803435a41a9b"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-17T17:24:36.686Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c06c527eab803435a41a9c"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-17T17:24:42.649Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2c24ed119ec79e1c61b51"
+  },
+  "user_id": "18392440042",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-19T11:56:14.349Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2d961d119ec79e1c61b59"
+  },
+  "user_id": "11111111111",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-19T13:34:41.607Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2d9bbd119ec79e1c61b5c"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 20,
+  "mindful_time": {
+    "$date": "2024-08-19T13:36:11.640Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2da37d119ec79e1c61b5d"
+  },
+  "user_id": "77777777777",
+  "mindful_duration": 15,
+  "mindful_time": {
+    "$date": "2024-08-19T13:38:16.560Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2e4055816427e132b19ff"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-19T14:20:06.415Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2f48c2f874d2e2032b40f"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-19T15:30:22.872Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2f4aa36d33e229fec7038"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-19T15:31:07.595Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c2f4e836d33e229fec7039"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-19T15:32:08.962Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c2f5002f874d2e2032b410"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-19T15:32:33.859Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2f51d2f874d2e2032b411"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-19T15:33:02.075Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2f54736d33e229fec703a"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-19T15:33:44.591Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c2f62436d33e229fec703b"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-19T15:37:25.468Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2f62d2f874d2e2032b412"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-19T15:37:34.600Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2fdd32f874d2e2032b416"
+  },
+  "user_id": "77777777777",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-19T16:10:12.246Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c2fe3936d33e229fec703f"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-19T16:11:53.977Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c301791968e70cec83db6f"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-19T16:25:45.970Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c301a01968e70cec83db70"
+  },
+  "user_id": "77777778888",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-19T16:26:25.204Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c305d91968e70cec83db71"
+  },
+  "user_id": "12345678900",
+  "mindful_duration": 20,
+  "mindful_time": {
+    "$date": "2024-08-19T16:44:26.580Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c40b19e4e939dec64d5398"
+  },
+  "user_id": "13377908331",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-20T11:19:08.473Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c4113a81b65954199c1e9f"
+  },
+  "user_id": "18392440042",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-20T11:45:17.609Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c4589e6d315701066f5d11"
+  },
+  "user_id": "18931628795",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-20T16:49:54.427Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c4ab5351d0752134b43bd0"
+  },
+  "user_id": "18368437211",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-20T22:42:44.228Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c58ca1d5a865cfea049665"
+  },
+  "user_id": "18038829820",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-21T14:44:07.890Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c58ed4758a6f96aac673aa"
+  },
+  "user_id": "19707045120",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-21T14:53:31.854Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c596d9758a6f96aac673ab"
+  },
+  "user_id": "18372772013",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-21T15:27:44.177Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c5ad1c8ac3ee4d7b8834b7"
+  },
+  "user_id": "18931628795",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-21T17:02:43.483Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c5b6ca8ac3ee4d7b8834ba"
+  },
+  "user_id": "18372772013",
+  "mindful_duration": 15,
+  "mindful_time": {
+    "$date": "2024-08-21T17:44:01.626Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c5d8f8e8cc6580550fdc25"
+  },
+  "user_id": "17857310325",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-21T20:09:51.663Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c5d9a08ac3ee4d7b8834c1"
+  },
+  "user_id": "13916874074",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-21T20:12:39.683Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c5f4928ac3ee4d7b8834ca"
+  },
+  "user_id": "18586127686",
+  "mindful_duration": 20,
+  "mindful_time": {
+    "$date": "2024-08-21T22:07:36.346Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c5f9da8ac3ee4d7b8834d3"
+  },
+  "user_id": "18268155717",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-21T22:30:10.291Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c610d3e8cc6580550fdc41"
+  },
+  "user_id": "18038829820",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-22T00:08:11.269Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c70b0f295066ab2a10eec0"
+  },
+  "user_id": "15956956373",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-22T17:55:27.787Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c7251d63f47c76f9741731"
+  },
+  "user_id": "18586127686",
+  "mindful_duration": 20,
+  "mindful_time": {
+    "$date": "2024-08-22T19:46:35.753Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c73b1d63f47c76f974173b"
+  },
+  "user_id": "19818277026",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-22T21:20:30.680Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c73f2163f47c76f974173f"
+  },
+  "user_id": "19707045120",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-22T21:37:38.145Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c74734295066ab2a10eed5"
+  },
+  "user_id": "13916874074",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-22T22:12:05.560Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c747d0295066ab2a10eed7"
+  },
+  "user_id": "13370792083",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-22T22:14:41.754Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c75fa163f47c76f974174e"
+  },
+  "user_id": "13896520229",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-22T23:56:18.938Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c75fe9295066ab2a10eee1"
+  },
+  "user_id": "18208660066",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-22T23:57:30.752Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c7736363f47c76f9741752"
+  },
+  "user_id": "18368437211",
+  "mindful_duration": 15,
+  "mindful_time": {
+    "$date": "2024-08-23T01:20:36.609Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c84a4a295066ab2a10ef0c"
+  },
+  "user_id": "15073142501",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-23T16:37:33.068Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c8946b63f47c76f9741787"
+  },
+  "user_id": "18931628795",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-23T21:53:52.283Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c8b2a463f47c76f974179a"
+  },
+  "user_id": "15956956373",
+  "mindful_duration": 10,
+  "mindful_time": {
+    "$date": "2024-08-24T00:02:48.843Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c8b6b963f47c76f974179f"
+  },
+  "user_id": "18931628795",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-24T00:20:13.480Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66c9591e295066ab2a10ef2d"
+  },
+  "user_id": "15223831095",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-24T11:53:08.716Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66c9eee263f47c76f97417be"
+  },
+  "user_id": "13370792083",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-24T22:32:05.441Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66ca55af295066ab2a10ef53"
+  },
+  "user_id": "18931628795",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-25T05:50:47.838Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66cbc01e63f47c76f97417ea"
+  },
+  "user_id": "19119732512",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-26T07:37:14.551Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66cc8820ab972d8e65c98b68"
+  },
+  "user_id": "18235959360",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-26T21:50:38.000Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66cf3f5204ec3da0af6e19d5"
+  },
+  "user_id": "18931628795",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-28T23:16:36.011Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66d04e843c1e636bfda38760"
+  },
+  "user_id": "18931628795",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-29T18:33:41.824Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66d1deda3c1e636bfda388a7"
+  },
+  "user_id": "18931628795",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-08-30T23:01:48.866Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66d47eb3a83af78cab52394a"
+  },
+  "user_id": "18372772013",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-09-01T22:48:24.054Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66d48df23c1e636bfda389c8"
+  },
+  "user_id": "18368437211",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-09-01T23:53:25.824Z"
+  },
+  "mindful_status": false
+},
+{
+  "_id": {
+    "$oid": "66d4966ca83af78cab523965"
+  },
+  "user_id": "18372772013",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-09-02T00:29:36.939Z"
+  },
+  "mindful_status": true
+},
+{
+  "_id": {
+    "$oid": "66d49ac6a83af78cab523966"
+  },
+  "user_id": "15073142501",
+  "mindful_duration": 5,
+  "mindful_time": {
+    "$date": "2024-09-02T00:48:10.925Z"
+  },
+  "mindful_status": true
+}]
