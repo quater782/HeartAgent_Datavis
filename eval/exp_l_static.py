@@ -5,6 +5,7 @@
 import sys
 # 将父目录添加到系统路径
 import os
+import re
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
@@ -53,6 +54,10 @@ from collections import defaultdict
 import re
 from DB.manage_chat import ChatLogManager
 from DB.manage_chatana import ChatAnaManager
+from DB.manage_diary import DiaryManager
+from DB.manage_todo import TodoManager
+from DB.manage_mindfuls import MindfulsManager
+from DB.manage_tomato import TomatoesManager
 
 class ChatLogManagerWithStats(ChatLogManager):
     
@@ -249,8 +254,330 @@ class ChatAnaManagerWithStats(ChatAnaManager):
                 print("  没有记录评分的chatlog_rating数据。")
             print("  完成状态 (finish=True) 的比例:", user_stat['finish_count'] / user_stat['record_count'])
 
-print("\n\n")
 
+class DiaryManagerWithStats(DiaryManager):
+    
+    def get_diary_stats(self, phone_numbers):
+        """
+        获取用户日记的描述性统计数据，包括日记字数统计、总条数、Agent回应字数统计等。
+        
+        参数：
+            phone_numbers (list): 需要统计的用户ID列表
+        
+        返回：
+            dict: 包含日记内容字数统计、日记总条数、Agent回应字数统计等的统计信息
+        """
+        stats = {
+            'total_diaries': 0,
+            'total_diary_word_count': 0,
+            'total_agent_response_word_count': 0,
+            'user_stats': defaultdict(lambda: {
+                'diary_count': 0,
+                'total_diary_word_count': 0,
+                'total_agent_response_word_count': 0
+            })
+        }
+
+        # 遍历所有用户
+        for user_id in phone_numbers:
+            user_documents = self.collection.find({"user_id": user_id})
+
+            for doc in user_documents:
+                stats['total_diaries'] += 1
+                stats['user_stats'][user_id]['diary_count'] += 1
+
+                # 统计日记内容字数
+                diary_content = doc.get("diary_content", "")
+                diary_word_count = len(diary_content)
+                stats['total_diary_word_count'] += diary_word_count
+                stats['user_stats'][user_id]['total_diary_word_count'] += diary_word_count
+
+                # 统计Agent回应字数
+                diary_agent_response = doc.get("diary_agent_response", "")
+                agent_response_word_count = len(diary_agent_response)
+                stats['total_agent_response_word_count'] += agent_response_word_count
+                stats['user_stats'][user_id]['total_agent_response_word_count'] += agent_response_word_count
+
+        return stats
+
+    def print_diary_stats_summary(self, stats):
+        """
+        打印日记统计数据的总结。
+        
+        参数：
+            stats (dict): 从 get_diary_stats 返回的统计结果
+        """
+        print("日记总条数:", stats['total_diaries'])
+        
+        if stats['total_diaries'] > 0:
+            avg_diary_word_count = stats['total_diary_word_count'] / stats['total_diaries']
+            print("日记内容的平均字数:", avg_diary_word_count)
+            avg_agent_response_word_count = stats['total_agent_response_word_count'] / stats['total_diaries']
+            print("Agent 回应的平均字数:", avg_agent_response_word_count)
+        else:
+            print("没有日记数据。")
+        
+        print("\n每个用户的统计数据:")
+        for user_id, user_stat in stats['user_stats'].items():
+            print(f"用户 {user_id}:")
+            print("  日记总条数:", user_stat['diary_count'])
+            if user_stat['diary_count'] > 0:
+                avg_user_diary_word_count = user_stat['total_diary_word_count'] / user_stat['diary_count']
+                print("  日记内容的平均字数:", avg_user_diary_word_count)
+                avg_user_agent_response_word_count = user_stat['total_agent_response_word_count'] / user_stat['diary_count']
+                print("  Agent 回应的平均字数:", avg_user_agent_response_word_count)
+            else:
+                print("  没有日记数据。")
+
+
+class TodoManagerWithStats(TodoManager):
+    
+    def get_todo_stats(self, phone_numbers):
+        """
+        获取用户日程的描述性统计数据，包括日程总条数与完成情况、日程类型与紧急程度、生成者标识等。
+        
+        参数：
+            phone_numbers (list): 需要统计的用户ID列表
+        
+        返回：
+            dict: 包含日程统计信息
+        """
+        stats = {
+            'total_todos': 0,
+            'total_finished_todos': 0,
+            'total_urgency_low': 0,
+            'total_urgency_medium': 0,
+            'total_urgency_high': 0,
+            'total_user_created': 0,
+            'total_agent_created': 0,
+            'user_stats': defaultdict(lambda: {
+                'todo_count': 0,
+                'finished_todo_count': 0,
+                'urgency_low': 0,
+                'urgency_medium': 0,
+                'urgency_high': 0,
+                'user_created': 0,
+                'agent_created': 0
+            })
+        }
+
+        # 遍历所有用户
+        for user_id in phone_numbers:
+            user_documents = self.collection.find({"user_id": user_id})
+
+            for doc in user_documents:
+                stats['total_todos'] += 1
+                stats['user_stats'][user_id]['todo_count'] += 1
+
+                # 统计完成情况
+                if doc.get("todo_item_status_finish"):
+                    stats['total_finished_todos'] += 1
+                    stats['user_stats'][user_id]['finished_todo_count'] += 1
+
+                # 统计紧急程度
+                urgency = doc.get("todo_item_urgency", 0)
+                if urgency == 0:
+                    stats['total_urgency_low'] += 1
+                    stats['user_stats'][user_id]['urgency_low'] += 1
+                elif urgency == 1:
+                    stats['total_urgency_medium'] += 1
+                    stats['user_stats'][user_id]['urgency_medium'] += 1
+                elif urgency == 2:
+                    stats['total_urgency_high'] += 1
+                    stats['user_stats'][user_id]['urgency_high'] += 1
+
+                # 统计日程生成者标识
+                content = doc.get("todo_item_content", "")
+                if re.search(r'[\U0001F600-\U0001F64F\U0001F300-\U0001F5FF\U0001F680-\U0001F6FF\U0001F700-\U0001F77F\U0001F780-\U0001F7FF\U0001F800-\U0001F8FF\U0001F900-\U0001F9FF\U0001FA00-\U0001FA6F\U0001FA70-\U0001FAFF\U00002702-\U000027B0]', content):
+                    stats['total_agent_created'] += 1
+                    stats['user_stats'][user_id]['agent_created'] += 1
+                else:
+                    stats['total_user_created'] += 1
+                    stats['user_stats'][user_id]['user_created'] += 1
+
+        return stats
+
+    def print_todo_stats_summary(self, stats):
+        """
+        打印日程统计数据的总结。
+        
+        参数：
+            stats (dict): 从 get_todo_stats 返回的统计结果
+        """
+        print("日程总条数:", stats['total_todos'])
+        if stats['total_todos'] > 0:
+            print("完成的日程总数:", stats['total_finished_todos'])
+            print("完成的日程比例:", stats['total_finished_todos'] / stats['total_todos'])
+
+            print("\n日程紧急程度统计:")
+            print("  低紧急程度:", stats['total_urgency_low'])
+            print("  中紧急程度:", stats['total_urgency_medium'])
+            print("  高紧急程度:", stats['total_urgency_high'])
+
+            print("\n日程生成者统计:")
+            print("  用户创建的日程:", stats['total_user_created'])
+            print("  Agent 创建的日程:", stats['total_agent_created'])
+        else:
+            print("没有日程数据。")
+
+        print("\n每个用户的统计数据:")
+        for user_id, user_stat in stats['user_stats'].items():
+            print(f"用户 {user_id}:")
+            print("  日程总条数:", user_stat['todo_count'])
+            if user_stat['todo_count'] > 0:
+                print("  完成的日程:", user_stat['finished_todo_count'])
+                print("  完成的日程比例:", user_stat['finished_todo_count'] / user_stat['todo_count'])
+                print("  低紧急程度:", user_stat['urgency_low'])
+                print("  中紧急程度:", user_stat['urgency_medium'])
+                print("  高紧急程度:", user_stat['urgency_high'])
+                print("  用户创建的日程:", user_stat['user_created'])
+                print("  Agent 创建的日程:", user_stat['agent_created'])
+            else:
+                print("  没有日程数据。")
+
+class MindfulsManagerWithStats(MindfulsManager):
+    
+    def get_mindful_stats(self, phone_numbers):
+        """
+        获取用户冥想功能的描述性统计数据，包括使用频率、实际完成时长及完成率等。
+        
+        参数：
+            phone_numbers (list): 需要统计的用户ID列表
+        
+        返回：
+            dict: 包含冥想统计信息
+        """
+        stats = {
+            'total_sessions': 0,
+            'total_duration': 0,
+            'total_completed_sessions': 0,
+            'user_stats': defaultdict(lambda: {
+                'session_count': 0,
+                'total_duration': 0,
+                'completed_sessions': 0
+            })
+        }
+
+        # 遍历所有用户
+        for user_id in phone_numbers:
+            user_documents = self.collection.find({"user_id": user_id})
+
+            for doc in user_documents:
+                stats['total_sessions'] += 1
+                stats['user_stats'][user_id]['session_count'] += 1
+
+                # 统计冥想的总时长
+                duration = doc.get("mindful_duration", 0)
+                stats['total_duration'] += duration
+                stats['user_stats'][user_id]['total_duration'] += duration
+
+                # 统计完成的冥想次数
+                if doc.get("mindful_status"):
+                    stats['total_completed_sessions'] += 1
+                    stats['user_stats'][user_id]['completed_sessions'] += 1
+
+        return stats
+
+    def print_mindful_stats_summary(self, stats):
+        """
+        打印冥想统计数据的总结。
+        
+        参数：
+            stats (dict): 从 get_mindful_stats 返回的统计结果
+        """
+        print("冥想功能使用总次数:", stats['total_sessions'])
+        print("冥想总时长:", stats['total_duration'])
+        if stats['total_sessions'] > 0:
+            print("平均每次冥想时长:", stats['total_duration'] / stats['total_sessions'])
+            print("完成的冥想次数:", stats['total_completed_sessions'])
+            print("冥想完成率:", stats['total_completed_sessions'] / stats['total_sessions'])
+        else:
+            print("没有冥想数据。")
+
+        print("\n每个用户的统计数据:")
+        for user_id, user_stat in stats['user_stats'].items():
+            print(f"用户 {user_id}:")
+            print("  冥想使用次数:", user_stat['session_count'])
+            print("  总冥想时长:", user_stat['total_duration'])
+            if user_stat['session_count'] > 0:
+                print("  平均每次冥想时长:", user_stat['total_duration'] / user_stat['session_count'])
+                print("  完成的冥想次数:", user_stat['completed_sessions'])
+                print("  冥想完成率:", user_stat['completed_sessions'] / user_stat['session_count'])
+            else:
+                print("  没有冥想数据。")
+
+class TomatoesManagerWithStats(TomatoesManager):
+    
+    def get_tomato_stats(self, phone_numbers):
+        """
+        获取用户番茄钟功能的描述性统计数据，包括使用频率、时长、实际完成率等。
+        
+        参数：
+            phone_numbers (list): 需要统计的用户ID列表
+        
+        返回：
+            dict: 包含番茄钟统计信息
+        """
+        stats = {
+            'total_sessions': 0,
+            'total_duration': 0,
+            'total_completed_sessions': 0,
+            'user_stats': defaultdict(lambda: {
+                'session_count': 0,
+                'total_duration': 0,
+                'completed_sessions': 0
+            })
+        }
+
+        # 遍历所有用户
+        for user_id in phone_numbers:
+            user_documents = self.collection.find({"user_id": user_id})
+
+            for doc in user_documents:
+                stats['total_sessions'] += 1
+                stats['user_stats'][user_id]['session_count'] += 1
+
+                # 统计番茄钟的总时长
+                duration = doc.get("tomato_duration", 0)
+                stats['total_duration'] += duration
+                stats['user_stats'][user_id]['total_duration'] += duration
+
+                # 统计完成的番茄钟次数
+                if doc.get("tomato_status"):
+                    stats['total_completed_sessions'] += 1
+                    stats['user_stats'][user_id]['completed_sessions'] += 1
+
+        return stats
+
+    def print_tomato_stats_summary(self, stats):
+        """
+        打印番茄钟统计数据的总结。
+        
+        参数：
+            stats (dict): 从 get_tomato_stats 返回的统计结果
+        """
+        print("番茄钟使用总次数:", stats['total_sessions'])
+        print("番茄钟总时长:", stats['total_duration'])
+        if stats['total_sessions'] > 0:
+            print("平均每次番茄钟时长:", stats['total_duration'] / stats['total_sessions'])
+            print("完成的番茄钟次数:", stats['total_completed_sessions'])
+            print("番茄钟完成率:", stats['total_completed_sessions'] / stats['total_sessions'])
+        else:
+            print("没有番茄钟数据。")
+
+        print("\n每个用户的统计数据:")
+        for user_id, user_stat in stats['user_stats'].items():
+            print(f"用户 {user_id}:")
+            print("  番茄钟使用次数:", user_stat['session_count'])
+            print("  总番茄钟时长:", user_stat['total_duration'])
+            if user_stat['session_count'] > 0:
+                print("  平均每次番茄钟时长:", user_stat['total_duration'] / user_stat['session_count'])
+                print("  完成的番茄钟次数:", user_stat['completed_sessions'])
+                print("  番茄钟完成率:", user_stat['completed_sessions'] / user_stat['session_count'])
+            else:
+                print("  没有番茄钟数据。")
+
+print("\n\n")
 print("# 用户聊天数据(chatlog)的描述性统计")
 manager_chatlog_sta = ChatLogManagerWithStats()
 sta = manager_chatlog_sta.get_all_users_chat_stats(phone_numbers=phone_numbers)
@@ -263,16 +590,29 @@ sta = manager_chatana_sta.get_sdt_analysis_stats(phone_numbers=phone_numbers)
 manager_chatana_sta.print_sdt_stats_summary(stats=sta)
 
 print("\n\n")
-print("# 用户日程数据(todo)的描述性统计")
-
-print("\n\n")
 print("# 用户日记数据(diary)的描述性统计")
+manager_diary_sta = DiaryManagerWithStats()
+sta = manager_diary_sta.get_diary_stats(phone_numbers=phone_numbers)
+manager_diary_sta.print_diary_stats_summary(stats=sta)
 
 print("\n\n")
-print("# 用户番茄数据(tomato)的描述性统计")
+print("# 用户日程数据(todo)的描述性统计")
+manager_todo_sta = TodoManagerWithStats()
+sta = manager_todo_sta.get_todo_stats(phone_numbers=phone_numbers)
+manager_todo_sta.print_todo_stats_summary(stats=sta)
 
 print("\n\n")
 print("# 用户冥想数据(mindful)的描述性统计")
+manager_mind_sta = MindfulsManagerWithStats()
+sta = manager_mind_sta.get_mindful_stats(phone_numbers=phone_numbers)
+manager_mind_sta.print_mindful_stats_summary(stats=sta)
+
+print("\n\n")
+print("# 用户番茄数据(tomato)的描述性统计")
+manager_tomato_sta = TomatoesManagerWithStats()
+sta = manager_tomato_sta.get_tomato_stats(phone_numbers=phone_numbers)
+manager_tomato_sta.print_tomato_stats_summary(stats=sta)
+
 
 print("\n\n")
 print("# 用户心情数据(mood)的描述性统计")
