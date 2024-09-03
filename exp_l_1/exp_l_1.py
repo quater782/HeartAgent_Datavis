@@ -1,4 +1,4 @@
-'''正态性检验'''
+'''大实验1：对比比较sdt各个维度的是否有显著性变化。默认数据使用非参检验方法'''
 import sys
 # 将父目录添加到系统路径
 import os
@@ -162,10 +162,10 @@ def UW_extract_stats_and_test(df1, df2, name):
 
 
 '''----------'''
-bpn_start = toolkit.read_survey_data("t_tests/data/start_BFNSNF.xlsx")
-bpn_mid = toolkit.read_survey_data("t_tests/data/mid_BFNSNF.xlsx")
-resili_start = toolkit.read_survey_data("t_tests/data/start_resilience.xlsx")
-resili_mid = toolkit.read_survey_data("t_tests/data/mid_resilience.xlsx")
+bpn_start = toolkit.read_survey_data("exp_l_1/data/start_BFNSNF.xlsx")
+bpn_mid = toolkit.read_survey_data("exp_l_1/data/mid_BFNSNF.xlsx")
+resili_start = toolkit.read_survey_data("exp_l_1/data/start_resilience.xlsx")
+resili_mid = toolkit.read_survey_data("exp_l_1/data/mid_resilience.xlsx")
 
 bpn_start, bpn_mid = filter_lists_by_common_userids(bpn_start, bpn_mid)
 resili_start, resili_mid = filter_lists_by_common_userids(resili_start, resili_mid)
@@ -177,7 +177,7 @@ bpn_mid_json = toolkit.list_to_json(bpn_mid, db_questioniares.questions_pns)
 resili_start_json = toolkit.list_to_json(resili_start, db_questioniares.questions_resilience)
 resili_mid_json = toolkit.list_to_json(resili_mid,db_questioniares.questions_resilience)
 
-filepath =f"t_tests\tReport"
+filepath =f"exp_l_1\tReport"
 
 
 SWT(bpn_start_json, 'bpn_start')
