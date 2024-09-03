@@ -1,0 +1,272 @@
+[
+{
+    "datetime": "2024-08-26 00:00:06.787",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "trends": "最近心情波动较大，建议关注情绪变化，适时寻求支持。"
+    }
+},
+{
+    "datetime": "2024-08-26 00:01:17.022",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18268155717",
+        "trends": "连续几天心情波动，注意情绪管理哦。"
+    }
+},
+{
+    "datetime": "2024-08-26 00:01:18.599",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18268155717",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-26 00:01:22.452",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18268155717",
+        "dailysummary": "今天，让我们继续前进，完成未尽的事项。"
+    }
+},
+{
+    "datetime": "2024-08-26 00:58:54.240",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18924915953",
+        "trends": "近期情绪波动较大，注意调整，保持乐观。"
+    }
+},
+{
+    "datetime": "2024-08-26 07:31:44.839",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-26 07:37:19.135",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "19119732512",
+        "trends": "近期心情波动较大，注意调整，保持积极。"
+    }
+},
+{
+    "datetime": "2024-08-26 09:35:08.530",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-26 09:46:45.877",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "15073142501",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，创造辉煌！"
+    }
+},
+{
+    "datetime": "2024-08-26 09:46:46.687",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "15073142501",
+        "dailysummary": "今天，你将享受美食，同时准备迎接周会的挑战。"
+    }
+},
+{
+    "datetime": "2024-08-26 10:01:52.619",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "15956956373",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，创造辉煌！"
+    }
+},
+{
+    "datetime": "2024-08-26 10:01:53.802",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "15956956373",
+        "dailysummary": "今天有取快递的任务，记得准备哦！"
+    }
+},
+{
+    "datetime": "2024-08-26 11:10:19.063",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-26 11:34:31.490",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-26 11:35:20.756",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-26 11:35:36.998",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-26 11:36:02.160",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-26 11:37:06.738",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-26 11:37:32.533",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-26 12:46:09.619",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18049067425",
+        "dailysummary": "今天有多项任务待完成，包括检查日程、晚上聚餐、聊天等，保持积极态度，逐一攻克！"
+    }
+},
+{
+    "datetime": "2024-08-26 12:46:10.106",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18049067425",
+        "todo_greetings_title": "午安问候",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-26 12:57:28.103",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-26 12:57:54.385",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-26 12:58:14.958",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-26 14:19:38.687",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "current_time": "2024-08-26 14:19:36.792483"
+    }
+},
+{
+    "datetime": "2024-08-26 14:19:39.028",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "dailysummary": "今天有两项重要任务：继续讨论/完成未尽事宜和安排午餐时间。"
+    }
+},
+{
+    "datetime": "2024-08-26 14:20:26.763",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-26 14:44:17.565",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-26 14:44:52.395",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-26 14:45:00.822",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "todo_greetings_title": "午安，朋友",
+        "todo_greetings_content": "愿你的下午充满阳光"
+    }
+},
+{
+    "datetime": "2024-08-26 14:45:07.802",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "dailysummary": "今天，让爱与关怀成为行动的指南，保持积极，为豆丁创造一个安全而温馨的家。"
+    }
+},
+{
+    "datetime": "2024-08-26 15:57:32.546",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "12345678900",
+        "dailysummary": "今天有未完成的高紧急任务，抓紧时间完成，保持积极态度！"
+    }
+},
+{
+    "datetime": "2024-08-26 15:57:36.770",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "12345678900",
+        "todo_greetings_title": "下午好！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-26 16:18:30.399",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-26 16:26:44.179",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "15111816459",
+        "trends": "最近情绪波动较大，注意调整，保持积极心态。"
+    }
+},
+{
+    "datetime": "2024-08-26 16:30:38.331",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13916874074",
+        "dailysummary": "今日日程已圆满完成，明天继续加油！"
+    }
+},
+{
+    "datetime": "2024-08-26 16:30:44.577",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13916874074",
+        "todo_greetings_title": "下午好！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-26 16:44:57.253",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "12345678900",
+        "dailysummary": "今天有未完成的高紧急任务，抓紧时间完成，保持积极态度！"
+    }
+},
+{
+    "datetime": "2024-08-26 16:44:57.406",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "12345678900",
+        "todo_greetings_title": "下午好！",
+        "todo_greetings_content": "保持微笑，迎接每一个挑战！"
+    }
+}]

@@ -170,6 +170,8 @@ resili_mid = toolkit.read_survey_data("t_tests/data/mid_resilience.xlsx")
 bpn_start, bpn_mid = filter_lists_by_common_userids(bpn_start, bpn_mid)
 resili_start, resili_mid = filter_lists_by_common_userids(resili_start, resili_mid)
 
+print(resili_mid)
+
 bpn_start_json = toolkit.list_to_json(bpn_start,db_questioniares.questions_pns)
 bpn_mid_json = toolkit.list_to_json(bpn_mid, db_questioniares.questions_pns)
 resili_start_json = toolkit.list_to_json(resili_start, db_questioniares.questions_resilience)
@@ -189,3 +191,6 @@ UWtest_json(resili_start_json, resili_mid_json, 'resili_start_mid')
 
 UW_extract_stats_and_test(bpn_start_json, bpn_mid_json, 'bpn_start_mid')
 UW_extract_stats_and_test(resili_start_json, resili_mid_json, 'resili_start_mid')
+
+for item in resili_mid:
+    print(item[0])
