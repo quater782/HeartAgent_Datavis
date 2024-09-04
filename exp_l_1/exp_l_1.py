@@ -138,6 +138,14 @@ def UW_extract_stats_and_test(df1, df2, name):
         if stats2['mean'] > stats1['mean']:
             trend = f"{trend}, 均值增大"
 
+        if p_value<0.01:
+            trend = f"(**)极显著 {trend}"
+        elif p_value<0.05:
+            trend = f"(*)显著 {trend}"
+        elif p_value<0.1:
+            trend = f"(-)轻微显著 {trend}"
+
+
         results[question] = {
             'start_Mean': stats1['mean'],
             'start_SD': stats1['std'],
