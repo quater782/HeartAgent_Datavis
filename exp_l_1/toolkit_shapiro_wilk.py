@@ -84,9 +84,9 @@ def shaprio_wilk(dimension_scores, df):
         treport.append(f"正态性测试 - {question}: p-value = {p_value}")
 
     # 维度得分正态性
-    for dim, scores in dimension_scores.items():
-        stat, p_value = shapiro(scores)
-        treport.append(f"正态性测试 - {dim}: p-value = {p_value}")
+    # for dim, scores in dimension_scores.items():
+    #     stat, p_value = shapiro(scores)
+    #     treport.append(f"正态性测试 - {dim}: p-value = {p_value}")
 
     return treport
 

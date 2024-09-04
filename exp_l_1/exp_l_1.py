@@ -167,15 +167,31 @@ bpn_mid = toolkit.read_survey_data("exp_l_1/data/mid_BFNSNF.xlsx")
 resili_start = toolkit.read_survey_data("exp_l_1/data/start_resilience.xlsx")
 resili_mid = toolkit.read_survey_data("exp_l_1/data/mid_resilience.xlsx")
 
+bpn_end = toolkit.read_survey_data("exp_l_1/data/end_BFNSNF.xlsx")
+resili_end = toolkit.read_survey_data("exp_l_1/data/end_resilience.xlsx")
+
+
+# bpn_start, bpn_mid = filter_lists_by_common_userids(bpn_start, bpn_mid)
+# resili_start, resili_mid = filter_lists_by_common_userids(resili_start, resili_mid)
+
+bpn_start, bpn_end = filter_lists_by_common_userids(bpn_start, bpn_end)
+resili_start, resili_end = filter_lists_by_common_userids(resili_start, resili_end)
+
 bpn_start, bpn_mid = filter_lists_by_common_userids(bpn_start, bpn_mid)
 resili_start, resili_mid = filter_lists_by_common_userids(resili_start, resili_mid)
 
 print(resili_mid)
 
+'''json化'''
+
 bpn_start_json = toolkit.list_to_json(bpn_start,db_questioniares.questions_pns)
 bpn_mid_json = toolkit.list_to_json(bpn_mid, db_questioniares.questions_pns)
+bpn_end_json = toolkit.list_to_json(bpn_end, db_questioniares.questions_pns)
+
 resili_start_json = toolkit.list_to_json(resili_start, db_questioniares.questions_resilience)
 resili_mid_json = toolkit.list_to_json(resili_mid,db_questioniares.questions_resilience)
+resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_resilience)
+
 
 filepath =f"exp_l_1\tReport"
 
@@ -194,3 +210,120 @@ UW_extract_stats_and_test(resili_start_json, resili_mid_json, 'resili_start_mid'
 
 for item in resili_mid:
     print(item[0])
+
+'''----------'''
+
+
+def sum(list):
+    new = []
+    for item in list:
+        newlist = item[1:]
+        #  print(newlist)
+        i = 0
+        for score in newlist:
+            i+=score
+        item.append(i)
+        new.append(item)
+        print(item)
+    return new
+
+bpn_start = sum(bpn_start)
+bpn_mid = sum(bpn_mid)
+bpn_end = sum(bpn_end)
+
+resili_end = sum(resili_end)
+resili_mid= sum(resili_mid)
+resili_start = sum(resili_start)
+
+bpn_start_json = toolkit.list_to_json(bpn_start,db_questioniares.questions_pns1)
+bpn_end_json = toolkit.list_to_json(bpn_end, db_questioniares.questions_pns1)
+resili_start_json = toolkit.list_to_json(resili_start, db_questioniares.questions_resilience1)
+resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_resilience1)
+
+filepath =f"exp_l_1\tReport"
+
+
+SWT(bpn_start_json, 'bpn_start')
+SWT(bpn_end_json, 'bpn_end')
+SWT(resili_start_json, 'bpn_start')
+SWT(resili_end_json, 'bpn_end')
+
+UWtest_json(bpn_start_json, bpn_end_json, 'bpn_start_end')
+UWtest_json(resili_start_json, resili_end_json, 'resili_start_end')
+
+
+UW_extract_stats_and_test(bpn_start_json, bpn_end_json, 'bpn_start_end')
+UW_extract_stats_and_test(resili_start_json, resili_end_json, 'resili_start_end')
+
+
+'''---------'''
+bpn_mid_json = toolkit.list_to_json(bpn_mid,db_questioniares.questions_pns1)
+bpn_end_json = toolkit.list_to_json(bpn_end, db_questioniares.questions_pns1)
+resili_mid_json = toolkit.list_to_json(resili_mid, db_questioniares.questions_resilience1)
+resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_resilience1)
+
+filepath =f"exp_l_1\tReport"
+
+
+SWT(bpn_mid_json, 'bpn_mid')
+SWT(bpn_end_json, 'bpn_end')
+SWT(resili_mid_json, 'bpn_mid')
+SWT(resili_end_json, 'bpn_end')
+
+UWtest_json(bpn_mid_json, bpn_end_json, 'bpn_mid_end')
+UWtest_json(resili_mid_json, resili_end_json, 'resili_mid_end')
+
+
+UW_extract_stats_and_test(bpn_mid_json, bpn_end_json, 'bpn_mid_end')
+UW_extract_stats_and_test(resili_mid_json, resili_end_json, 'resili_mid_end')
+
+
+
+print(f"reliend:{len(resili_end)}")
+print(f"reliend:{len(resili_mid)}")
+print(f"reliend:{len(resili_start)}")
+
+print(f"bpn{len(bpn_end)}")
+print(f"bpn{len(bpn_mid)}")
+print(f"bpn{len(bpn_start)}")
+
+'''线性回归'''
+
+# import pandas as pd
+# from sklearn.linear_model import LinearRegression
+# import numpy as np
+# import statsmodels.api as sm
+
+# # 将数据加载到DataFrame中
+# df_group1 = pd.DataFrame(bpn_start_json)
+# df_group2 = pd.DataFrame(bpn_mid_json)
+# df_group3 = pd.DataFrame(bpn_end_json)
+
+# # 假设我们知道这些数据是顺序一致的，我们可以添加一个时间列来区分前测、中测和后测
+# df_group1['time'] = 1
+# df_group2['time'] = 2
+# df_group3['time'] = 3
+
+# # 合并数据
+# df_total = pd.concat([df_group1, df_group2, df_group3], ignore_index=True)
+
+# # 转换为适合进行回归的长格式
+# df_long = df_total.melt(id_vars=['user_id', 'time'], var_name='question', value_name='score')
+
+# # 分别对每个问题进行线性回归分析
+# results = {}
+# questions = df_long['question'].unique()
+# for question in questions:
+#     df_q = df_long[df_long['question'] == question]
+#     X = sm.add_constant(df_q['time'])  # 添加截距项
+#     y = df_q['score']
+#     model = sm.OLS(y, X).fit()
+#     results[question] = model.summary()
+
+# # 输出每个问题的回归分析结果
+# for question, result in results.items():
+#     print(f"Regression results for {question}:")
+#     print(result)
+
+# # 可以根据需求，进一步分析或可视化回归结果
+
