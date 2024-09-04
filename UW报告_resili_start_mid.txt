@@ -1,108 +1,108 @@
 {
     "力量": {
         "能够适应变化": {
-            "U-statistic": 261.5,
-            "p-value": 0.9529229272049362
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "过去的成功经历使你有信心来面对新的挑战": {
-            "U-statistic": 234.0,
-            "p-value": 0.4873087633570502
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "应对压力的能力不断增强": {
-            "U-statistic": 278.0,
-            "p-value": 0.7553804995408049
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "在遭遇疾病或困难之后能够很快恢复": {
-            "U-statistic": 252.0,
-            "p-value": 0.7801806657486015
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "认为事出必有因": {
-            "U-statistic": 225.0,
-            "p-value": 0.3715374268013636
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "无论做什么都会竭尽全力": {
-            "U-statistic": 222.0,
-            "p-value": 0.33714196981981337
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "致力于实现自己的目标": {
-            "U-statistic": 248.5,
-            "p-value": 0.7168985863393535
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "为自己取得的成就而自豪": {
-            "U-statistic": 270.0,
-            "p-value": 0.9020985831027999
+            "U-statistic": 264.5,
+            "p-value": 1.0
         }
     },
     "乐观性": {
         "有亲密和可信赖的人际关系": {
-            "U-statistic": 243.0,
-            "p-value": 0.6228069185692786
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "有时候运气不错": {
-            "U-statistic": 263.5,
-            "p-value": 0.9905803414255941
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "能够处理好发生的任何事情": {
-            "U-statistic": 229.0,
-            "p-value": 0.4184328258593155
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "看到事情乐观的一面": {
-            "U-statistic": 215.0,
-            "p-value": 0.2458059704863379
+            "U-statistic": 264.5,
+            "p-value": 1.0
         }
     },
     "坚韧": {
         "能够实现自己的目标": {
-            "U-statistic": 256.5,
-            "p-value": 0.8588987360577323
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "即使事情看来没希望了，也不放弃": {
-            "U-statistic": 289.5,
-            "p-value": 0.5771824936234011
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "知道到哪里寻求帮助": {
-            "U-statistic": 310.5,
-            "p-value": 0.28806071568806424
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "在压力下，仍能神情专注、头脑清醒": {
-            "U-statistic": 260.5,
-            "p-value": 0.9360310613873508
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "愿意率先带头去解决问题": {
-            "U-statistic": 274.5,
-            "p-value": 0.8291623524293407
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "不容易被失败挫伤勇气": {
-            "U-statistic": 245.0,
-            "p-value": 0.6586958166752679
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "自认是个强者": {
-            "U-statistic": 220.5,
-            "p-value": 0.3170994227310949
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "勇于作出他人不愿或难以作出的决定": {
-            "U-statistic": 226.0,
-            "p-value": 0.38500829311255613
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "能够掌控不良情绪": {
-            "U-statistic": 222.5,
-            "p-value": 0.3151016962913673
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "处理生活难题，有时不得不依靠直觉行事": {
-            "U-statistic": 245.5,
-            "p-value": 0.657538172744924
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "有强烈的使命感": {
-            "U-statistic": 228.5,
-            "p-value": 0.419151924712433
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "能够管理好自己的生活": {
-            "U-statistic": 248.5,
-            "p-value": 0.7175593337218154
+            "U-statistic": 264.5,
+            "p-value": 1.0
         },
         "喜欢接受挑战": {
-            "U-statistic": 231.0,
-            "p-value": 0.44723597310202745
+            "U-statistic": 264.5,
+            "p-value": 1.0
         }
     }
 }

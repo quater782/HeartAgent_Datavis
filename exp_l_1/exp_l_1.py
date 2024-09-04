@@ -8,7 +8,10 @@ import scipy.stats as stats
 import matplotlib.pyplot as plt
 import db_questioniares as questions
 from scipy.stats import shapiro
+from scipy import stats
 from scipy.stats import mannwhitneyu
+from scipy import stats
+
 import json
 import numpy as np
 
@@ -120,7 +123,9 @@ def UW_extract_stats_and_test(df1, df2, name):
         stats2 = df2[question].describe()
 
         # Mann-Whitney U检验
-        stat, p_value = mannwhitneyu(df1[question], df2[question], alternative='two-sided')
+        # stat, p_value = mannwhitneyu(df1[question], df2[question], alternative='two-sided')
+        print(f"{df1[question]}, {df2[question]}")
+        stat, p_value = stats.ttest_rel(df1[question], df2[question], alternative='two-sided')
 
         # 比较中位数判断得分趋势
         if stats2['50%'] > stats1['50%']:
@@ -180,10 +185,19 @@ resili_start, resili_end = filter_lists_by_common_userids(resili_start, resili_e
 bpn_start, bpn_mid = filter_lists_by_common_userids(bpn_start, bpn_mid)
 resili_start, resili_mid = filter_lists_by_common_userids(resili_start, resili_mid)
 
+bpn_mid, bpn_end = filter_lists_by_common_userids(bpn_start, bpn_end)
+resili_mid, resili_end = filter_lists_by_common_userids(resili_start, resili_end)
+
+print(f"reliend:{len(resili_end)}")
+print(f"reliend:{len(resili_mid)}")
+print(f"reliend:{len(resili_start)}")
+
+print(f"bpn{len(bpn_end)}")
+print(f"bpn{len(bpn_mid)}")
+print(f"bpn{len(bpn_start)}")
 print(resili_mid)
 
 '''json化'''
-
 bpn_start_json = toolkit.list_to_json(bpn_start,db_questioniares.questions_pns)
 bpn_mid_json = toolkit.list_to_json(bpn_mid, db_questioniares.questions_pns)
 bpn_end_json = toolkit.list_to_json(bpn_end, db_questioniares.questions_pns)
@@ -208,8 +222,9 @@ UWtest_json(resili_start_json, resili_mid_json, 'resili_start_mid')
 UW_extract_stats_and_test(bpn_start_json, bpn_mid_json, 'bpn_start_mid')
 UW_extract_stats_and_test(resili_start_json, resili_mid_json, 'resili_start_mid')
 
-for item in resili_mid:
-    print(item[0])
+
+# for item in resili_mid:
+#     print(item[0])
 
 '''----------'''
 
@@ -227,18 +242,20 @@ def sum(list):
         print(item)
     return new
 
-bpn_start = sum(bpn_start)
-bpn_mid = sum(bpn_mid)
-bpn_end = sum(bpn_end)
+# bpn_start = sum(bpn_start)
+# bpn_mid = sum(bpn_mid)
+# bpn_end = sum(bpn_end)
 
-resili_end = sum(resili_end)
-resili_mid= sum(resili_mid)
-resili_start = sum(resili_start)
+# resili_end = sum(resili_end)
+# resili_mid= sum(resili_mid)
+# resili_start = sum(resili_start)
 
-bpn_start_json = toolkit.list_to_json(bpn_start,db_questioniares.questions_pns1)
-bpn_end_json = toolkit.list_to_json(bpn_end, db_questioniares.questions_pns1)
-resili_start_json = toolkit.list_to_json(resili_start, db_questioniares.questions_resilience1)
-resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_resilience1)
+bpn_start_json = toolkit.list_to_json(bpn_start,db_questioniares.questions_pns)
+bpn_end_json = toolkit.list_to_json(bpn_end, db_questioniares.questions_pns)
+resili_start_json = toolkit.list_to_json(resili_start, db_questioniares.questions_resilience)
+resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_resilience)
+
+
 
 filepath =f"exp_l_1\tReport"
 
@@ -257,25 +274,25 @@ UW_extract_stats_and_test(resili_start_json, resili_end_json, 'resili_start_end'
 
 
 '''---------'''
-bpn_mid_json = toolkit.list_to_json(bpn_mid,db_questioniares.questions_pns1)
-bpn_end_json = toolkit.list_to_json(bpn_end, db_questioniares.questions_pns1)
-resili_mid_json = toolkit.list_to_json(resili_mid, db_questioniares.questions_resilience1)
-resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_resilience1)
+# bpn_mid_json = toolkit.list_to_json(bpn_mid,db_questioniares.questions_pns1)
+# bpn_end_json = toolkit.list_to_json(bpn_end, db_questioniares.questions_pns1)
+# resili_mid_json = toolkit.list_to_json(resili_mid, db_questioniares.questions_resilience1)
+# resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_resilience1)
 
-filepath =f"exp_l_1\tReport"
-
-
-SWT(bpn_mid_json, 'bpn_mid')
-SWT(bpn_end_json, 'bpn_end')
-SWT(resili_mid_json, 'bpn_mid')
-SWT(resili_end_json, 'bpn_end')
-
-UWtest_json(bpn_mid_json, bpn_end_json, 'bpn_mid_end')
-UWtest_json(resili_mid_json, resili_end_json, 'resili_mid_end')
+# filepath =f"exp_l_1\tReport"
 
 
-UW_extract_stats_and_test(bpn_mid_json, bpn_end_json, 'bpn_mid_end')
-UW_extract_stats_and_test(resili_mid_json, resili_end_json, 'resili_mid_end')
+# SWT(bpn_mid_json, 'bpn_mid')
+# SWT(bpn_end_json, 'bpn_end')
+# SWT(resili_mid_json, 'bpn_mid')
+# SWT(resili_end_json, 'bpn_end')
+
+# UWtest_json(bpn_mid_json, bpn_end_json, 'bpn_mid_end')
+# UWtest_json(resili_mid_json, resili_end_json, 'resili_mid_end')
+
+
+# UW_extract_stats_and_test(bpn_mid_json, bpn_end_json, 'bpn_mid_end')
+# UW_extract_stats_and_test(resili_mid_json, resili_end_json, 'resili_mid_end')
 
 
 
@@ -327,3 +344,24 @@ print(f"bpn{len(bpn_start)}")
 
 # # 可以根据需求，进一步分析或可视化回归结果
 
+'''得到现有数据中，得分比初测低的值（修正后）'''
+def getlowerscores_pns(start, end):
+    for s in start:
+        q_s = []
+        q_e = []
+        for e in end:
+            if s[0]==e[0]:
+                q_s = s[1:]
+                q_e = e[1:]
+                break
+        i = 0
+        for i in range(len(q_s)):
+            list = []
+            notice  = ""
+            if(q_e[i]<q_s[i]):
+                notice = f"低于前测：{questions.questions_pns[i]};前:{q_s[i]},后: {q_e[i]}"
+                list.append(notice)
+        for notices in list:
+            print(f"")
+                
+        
