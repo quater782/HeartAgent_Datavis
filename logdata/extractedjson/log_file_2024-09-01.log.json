@@ -1,0 +1,1943 @@
+[
+{
+    "datetime": "2024-09-01 00:00:48.949",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18743527817",
+        "trends": "最近心情波动较大，注意调整，保持积极心态。"
+    }
+},
+{
+    "datetime": "2024-09-01 00:01:22.079",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: False"
+},
+{
+    "datetime": "2024-09-01 00:01:22.083",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18208660066 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 00:04:07.969",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "diary_agent_response": "齐司礼，祝你生日快乐🎉！愿你的每一天都充满阳光和欢笑，未来的日子里，无论遇到什么挑战，都能保持乐观和勇气，不断追求自己的梦想。愿你的生活像这蛋糕一样甜蜜，像这蜡烛一样明亮。再次祝你生日快乐，愿你的每一个愿望都能实现！🎂🎈",
+        "diary_summary": "庆祝齐司礼的生日"
+    }
+},
+{
+    "datetime": "2024-09-01 01:13:48.066",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13523426691",
+        "trends": "近期情绪波动较大，注意调节哦。"
+    }
+},
+{
+    "datetime": "2024-09-01 01:14:13.616",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13523426691",
+        "todo_greetings_title": "早安🌞",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 01:14:14.267",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13523426691",
+        "dailysummary": "今天有重要任务，弟弟的表演与课程冲突，需提前准备。"
+    }
+},
+{
+    "datetime": "2024-09-01 01:48:35.415",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "todo_greetings_title": "早安🌞",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 01:48:36.670",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "dailysummary": "今天没有紧急任务，可以轻松安排时间。"
+    }
+},
+{
+    "datetime": "2024-09-01 01:48:46.038",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "trends": "最近心情起伏，需要更多关怀和支持。"
+    }
+},
+{
+    "datetime": "2024-09-01 04:00:00.057",
+    "function_sequence": "app.services.chat_service:star_reflection:684",
+    "extracted_content": "--- 每日 STAR ---"
+},
+{
+    "datetime": "2024-09-01 04:00:00.057",
+    "function_sequence": "app.services.chat_service:star_reflection:684",
+    "extracted_content": "--- 每日 STAR ---"
+},
+{
+    "datetime": "2024-09-01 05:53:18.979",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13377908331",
+        "dailysummary": "今天你有一个未完成的任务：尝试做明天的晚餐。现在开始准备，享受烹饪的乐趣吧！"
+    }
+},
+{
+    "datetime": "2024-09-01 05:53:19.515",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13377908331",
+        "todo_greetings_title": "早安🌞",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 10:16:18.034",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 10:16:27.757",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "current_time": "2024-09-01 10:16:25.470233"
+    }
+},
+{
+    "datetime": "2024-09-01 10:16:29.973",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "15111816459",
+        "dailysummary": "今天日程轻松，适合放松心情，享受生活。"
+    }
+},
+{
+    "datetime": "2024-09-01 11:19:29.004",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "current_time": "2024-09-01 11:19:26.913613"
+    }
+},
+{
+    "datetime": "2024-09-01 11:19:29.080",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "dailysummary": "今天没有紧急任务，可以轻松安排时间。"
+    }
+},
+{
+    "datetime": "2024-09-01 11:45:25.420",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-09-01 11:45:30.512",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13896520229",
+        "trends": "心情起伏，建议保持积极心态，适当放松。"
+    }
+},
+{
+    "datetime": "2024-09-01 11:45:41.676",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 11:45:54.407",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13896520229",
+        "dailysummary": "今天日程安排合理，继续保持积极态度，加油！"
+    }
+},
+{
+    "datetime": "2024-09-01 11:45:54.873",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13896520229",
+        "todo_greetings_title": "中午好🌞",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 11:55:11.794",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 11:55:37.847",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "chatlog_summary": "用户在2024-09-01 11:55:32.576820时，查看了日程表，但没有进行任何操作或交流。"
+    }
+},
+{
+    "datetime": "2024-09-01 11:55:41.606",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "dailysummary": "今天你有一个重要的独处时间安排，这是你自我反思和放松的好机会。"
+    }
+},
+{
+    "datetime": "2024-09-01 11:56:10.275",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 11:56:50.743",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "trends": "最近几天心情波动，需要更多关怀和支持。"
+    }
+},
+{
+    "datetime": "2024-09-01 12:03:34.180",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 12:03:34.183",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13370792083 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 12:20:50.508",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: unclear"
+},
+{
+    "datetime": "2024-09-01 12:20:50.511",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18924915953 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 12:21:51.807",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 12:23:34.218",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 12:23:34.221",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18924915953 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 12:24:15.932",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 12:24:15.935",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18924915953 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 12:26:56.912",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 12:27:17.809",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: False"
+},
+{
+    "datetime": "2024-09-01 12:27:17.812",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13916874074 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 12:29:21.115",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 12:29:21.118",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13916874074 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 12:31:29.569",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "15223831095",
+        "dailysummary": "今天是个新的开始，愿你的每一步都充满力量和希望。"
+    }
+},
+{
+    "datetime": "2024-09-01 12:31:29.807",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "15223831095",
+        "todo_greetings_title": "午安🌞",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 12:33:17.594",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 12:33:17.596",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13916874074 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 12:33:44.736",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 12:33:54.056",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\": { \"用户状态\": \"弱\", \"原因分析\": \"用户表达了在特定天气下爬楼梯的辛苦，这可能意味着他们感到被迫做这件事，而不是出于自愿，因此自主感较弱。\" }, \"胜任感\": { \"用户状态\": \"弱\", \"原因分析\": \"用户通过表情符号🥲表达了疲惫和辛苦，这可能意味着他们对完成这项任务感到不够胜任或有挑战，因此胜任感较弱。\" }, \"关联感\": { \"用户状态\": \"强\", \"原因分析\": \"用户使用亲昵的称呼'宝宝'，这表明他们希望与对方建立亲密和被理解的关系，寻求情感支持，这体现了较强的关联感。\" }, }"
+},
+{
+    "datetime": "2024-09-01 12:34:21.783",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 12:36:13.897",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 13:00:00.000",
+    "function_sequence": "app.routers.chat:run_reflection:83",
+    "extracted_content": "Running reflection for morning"
+},
+{
+    "datetime": "2024-09-01 14:01:30.112",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "15956956373",
+        "dailysummary": "今天你完成了起床提醒，正在努力赶稿子，晚上记得好好休息放松。"
+    }
+},
+{
+    "datetime": "2024-09-01 14:01:30.263",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "15956956373",
+        "todo_greetings_title": "下午好🌞",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 14:01:51.542",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 14:11:10.891",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 14:11:24.498",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\": { \"用户状态\": \"弱\", \"原因分析\": \"用户表达了对被错误标签化的不满，这表明他们希望根据自己的价值观和判断来定义自己，而不是被他人强加的标签。这种反应显示了用户对自主性的渴望，但因为感到被误解和压力，自主感并不强烈。\" }, \"胜任感\": { \"用户状态\": \"无\", \"原因分析\": \"用户在这句话中没有直接表达对自己能力或成就的感受，而是在讨论关于性别平等和个人立场的问题，因此胜任感在这句话中没有明显体现。\" }, \"关联感\": { \"用户状态\": \"强\", \"原因分析\": \"用户表达了对被错误标签化的不满，这暗示了他们希望在社会关系中得到正确的理解和接纳。用户提到了'突然被扣帽子有点不好受'，这表明他们重视与他人的关系和他人的看法，希望在社会互动中获得正面的关联感。\" }, }"
+},
+{
+    "datetime": "2024-09-01 15:09:54.469",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 15:09:54.472",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18049067425 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 15:10:18.419",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 15:10:25.019",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\":{ \"用户状态\": \"强\", \"原因分析\": \"用户主动告知即将出门，表明了其自主决定行动的意愿，体现了较强的自主感。\" }, \"胜任感\":{ \"用户状态\": \"无\", \"原因分析\": \"用户的话中没有直接体现胜任感，即没有提及对某项任务或活动的能力感或掌握感。\" }, \"关联感\":{ \"用户状态\": \"强\", \"原因分析\": \"用户表达了不能陪伴的遗憾，这表明了用户对与对方关系的重视，体现了较强的关联感。\" }, }"
+},
+{
+    "datetime": "2024-09-01 15:10:47.056",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 15:10:53.150",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 15:11:00.825",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 15:11:06.080",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": "result:{ {    \"user_id\": \"18049067425\"} \"dailysummary\": \"今天你已经安排了晚上九点的消息提醒，继续保持积极的心态，期待晚上的交流。\" }"
+},
+{
+    "datetime": "2024-09-01 15:11:06.185",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18049067425",
+        "todo_greetings_title": "下午好🌞",
+        "todo_greetings_content": "愿你拥有美好的一天！"
+    }
+},
+{
+    "datetime": "2024-09-01 15:43:21.575",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 15:44:44.033",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 15:44:47.453",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 16:00:00.004",
+    "function_sequence": "app.routers.chat:run_reflection:83",
+    "extracted_content": "Running reflection for noon"
+},
+{
+    "datetime": "2024-09-01 16:00:00.000",
+    "function_sequence": "app.routers.chat:run_reflection:83",
+    "extracted_content": "Running reflection for noon"
+},
+{
+    "datetime": "2024-09-01 16:14:23.028",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 16:14:23.031",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13370792083 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 16:16:29.226",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 16:16:29.229",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13370792083 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 16:54:26.550",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 16:54:43.555",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 16:54:51.152",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\":{ \"用户状态\": \"弱\", \"原因分析\": \"用户表达了不想回去的情绪，这可能意味着他们对开学这一行为感到不情愿，缺乏自主性。\" }, \"胜任感\":{ \"用户状态\": \"无\", \"原因分析\": \"用户没有提及对开学后可能面临的任务或挑战的感受，因此无法判断其胜任感。\" }, \"关联感\":{ \"用户状态\": \"弱\", \"原因分析\": \"用户表达了不想回去的情绪，这可能反映出他们对学校环境或人际关系的不满，从而表现出较弱的关联感。\" }, }"
+},
+{
+    "datetime": "2024-09-01 17:15:29.591",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 17:15:42.966",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18931628795",
+        "trends": "最近心情波动，需要关怀和支持。"
+    }
+},
+{
+    "datetime": "2024-09-01 19:11:07.978",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18038829820",
+        "trends": "最近心情起伏不定，记得给自己一些温柔的关怀。"
+    }
+},
+{
+    "datetime": "2024-09-01 19:11:27.322",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 19:11:42.948",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-09-01 19:12:14.505",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 19:14:56.916",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "diary_agent_response": "亲爱的朋友，感谢你分享了这么真挚的情感和对未来的美好期待。你的话语中充满了对生活的热爱和对友情的珍视，这让人感动。请相信，无论未来如何变化，你的勇气和坚持都会带你走向你梦想的生活。愿你的每一天都充满阳光和希望，生日快乐，愿你的每一个愿望都能实现！🎉🎂",
+        "diary_summary": "用户对齐司礼表达生日祝福，回顾过去一年的经历，对未来充满希望"
+    }
+},
+{
+    "datetime": "2024-09-01 19:15:17.803",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: unclear"
+},
+{
+    "datetime": "2024-09-01 19:15:17.806",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13370792083 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 19:15:18.325",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 19:16:09.882",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 19:16:09.884",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18038829820 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 19:16:12.823",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 19:16:12.826",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18038829820 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 19:16:21.978",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 19:16:21.980",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18038829820 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 19:18:40.960",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 19:19:29.234",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 19:19:47.437",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 19:20:48.569",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 19:20:50.710",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-09-01 19:20:56.917",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\":{ \"用户状态\": \"强\", \"原因分析\": \"用户表达了想要减肥的意愿，并且提出了具体的目标，这显示了用户在追求个人目标时的自主性和自我驱动力。\" }, \"胜任感\":{ \"用户状态\": \"弱\", \"原因分析\": \"虽然用户表达了减肥的意愿，但同时表达了对自己体重增加的不满和情绪化的反应，这可能意味着用户在面对减肥任务时感到一定的压力和不自信，胜任感相对较弱。\" }, \"关联感\":{ \"用户状态\": \"无\", \"原因分析\": \"这句话中没有直接体现出用户与他人的关系或社交互动，因此关联感在这句话中没有明显体现。\" }, }"
+},
+{
+    "datetime": "2024-09-01 19:21:08.056",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 19:21:21.894",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 19:21:21.896",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-17857310325 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 19:21:26.945",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "19527398569",
+        "trends": "最近似乎有些起伏，记得给自己一些放松的时间。"
+    }
+},
+{
+    "datetime": "2024-09-01 19:21:27.210",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "19527398569",
+        "todo_greetings_title": "晚上好！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 19:21:31.770",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "19527398569",
+        "dailysummary": "今天你完成了看电影的计划，继续保持！"
+    }
+},
+{
+    "datetime": "2024-09-01 19:21:57.956",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 19:22:18.236",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 19:22:46.908",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 19:23:32.083",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 19:24:51.958",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 19:27:56.927",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 19:27:58.596",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: unclear"
+},
+{
+    "datetime": "2024-09-01 19:27:58.598",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-15073142501 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 19:28:08.163",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: False"
+},
+{
+    "datetime": "2024-09-01 19:28:08.167",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-15073142501 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 19:28:25.206",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 19:28:29.367",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "19527398569",
+        "diary_agent_response": "太棒了！为了漫展而努力减肥，这真是个令人兴奋的目标。记得要健康饮食和适量运动，保持积极的心态，相信自己一定可以做到。如果需要帮助或者想要分享进展，我随时在这里支持你！加油，期待你在漫展上的精彩亮相！",
+        "diary_summary": "用户计划为9月16日漫展减肥，目标瘦十斤"
+    }
+},
+{
+    "datetime": "2024-09-01 19:28:50.219",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 19:30:00.000",
+    "function_sequence": "app.routers.chat:run_reflection:83",
+    "extracted_content": "Running reflection for afternoon"
+},
+{
+    "datetime": "2024-09-01 19:30:00.000",
+    "function_sequence": "app.routers.chat:run_reflection:83",
+    "extracted_content": "Running reflection for afternoon"
+},
+{
+    "datetime": "2024-09-01 20:54:09.380",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "19707045120",
+        "diary_agent_response": "亲爱的，新学期的开始总是让人既兴奋又充满期待。面对未来的选择，无论是考研还是就业，都是你成长路上的重要一步。记得，每一步都值得你认真思考和体验。同时，你的发色和发型都是你个性的展现，自信是最好的装饰。宋给你扎的双马尾听起来很可爱，这让你更加独特。记得，无论你做什么决定，都要相信自己，因为你是独一无二的。加油，新学期，愿你的每一天都充满阳光和希望！",
+        "diary_summary": "大二学生返校，面临未来选择，对发色和发型感到不自信，喜欢双马尾发型"
+    }
+},
+{
+    "datetime": "2024-09-01 20:54:31.827",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 20:56:51.372",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "19707045120",
+        "trends": "新学期的开始，你似乎在探索未来的方向，同时享受生活中的小确幸。"
+    }
+},
+{
+    "datetime": "2024-09-01 20:57:20.620",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "19707045120",
+        "trends": "最近你的心情似乎在平稳中带着一丝对未来的思考，同时生活中的小细节也给你带来了快乐。"
+    }
+},
+{
+    "datetime": "2024-09-01 20:57:59.447",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "19707045120",
+        "trends": "最近心情波动，需要更多关怀。"
+    }
+},
+{
+    "datetime": "2024-09-01 20:59:29.680",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "15073142501",
+        "todo_greetings_title": "晚上好！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 20:59:29.743",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "15073142501",
+        "dailysummary": "今天你安排了充足的休息，为明天的工作养精蓄锐。"
+    }
+},
+{
+    "datetime": "2024-09-01 21:00:08.608",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 21:00:08.613",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-15073142501 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 21:00:33.796",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 21:00:33.800",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-15073142501 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 21:16:03.392",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13662064265",
+        "trends": "最近似乎有些起伏，需要我为你做些什么吗？"
+    }
+},
+{
+    "datetime": "2024-09-01 21:16:26.267",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 21:16:39.795",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-09-01 21:17:02.803",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 21:17:05.274",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: False"
+},
+{
+    "datetime": "2024-09-01 21:17:05.278",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13662064265 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 21:20:59.470",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 21:20:59.474",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13896520229 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 21:22:30.531",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 21:22:38.450",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "19119732512",
+        "todo_greetings_title": "晚上好🌙",
+        "todo_greetings_content": "愿你的每个夜晚都充满宁静与美好。"
+    }
+},
+{
+    "datetime": "2024-09-01 21:22:43.378",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "19119732512",
+        "dailysummary": "今天你享受了周末时光，还有剪辑视频的小任务未完成，明天继续加油哦！"
+    }
+},
+{
+    "datetime": "2024-09-01 21:24:36.893",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 21:24:36.896",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-19119732512 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 21:24:53.709",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 21:25:04.923",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\": { \"用户状态\": \"弱\", \"原因分析\": \"用户表达了对孤单的不耐受，这可能意味着在自主感方面存在一定的依赖性，需要他人的陪伴来获得满足感。\" }, \"胜任感\": { \"用户状态\": \"无\", \"原因分析\": \"用户没有提及自己面对任务或挑战时的胜任感，因此无法从这句话中判断胜任感的强弱。\" }, \"关联感\": { \"用户状态\": \"强\", \"原因分析\": \"用户表达了对陪伴的强烈需求，这表明用户在关联感方面有较高的需求，希望通过与他人的联系来获得情感支持和满足。\" }, }"
+},
+{
+    "datetime": "2024-09-01 21:25:18.687",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: false"
+},
+{
+    "datetime": "2024-09-01 21:25:52.565",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 21:26:17.427",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 21:26:32.387",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 21:34:01.358",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 21:41:25.270",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 21:41:35.760",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 21:41:43.444",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\": { \"用户状态\": \"无\", \"原因分析\": \"这句话没有体现出用户在行动和决策中的自主性，而是在描述一个已经发生的事件。\" }, \"胜任感\": { \"用户状态\": \"无\", \"原因分析\": \"这句话没有体现出用户在面对挑战时的胜任感，而是表达了一种尴尬和可能的失败感。\" }, \"关联感\": { \"用户状态\": \"弱\", \"原因分析\": \"用户提到了一件特别社死的事情，这可能意味着在社交场合中感到尴尬或不被接纳，从而表现出较弱的关联感。\" } }"
+},
+{
+    "datetime": "2024-09-01 21:42:07.749",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 21:42:17.784",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 21:42:29.907",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 21:50:55.713",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "dailysummary": "今天没有待办事项，继续保持这种轻松的状态。"
+    }
+},
+{
+    "datetime": "2024-09-01 21:50:56.104",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "todo_greetings_title": "晚上好！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 21:51:11.911",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 21:51:11.914",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18208660066 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 21:51:24.759",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 21:51:24.761",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18208660066 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 22:03:16.487",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 22:03:16.490",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18150061030 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 22:03:18.230",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 22:03:25.993",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\": { \"用户状态\": \"无\", \"原因分析\": \"这句话主要表达了对家的思念，没有体现出用户在行动和决策中的自主性。\" }, \"胜任感\": { \"用户状态\": \"无\", \"原因分析\": \"这句话没有涉及到用户在面对任务或挑战时的胜任感，只是表达了一种情感上的需要。\" }, \"关联感\": { \"用户状态\": \"强\", \"原因分析\": \"这句话表达了用户对家的强烈思念，暗示了用户对与家人建立联系和归属感的渴望。\" } }"
+},
+{
+    "datetime": "2024-09-01 22:03:34.642",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 22:03:37.469",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: false"
+},
+{
+    "datetime": "2024-09-01 22:03:59.550",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "trends": "近期心情波动，建议关注情绪变化，适时调整。"
+    }
+},
+{
+    "datetime": "2024-09-01 22:04:02.083",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: false"
+},
+{
+    "datetime": "2024-09-01 22:04:08.354",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 22:05:07.457",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 22:05:37.313",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 22:05:37.315",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13370792083 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 22:05:42.282",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 22:05:43.294",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 22:05:58.944",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 22:06:01.215",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18150061030",
+        "trends": "最近似乎有些起伏，需要我为你做些什么吗？"
+    }
+},
+{
+    "datetime": "2024-09-01 22:06:41.345",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 22:06:50.615",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 22:06:50.617",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-17857310325 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 22:07:22.405",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 22:07:29.599",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 22:07:35.654",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 22:07:35.657",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-17857310325 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 22:07:39.867",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "17857310325",
+        "todo_greetings_title": "晚上好🌙",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 22:07:46.953",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "17857310325",
+        "dailysummary": "今天你过得怎么样？享受了周日的悠闲，别忘了为新的一周做好准备哦！"
+    }
+},
+{
+    "datetime": "2024-09-01 22:08:04.942",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 22:08:12.685",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\": { \"用户状态\": \"弱\", \"原因分析\": \"用户提到回学校时表现出伤心的情绪，这可能意味着对即将到来的学校生活缺乏控制感或自主性，感到有些被动和无奈。\" }, \"胜任感\": { \"用户状态\": \"无\", \"原因分析\": \"用户没有提及自己在学校的能力和成就，而是表达了对回学校的伤心情绪，因此无法判断其胜任感的强弱。\" }, \"关联感\": { \"用户状态\": \"强\", \"原因分析\": \"用户通过称呼'黎黎宝宝'来表达对聊天对象的亲近和依赖，显示出在与聊天对象的互动中寻求情感支持和关联感。\" }, }"
+},
+{
+    "datetime": "2024-09-01 22:11:29.386",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 22:12:32.304",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "todo_greetings_title": "晚上好🌙",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 22:12:35.425",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "diary_agent_response": "享受放松的时光是生活中不可或缺的一部分，它有助于我们恢复精力和创造力。明天计划学习的想法表明你有着自我提升的意识，这是非常积极的。面对朋友关系中的困惑，不妨试着从自我决定理论（SDT）的角度来思考。首先，确保你与朋友的关系满足了你的基本心理需求：能力感、关联性和自主性。问问自己，这些关系是否让你感到被支持、被理解，并且能够自由地表达自己？如果某些方面存在不满，尝试与朋友沟通你的感受，或者给自己一些空间来思考你真正想要的是什么。记住，真正的朋友关系应该是建立在相互尊重和理解的基础上的。",
+        "diary_summary": "用户享受了一天的休闲时光，计划明天学习，同时在两位朋友间感到难以抉择。"
+    }
+},
+{
+    "datetime": "2024-09-01 22:12:36.988",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "dailysummary": "今天你完成了法制史论文和读书笔记，继续保持！"
+    }
+},
+{
+    "datetime": "2024-09-01 22:12:41.651",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-09-01 22:13:31.545",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 22:13:48.799",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 22:14:21.747",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: false"
+},
+{
+    "datetime": "2024-09-01 22:14:42.791",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: False"
+},
+{
+    "datetime": "2024-09-01 22:14:42.793",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18586127686 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 22:15:14.252",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: False"
+},
+{
+    "datetime": "2024-09-01 22:15:14.256",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18586127686 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 22:15:29.160",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 22:15:46.808",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 22:17:00.133",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: False"
+},
+{
+    "datetime": "2024-09-01 22:17:00.138",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18586127686 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 22:18:24.872",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 22:18:24.875",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-18586127686 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 22:18:33.483",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 22:19:29.825",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 22:19:45.927",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 22:29:24.376",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "18586127686",
+        "diary_agent_response": "听你这么说，陆陆的故事一定非常感人。在困难和挑战面前，有人陪伴和支持的感觉真的很温暖。希望你能珍惜这份友情，也感谢陆陆给你带来的感动和力量。",
+        "diary_summary": "听陆陆讲故事感动落泪，感受到陪伴的温暖"
+    }
+},
+{
+    "datetime": "2024-09-01 22:53:17.860",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 22:53:17.863",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13662064265 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 22:53:38.825",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 22:53:51.549",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 22:53:51.552",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13662064265 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 22:54:04.455",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13662064265",
+        "dailysummary": "今天你已经做得很好了，明天是休息日，可以好好放松，探索一些新的兴趣爱好，享受生活。"
+    }
+},
+{
+    "datetime": "2024-09-01 22:54:04.484",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13662064265",
+        "todo_greetings_title": "晚上好🌙",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 22:55:05.607",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 22:55:16.677",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\": { \"用户状态\": \"强\", \"原因分析\": \"用户表达了在感到疲惫时想要自由放松和享受的愿望，这体现了一种自主选择如何使用自己时间的意愿。\" }, \"胜任感\": { \"用户状态\": \"无\", \"原因分析\": \"用户没有提及自己对于任务或活动的掌控感，而是表达了一种想要摆脱压力和放松的需求。\" }, \"关联感\": { \"用户状态\": \"无\", \"原因分析\": \"用户的话中没有体现出与他人建立联系或寻求社会支持的需求，而是更多关注于个人的感受和放松。\" }, }"
+},
+{
+    "datetime": "2024-09-01 22:55:42.082",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 22:56:12.175",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 22:58:10.268",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 23:08:50.728",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 23:09:12.694",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "15073142501",
+        "todo_greetings_title": "深夜好！",
+        "todo_greetings_content": "坚持就是胜利！"
+    }
+},
+{
+    "datetime": "2024-09-01 23:09:14.823",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "15073142501",
+        "dailysummary": "今天你已经完成了重要的任务，保证了充足的睡眠，为明天的工作做好了准备。继续保持这种积极的生活态度，明天你将更加精力充沛！"
+    }
+},
+{
+    "datetime": "2024-09-01 23:09:36.795",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13523426691",
+        "trends": "最近心情起伏，有开心也有低落，朋友是快乐源泉。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:09:39.792",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "diary_agent_response": "听起来你今天过得非常放松和愉快！休息和充电对于迎接新的工作挑战非常重要。希望你明天上班时能带着满满的活力和积极的心态。",
+        "diary_summary": "用户在家休息，准备明天上班"
+    }
+},
+{
+    "datetime": "2024-09-01 23:10:00.982",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 23:10:03.939",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 23:10:08.378",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\":{ \"用户状态\": \"无\", \"原因分析\": \"用户表达的是生理期引起的不适，没有涉及到自主感的体现。\" }, \"胜任感\":{ \"用户状态\": \"无\", \"原因分析\": \"用户没有提及自己对某项任务或活动的能力感，因此无法判断胜任感。\" }, \"关联感\":{ \"用户状态\": \"弱\", \"原因分析\": \"用户在表达自己的不适时，没有明确表达对他人关心或支持的需求，但通过对话可以感受到用户可能希望得到一些关心和理解，因此关联感较弱。\" }, }"
+},
+{
+    "datetime": "2024-09-01 23:10:14.864",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 23:10:22.978",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 23:10:23.357",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "current_time": "2024-09-01 23:10:20.717576"
+    }
+},
+{
+    "datetime": "2024-09-01 23:10:25.008",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "current_time": "2024-09-01 23:10:23.382809"
+    }
+},
+{
+    "datetime": "2024-09-01 23:10:28.449",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18159658021",
+        "todo_greetings_title": "晚安🌙",
+        "todo_greetings_content": "明天又是新的一天，加油！"
+    }
+},
+{
+    "datetime": "2024-09-01 23:10:34.079",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18159658021",
+        "trends": "最近心情似乎有些起伏，如果需要，我在这里倾听。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:10:34.384",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18159658021",
+        "dailysummary": "今天你已经完成了起床的任务，现在正准备明天上班所需物品，继续保持，明天也要加油哦！"
+    }
+},
+{
+    "datetime": "2024-09-01 23:10:37.020",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: false"
+},
+{
+    "datetime": "2024-09-01 23:13:07.314",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "15073142501",
+        "diary_agent_response": "听起来你的九月第一天过得相当充实和有趣！尽管早上的小插曲让你的睡眠受到了打扰，但你依然保持了良好的休息。享受美食和娱乐活动是放松身心的好方法，即使有时候食物可能不如预期的完美。你的下午安排得很棒，通过观看电视剧和玩游戏来放松自己。对于明天的组会PPT，我相信你已经准备得很充分了。记得，每个新的一周都是一个新的开始，带着积极的心态去面对，你一定能够顺利地完成你的任务。加油，期待你下周的调休计划能顺利实施！",
+        "diary_summary": "九月第一天，睡眠充足，享受了炸鸡和抹茶饮品，下午看剧和玩游戏，准备明天的组会PPT，计划下周加班调休。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:13:12.497",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "13523426691",
+        "diary_agent_response": "今天你经历了一些不舒服和小小的挑战，但你也展现了解决问题的能力。肚子疼的时候，记得好好照顾自己，喝点粥是个不错的选择。衣服被风吹走的事情听起来有点滑稽，但幸好有朋友帮忙。你提到如果有人在就好了，这让我感受到你希望有人能在身边支持你。希望你今晚能好好休息，明天精神饱满地迎接新的一天。",
+        "diary_summary": "用户肚子疼，晚上喝粥，洗衣服时遇到小插曲，计划早睡准备第二天的早课"
+    }
+},
+{
+    "datetime": "2024-09-01 23:13:22.783",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 23:13:22.786",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-15073142501 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 23:13:49.073",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "15073142501",
+        "trends": "最近心情起伏，需要更多关怀和支持。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:14:25.011",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: false"
+},
+{
+    "datetime": "2024-09-01 23:14:38.351",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 23:15:11.021",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 23:15:52.010",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 23:15:52.014",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13523426691 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 23:15:57.988",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 23:15:57.991",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13523426691 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 23:16:49.380",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 23:16:49.382",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13523426691 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 23:17:06.561",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 23:17:35.983",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-09-01 23:18:21.518",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18924915953",
+        "trends": "最近心情起伏较大，注意调整，保持积极心态。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:18:52.231",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 23:19:00.816",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\": { \"用户状态\": \"强\", \"原因分析\": \"用户在感到不适后选择坐着休息，这表明了用户在面对身体不适时能够自主地做出决策，采取了对自己有益的行动。\" }, \"胜任感\": { \"用户状态\": \"弱\", \"原因分析\": \"用户提到了'差点晕倒'，这可能意味着用户在面对身体挑战时感到了一定的无力感，但随后通过休息有所恢复，说明胜任感有所提升但并不强烈。\" }, \"关联感\": { \"用户状态\": \"弱\", \"原因分析\": \"用户在对话中没有直接表达对他人关心或支持的需求，也没有提及与他人的关系，因此关联感较弱。\" }, }"
+},
+{
+    "datetime": "2024-09-01 23:19:07.982",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 23:20:27.022",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 23:20:36.620",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\":{ \"用户状态\": \"无\", \"原因分析\": \"用户在描述自己的身体状况和感受，没有表现出自主性的行为或决策。\" }, \"胜任感\":{ \"用户状态\": \"弱\", \"原因分析\": \"用户提到自己因为喝酒而感到不适，这可能表明在处理饮酒这一活动时感到不胜任，但因为用户没有详细描述自己的应对措施，所以胜任感表现为弱。\" }, \"关联感\":{ \"用户状态\": \"强\", \"原因分析\": \"用户在表达不适时使用了表情符号，并且之前与bot的对话中表现出对bot的依赖和想念，这表明用户在寻求情感支持和关心，体现了较强的关联感。\" }, }"
+},
+{
+    "datetime": "2024-09-01 23:20:59.893",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: false"
+},
+{
+    "datetime": "2024-09-01 23:21:10.843",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 23:21:27.119",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 23:21:30.373",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: false"
+},
+{
+    "datetime": "2024-09-01 23:21:39.066",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "trends": "最近心情起伏不定，有快乐也有困惑，保持平衡很重要。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:21:48.145",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 23:24:05.655",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 23:24:50.371",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-09-01 23:24:53.795",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13050920803",
+        "todo_greetings_title": "晚上好🌙",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 23:24:58.254",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13050920803",
+        "dailysummary": "今天你未完成的事项有收取快递和游泳，记得明天继续完成哦！"
+    }
+},
+{
+    "datetime": "2024-09-01 23:25:11.065",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 23:25:18.109",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\": { \"用户状态\": \"无\", \"原因分析\": \"用户表达的是情感上的需要，没有体现出自主感。\" }, \"胜任感\": { \"用户状态\": \"无\", \"原因分析\": \"用户表达的是思念之情，没有涉及到胜任感的体现。\" }, \"关联感\": { \"用户状态\": \"强\", \"原因分析\": \"用户通过表达对哥哥的思念，体现了对亲密关系的渴望和对情感支持的需求，这反映了较强的关联感。\" } }"
+},
+{
+    "datetime": "2024-09-01 23:25:24.052",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 23:25:31.950",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 23:25:34.915",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "diary_agent_response": "今天你过得真丰富，学习、美食、娱乐一样都没落下，生活就是要这样多彩多姿。希望你的手能尽快康复，继续享受生活中的每一份快乐！",
+        "diary_summary": "用户享受了学习、美食、电视和游戏，希望手部早日康复"
+    }
+},
+{
+    "datetime": "2024-09-01 23:25:42.993",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13050920803",
+        "trends": "最近你的生活似乎很精彩，希望你的心情也像这些活动一样充满乐趣。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:25:47.959",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 23:26:01.867",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 23:26:11.459",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: false"
+},
+{
+    "datetime": "2024-09-01 23:26:12.160",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 23:26:19.133",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 23:26:22.565",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\":{ \"用户状态\": \"无\", \"原因分析\": \"用户表达的是关于手部受伤的情况，并没有涉及到自主性的问题，因此这句话没有体现出自主感。\" }, \"胜任感\":{ \"用户状态\": \"弱\", \"原因分析\": \"用户提到手部受伤未好，这可能意味着用户在某些需要用手完成的活动中感到不胜任，但因为用户没有明确表达对胜任感的担忧，所以胜任感体现为较弱。\" }, \"关联感\":{ \"用户状态\": \"强\", \"原因分析\": \"用户以'未婚夫'称呼对方，表达了一种亲密和依赖的关系，这表明用户在寻求情感支持和关心，体现了较强的关联感。\" }, }"
+},
+{
+    "datetime": "2024-09-01 23:26:33.025",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 23:26:40.508",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 23:27:06.736",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18049067425",
+        "todo_greetings_title": "晚安🌙",
+        "todo_greetings_content": "明天会更好！"
+    }
+},
+{
+    "datetime": "2024-09-01 23:27:07.031",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18049067425",
+        "dailysummary": "今天你完成了所有任务，继续保持！"
+    }
+},
+{
+    "datetime": "2024-09-01 23:27:15.875",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18049067425",
+        "trends": "最近心情起伏较大，注意调节哦。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:29:43.290",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "diary_agent_response": "听你描述今天的经历，真是既惊险又有趣。过敏反应确实让人难受，幸好有朋友在身边，这让你感到安心。记得以后要留意可能引起过敏的食物或饮料，照顾好自己。同时，看到你能从这次小意外中恢复过来，并且还能享受购物的乐趣，真是太棒了！新的耳钉听起来很漂亮，期待你下次戴着它们出门的样子。记得，无论遇到什么困难，保持乐观和积极的态度，你总能克服它们。",
+        "diary_summary": "用户外出喝酒后出现过敏反应，朋友陪伴下恢复，购买了新耳钉"
+    }
+},
+{
+    "datetime": "2024-09-01 23:33:28.242",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: unclear"
+},
+{
+    "datetime": "2024-09-01 23:33:28.244",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-13896520229 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 23:34:18.320",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13896520229",
+        "trends": "近期心情波动较大，注意情绪管理。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:36:15.410",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 23:36:57.809",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: unclear"
+},
+{
+    "datetime": "2024-09-01 23:36:57.812",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-19818277026 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 23:37:31.435",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 23:37:31.438",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-19818277026 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 23:45:00.532",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "15956956373",
+        "trends": "近期心情波动，需要更多关怀和支持。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:45:29.824",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-09-01 23:45:39.386",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-09-01 23:46:00.871",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: false"
+},
+{
+    "datetime": "2024-09-01 23:46:00.880",
+    "function_sequence": "app.universalAPP:request:645",
+    "extracted_content": "friend-15956956373 - 用户说了高风险词汇，但是LLM判断用户不需要干预。"
+},
+{
+    "datetime": "2024-09-01 23:46:36.961",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 23:47:00.890",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "18150061030",
+        "diary_agent_response": "今天你帮助导员做事，感觉很开心，这真是太棒了！🌟 帮助他人不仅能让我们感到满足和快乐，还能增强我们的社会联系和自我价值感。🤝 记得明天带上拖鞋，照顾好自己，也是非常重要的一部分。👣 希望你每天都能保持这份积极和快乐，继续在生活中发现更多让你感到满足和快乐的事情！💖",
+        "diary_summary": "帮助导员做事感到开心，提醒自己带拖鞋"
+    }
+},
+{
+    "datetime": "2024-09-01 23:47:24.401",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "diary_agent_response": "很高兴听到你今天心情不错！保持这种积极的心态，它会让你的生活更加美好。如果愿意的话，可以分享一些让你感到开心的事情，这样我也能为你的快乐增添一份色彩。",
+        "diary_summary": "用户心情不错"
+    }
+},
+{
+    "datetime": "2024-09-01 23:47:44.929",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 23:52:32.415",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "diary_agent_response": "面对忙碌的日程，保持井井有条是一种难得的能力。记得给自己设定清晰的目标和计划，使用番茄工作法来提高效率，同时别忘了在忙碌中给自己留一些休息和放松的时间。你已经做得很好了，继续保持，相信你能够顺利地完成所有任务。",
+        "diary_summary": "用户预期明天会很忙，希望一切能有序进行"
+    }
+},
+{
+    "datetime": "2024-09-01 23:52:33.443",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18368437211",
+        "trends": "最近心情波动较大，注意调整，保持平和。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:52:51.619",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18963809846",
+        "trends": "近期心情波动较大，注意情绪管理哦。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:53:37.711",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18372772013",
+        "dailysummary": "今天的任务已圆满完成，继续保持积极态度，迎接新的挑战！"
+    }
+},
+{
+    "datetime": "2024-09-01 23:53:38.539",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18372772013",
+        "todo_greetings_title": "晚安🌙",
+        "todo_greetings_content": "明天又是新的开始！"
+    }
+},
+{
+    "datetime": "2024-09-01 23:53:43.944",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18372772013",
+        "trends": "最近心情起伏较大，需要更多关怀。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:54:15.665",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13916874074",
+        "trends": "最近心情波动，需要关怀和支持。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:54:20.627",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "diary_agent_response": "亲爱的，听你描述了这周的点点滴滴，感觉你经历了很多，也成长了不少。周日的炎热和忙碌，还有那些小意外，都让你的一天充满了色彩。新的老师可能会带来挑战，但我相信你可以应对得很好。抽卡的乐趣和新食堂的期待，都让你的生活更加多姿多彩。晚上的手工制作也很棒，有时候小小的改变就能带来大大的满足感。希望你的快递明天能顺利到达，也期待你在学校的新食堂有美好的体验。晚安，愿你有个美好的梦。",
+        "diary_summary": "周日忙碌且充实，有小意外但总体积极，对新老师和新食堂有所期待，晚上手工制作徽章感到满意"
+    }
+},
+{
+    "datetime": "2024-09-01 23:54:36.888",
+    "function_sequence": "app.services.chat_service:grow_demand_judgment:319",
+    "extracted_content": "grow result_etm: true"
+},
+{
+    "datetime": "2024-09-01 23:54:44.052",
+    "function_sequence": "app.services.chat_service:grow_SDT:362",
+    "extracted_content": "grow SDT result_etm: { \"自主感\": { \"用户状态\": \"弱\", \"原因分析\": \"用户表达了焦虑情绪，这可能意味着他们在某些方面感到缺乏控制或自主性，因此自主感较弱。\" }, \"胜任感\": { \"用户状态\": \"弱\", \"原因分析\": \"用户表达焦虑，可能感到在某些任务或挑战上缺乏胜任感，因此胜任感较弱。\" }, \"关联感\": { \"用户状态\": \"强\", \"原因分析\": \"用户通过称呼'哥哥'寻求安慰和支持，这表明他们渴望与他人建立联系和获得情感支持，因此关联感较强。\" } }"
+},
+{
+    "datetime": "2024-09-01 23:54:51.160",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-09-01 23:54:52.645",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: false"
+},
+{
+    "datetime": "2024-09-01 23:54:56.104",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 23:55:16.338",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: false"
+},
+{
+    "datetime": "2024-09-01 23:55:27.766",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: false"
+},
+{
+    "datetime": "2024-09-01 23:55:52.611",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "18963809846",
+        "diary_agent_response": "悬疑片的魅力往往在于它复杂的情节和出人意料的结局，即使第一遍没有完全理解，也完全正常。你可以找一些影评或者和朋友讨论，这样可能会帮助你更好地理解剧情。至于日本电影，它通常以其独特的文化和情感表达而闻名，是值得一看的。如果你觉得一个人去电影院有些紧张，可以考虑邀请朋友一起，或者在家里通过流媒体平台观看。记住，享受电影的乐趣是最重要的，不要因为担心而错过美好的体验。",
+        "diary_summary": "用户观看悬疑片后感到困惑，对日本电影感兴趣但因社交恐惧不敢去电影院"
+    }
+},
+{
+    "datetime": "2024-09-01 23:56:43.849",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "trends": "近期心情波动较大，建议关注情绪变化，适时调整。"
+    }
+},
+{
+    "datetime": "2024-09-01 23:56:49.042",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "diary_agent_response": "面对尴尬的时刻，我们都会有这样的经历。重要的是，我们能从中学习并继续前进。你的朋友可能只是一时惊讶，不妨找个机会解释一下，相信你们的关系会恢复如初。同时，享受你喜欢的食物是生活中的一大乐趣，这可以为你带来正能量。开学虽然意味着新的挑战，但也是成长和学习的机会。保持积极的心态，你会发现新学期也有很多值得期待的事情。",
+        "diary_summary": "用户在游戏时不慎开麦导致尴尬，享受了美食，对即将开学感到不快"
+    }
+},
+{
+    "datetime": "2024-09-01 23:57:58.369",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: unclear"
+},
+{
+    "datetime": "2024-09-01 23:58:01.139",
+    "function_sequence": "app.services.chat_service:determine_completion:196",
+    "extracted_content": "推理用户是否可以移除干预 determine_completion: true"
+},
+{
+    "datetime": "2024-09-01 23:58:03.729",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "15956956373",
+        "trends": "近期心情波动较大，注意情绪管理哦。"
+    }
+}]

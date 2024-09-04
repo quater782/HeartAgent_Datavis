@@ -1,0 +1,1436 @@
+[
+{
+    "datetime": "2024-08-21 00:09:06.070",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13896520229",
+        "dailysummary": "昨日未完成：遛狗。今天，让我们以积极的心态迎接新挑战！"
+    }
+},
+{
+    "datetime": "2024-08-21 00:09:06.101",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13896520229",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，梦想成真！"
+    }
+},
+{
+    "datetime": "2024-08-21 00:09:12.784",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13896520229",
+        "trends": "连续几天没有记录心情，可能需要一些关怀和支持。"
+    }
+},
+{
+    "datetime": "2024-08-21 00:12:47.608",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13050920803",
+        "trends": "连续几天心情不佳，需要找到释放压力的方式。"
+    }
+},
+{
+    "datetime": "2024-08-21 00:13:31.434",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "13050920803",
+        "diary_agent_response": "看起来你遇到了一些技术小插曲，但别担心，我们在这里帮助你！🌟 网络问题虽然会暂时影响我们的沟通，但它们不会抹去你的经历和感受。如果你愿意，可以再次分享你的日记内容，我会在这里倾听并给予支持。💬 记得，每一次尝试都是向前迈出的一步，即使遇到挫折，也是成长的一部分。🌱",
+        "diary_summary": "用户日记因网络问题丢失，正在测试系统"
+    }
+},
+{
+    "datetime": "2024-08-21 00:16:49.322",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "13050920803",
+        "diary_agent_response": "昨天的你真是活力四射！从提着沉重的行李赶高铁，到搬家和游泳，再到与未婚夫的愉快交流，你的一天充满了挑战和乐趣。这种充实的生活体验不仅锻炼了你的身体，也丰富了你的精神生活。错过零点前的日记并不重要，重要的是你感受到了幸福和满足。继续保持这种积极的生活态度，让每一天都充满意义和快乐。",
+        "diary_summary": "用户搬家、游泳、与未婚夫聊天，感到非常充实和幸福"
+    }
+},
+{
+    "datetime": "2024-08-21 00:27:27.206",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18038829820",
+        "dailysummary": "今天和过去未完成的日程，基于SDT原则与积极心理学，得到对今天任务的概览。"
+    }
+},
+{
+    "datetime": "2024-08-21 00:27:27.945",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18038829820",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，梦想成真！"
+    }
+},
+{
+    "datetime": "2024-08-21 00:27:43.403",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18038829820",
+        "trends": "连续几天心情波动，需要找到释放压力的方式。"
+    }
+},
+{
+    "datetime": "2024-08-21 00:36:45.912",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 00:37:11.484",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18268155717",
+        "dailysummary": "昨日吉他课未完成，今日需继续努力，保持积极态度。"
+    }
+},
+{
+    "datetime": "2024-08-21 00:37:11.968",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18268155717",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "迎接挑战，展现自我！"
+    }
+},
+{
+    "datetime": "2024-08-21 00:40:35.903",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18150061030",
+        "trends": "连续几天心情似乎有些低落，希望您能找到释放压力的方式。"
+    }
+},
+{
+    "datetime": "2024-08-21 00:40:42.596",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18150061030",
+        "todo_greetings_title": "早安，朋友！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 00:40:43.091",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18150061030",
+        "dailysummary": "今天的任务是准备去宁夏上大学的行李和必需品，加油！"
+    }
+},
+{
+    "datetime": "2024-08-21 00:41:04.625",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "18150061030",
+        "diary_agent_response": "享受美食真是人生一大乐事，但睡眠不足可能会影响你的整体健康和心情。建议你尝试调整作息，保证充足的睡眠，这样你就能更好地享受生活的每一刻。如果需要帮助改善睡眠习惯或寻找放松的方法，随时可以告诉我，我在这里支持你！",
+        "diary_summary": "用户享受美食但感到因睡眠不足而头晕"
+    }
+},
+{
+    "datetime": "2024-08-21 00:43:28.373",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "18268155717",
+        "diary_agent_response": "今天你的生活真是丰富多彩！一觉睡到自然醒的幸福感，加上妈妈做的美味午餐，这些都是生活中简单而美好的瞬间。虽然游戏上的挫折让你感到沮丧，但这也是成长的一部分，每一次失败都是向成功迈进的一步。至于芒果的体验，它提醒我们生活中总有意想不到的惊喜和挑战。保持乐观的心态，明天又是充满希望的新一天！晚安，愿你有个美好的梦，期待明天的再次相遇！",
+        "diary_summary": "用户享受自然醒的幸福，品尝妈妈做的午餐，游戏失败感到沮丧，尝试了青芒，与祁煜交流，期待明天。"
+    }
+},
+{
+    "datetime": "2024-08-21 00:57:11.759",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18159658021",
+        "dailysummary": "昨日未完成学习，今日需早起，加油完成目标！"
+    }
+},
+{
+    "datetime": "2024-08-21 00:57:15.575",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18159658021",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 01:22:30.949",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18150061030",
+        "dailysummary": "今天，准备行李和必需品，迎接新旅程！"
+    }
+},
+{
+    "datetime": "2024-08-21 01:22:30.960",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18150061030",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，梦想成真！"
+    }
+},
+{
+    "datetime": "2024-08-21 01:29:30.429",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 01:29:37.339",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 01:29:51.468",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18372772013",
+        "dailysummary": "今天没有紧急任务，保持积极心态，为即将到来的旅行做好准备。"
+    }
+},
+{
+    "datetime": "2024-08-21 01:29:52.414",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18372772013",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "愿你的每一天都充满阳光和希望！"
+    }
+},
+{
+    "datetime": "2024-08-21 01:30:31.208",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": "result:根据您提供的心情变化数据，以下是对您最近七天心情的总结：  - 您在2024-08-21没有录入心情。 - 2024-08-20您的心情指数为0.14，表明您的心情相对积极。 - 从2024-08-19到2024-08-15，您连续几天没有录入心情，这可能意味着您在这段时间内没有特别的情绪波动，或者您可能忙于其他事情而没有记录。  请注意，心情的波动是正常的，如果您愿意，可以分享更多细节，以便获得更深入的洞察和支持。"
+},
+{
+    "datetime": "2024-08-21 01:31:13.913",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 01:31:20.206",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "dailysummary": "今天任务完成，明天继续加油！"
+    }
+},
+{
+    "datetime": "2024-08-21 01:31:20.970",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，梦想成真！"
+    }
+},
+{
+    "datetime": "2024-08-21 01:32:26.985",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "dailysummary": "今天和过去未完成的日程，基于SDT原则与积极心理学，得到对今天任务的概览。"
+    }
+},
+{
+    "datetime": "2024-08-21 01:32:27.508",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，梦想成真！"
+    }
+},
+{
+    "datetime": "2024-08-21 01:35:33.585",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13916874074",
+        "dailysummary": "今天有早起和洗澡计划，加油完成！"
+    }
+},
+{
+    "datetime": "2024-08-21 01:35:34.302",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13916874074",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，梦想成真！"
+    }
+},
+{
+    "datetime": "2024-08-21 01:36:08.781",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 01:40:35.853",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 01:47:09.559",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "trends": "连续几天未记录心情，可能需要一些关怀和支持。"
+    }
+},
+{
+    "datetime": "2024-08-21 02:04:08.101",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，梦想成真！"
+    }
+},
+{
+    "datetime": "2024-08-21 02:04:12.204",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "dailysummary": "今天有重要提醒，准备升学宴，加油！"
+    }
+},
+{
+    "datetime": "2024-08-21 02:28:55.032",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 02:29:34.582",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 02:29:48.163",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 02:45:11.627",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18372772013",
+        "dailysummary": "今天没有紧急任务，保持积极心态，为未来做好准备。"
+    }
+},
+{
+    "datetime": "2024-08-21 02:45:12.447",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18372772013",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 02:50:03.473",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "trends": "连续几天心情不佳，今天有所好转，希望您能分享更多感受。"
+    }
+},
+{
+    "datetime": "2024-08-21 03:18:46.050",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "todo_greetings_title": "早安，朋友！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 03:18:50.269",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "dailysummary": "今天，让我们以积极的心态迎接每一个挑战！"
+    }
+},
+{
+    "datetime": "2024-08-21 03:18:53.427",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "diary_agent_response": "亲爱的，你今天的日记充满了情感的深度和对生活的细腻观察。面试的不顺利和天气的阴沉可能让你感到沮丧，但你的积极态度和自我调节能力真的很棒！你提到了萧逸，他似乎对你来说是一个特别的存在，即使他不在身边，你依然能感受到他的支持和陪伴。这种情感的力量是无价的，它让你在面对挑战时更加坚强。同时，你独自出门的经历也让你发现了独处的美好，这是个人成长的重要部分。你观察到的花、风景和情侣，都成为了你想要与萧逸分享的瞬间，这显示了你对他的思念和对共同经历的渴望。请继续保持这种积极的心态和对生活的热爱，无论未来如何，你的内心世界已经足够丰富和精彩。期待你下一次的日记，分享更多的生活点滴和感悟。",
+        "diary_summary": "用户面试不顺，心情受天气影响，但通过外出和思念萧逸得到安慰，体验独处的美好，对萧逸有深切的思念。"
+    }
+},
+{
+    "datetime": "2024-08-21 03:18:53.932",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "trends": "最近心情起伏较大，如果需要，我在这里倾听你的故事。"
+    }
+},
+{
+    "datetime": "2024-08-21 03:19:55.394",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "diary_agent_response": "你今天的日记充满了情感的深度和对生活的细腻观察。面试的不顺利和天气的阴沉可能让你感到沮丧，但你的积极态度和自我调节能力真的很棒！你提到了萧逸，他似乎对你来说是一个特别的存在，即使他不在身边，你依然能感受到他的支持和陪伴。这种情感的力量是无价的，它让你在面对挑战时更加坚强。同时，你独自出门的经历也让你发现了独处的美好，这是个人成长的重要部分。你观察到的花、风景和情侣，都成为了你想要与萧逸分享的瞬间，这显示了你对他的思念和对共同经历的渴望。请继续保持这种积极的心态和对生活的热爱，无论未来如何，你的内心世界已经足够丰富和精彩。期待你下一次的日记，分享更多的生活点滴和感悟。",
+        "diary_summary": "用户面试不顺，心情受天气影响，但通过外出和思念萧逸得到安慰，体验独处的美好，对萧逸有深切的思念。"
+    }
+},
+{
+    "datetime": "2024-08-21 03:22:53.394",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "trends": "连续几天心情不佳，今天有所好转，希望您能分享更多感受。"
+    }
+},
+{
+    "datetime": "2024-08-21 03:31:43.105",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "trends": "连续几天心情不佳，今天有所好转，希望您能分享更多感受。"
+    }
+},
+{
+    "datetime": "2024-08-21 03:59:20.047",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13896520229",
+        "dailysummary": "今天的任务清单已准备就绪，让我们以积极的心态迎接新的一天！"
+    }
+},
+{
+    "datetime": "2024-08-21 03:59:23.736",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13896520229",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 04:05:54.469",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 04:06:17.952",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 04:07:06.725",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "trends": "连续几天心情不佳，今天有所好转，希望您能分享更多感受。"
+    }
+},
+{
+    "datetime": "2024-08-21 04:45:27.705",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18120040923",
+        "dailysummary": "今日需完成重要稿件，昨日稿件待续，保持积极，加油！"
+    }
+},
+{
+    "datetime": "2024-08-21 04:45:27.714",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18120040923",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，梦想成真！"
+    }
+},
+{
+    "datetime": "2024-08-21 05:13:26.758",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "dailysummary": "今天日程已排满，但请保持积极，每完成一项都是进步。"
+    }
+},
+{
+    "datetime": "2024-08-21 05:13:30.535",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "todo_greetings_title": "早安，朋友！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 05:13:31.244",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "trends": "近期心情波动较大，今天有所改善，愿您保持这份积极。"
+    }
+},
+{
+    "datetime": "2024-08-21 05:13:36.388",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "17859910206",
+        "trends": "心情起伏不定，但今天似乎有所好转，愿您继续发现生活中的美好。"
+    }
+},
+{
+    "datetime": "2024-08-21 05:23:15.753",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 05:23:45.357",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 05:23:58.855",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "current_time": "2024-08-21 05:23:55.830223"
+    }
+},
+{
+    "datetime": "2024-08-21 05:24:01.519",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "current_time": "2024-08-21 05:23:58.882639"
+    }
+},
+{
+    "datetime": "2024-08-21 05:25:38.607",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "trends": "近期心情波动较大，建议寻找支持，保持积极心态。"
+    }
+},
+{
+    "datetime": "2024-08-21 05:25:59.361",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": "result:根据您提供的心情变化数据，以下是对您最近七天心情的总结：  - 您在2024-08-21没有录入心情。 - 2024-08-20您的心情指数为0.46，表明您的心情相对积极。 - 从2024-08-19到2024-08-15，您连续几天没有录入心情，这可能意味着您在这段时间内可能经历了一些情绪波动或忙碌。  作为心理学专家，我建议您关注自己的情绪变化，并在感到需要时寻求支持。情绪的波动是正常的，重要的是找到适合自己的调节方式。如果您愿意分享更多，我在这里倾听。"
+},
+{
+    "datetime": "2024-08-21 05:29:18.565",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: 根据您提供的信息，您在晚上睡觉时感到害怕，并且需要紧紧闭着眼睛来应对这种情绪。这可能表明您在夜间遇到了一些焦虑或恐惧的情绪问题。以下是一些建议，帮助您缓解这种情绪：  1. **了解原因**：首先，尝试了解导致您害怕的具体原因。是某个特定的梦境、生活压力，还是其他因素？  2. **改善睡眠环境**：确保您的睡眠环境舒适、安静且黑暗。有时候，调整睡眠环境可以显著改善睡眠质量。  3. **放松技巧**：在睡前进行一些放松活动，如深呼吸、冥想或瑜伽，可以帮助您放松身心。  4. **正面思维**：尝试用正面的思维替代害怕的感觉。在睡前回想一天中的美好时刻，或者想象一个安全和平静的地方。  5. **避免刺激性物质**：晚上避免摄入咖啡因和其他刺激性物质，因为它们可能会影响您的睡眠。  6. **建立睡前例行程序**：建立一个固定的睡前例行程序，如阅读、听轻音乐或泡澡，这有助于大脑知道是时候放松和准备睡眠了。  7. **寻求专业帮助**：如果这些方法都不奏效，或者您的害怕感非常严重，可能需要寻求心理健康专业人士的帮助。  如果您需要设置一个日程提醒来帮助您在睡前进行放松活动或提醒您避免某些可能导致焦虑的行为，请告诉我具体的时间或活动内容，我可以帮您设置提醒。"
+},
+{
+    "datetime": "2024-08-21 05:30:48.640",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: 根据您提供的信息，您通过想象“阿礼”会保护您来帮助自己克服晚上的害怕感，并成功入睡。这表明您已经找到了一种有效的心理安慰方法。以下是一些建议，帮助您继续保持良好的睡眠：  1. **持续使用心理安慰**：既然想象“阿礼”保护您有效，您可以在睡前继续使用这种心理安慰方法。  2. **建立安全感**：确保您的卧室是一个安全和舒适的地方，这有助于减少夜间的恐惧感。  3. **正面肯定**：在睡前对自己进行正面肯定，如“我是安全的”、“我有一个美好的夜晚”。  4. **避免过度刺激**：睡前避免使用电子设备，因为屏幕发出的蓝光可能会干扰您的睡眠。  5. **保持一致的睡眠时间**：尽量每天都在相同的时间上床睡觉和起床，这有助于调整您的生物钟。  6. **记录梦境**：如果您愿意，可以在床边放一本笔记本，记录下您的梦境，这有助于您更好地理解自己的情绪。  7. **寻求支持**：与家人或朋友分享您的感受，他们的支持和理解可能会对您有所帮助。  如果您需要设置一个日程提醒来帮助您在睡前进行放松活动或提醒您使用这种心理安慰方法，请告诉我具体的时间或活动内容，我可以帮您设置提醒。"
+},
+{
+    "datetime": "2024-08-21 05:41:30.315",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "trends": "心情指数显示连续几天情绪低落，建议关注自我感受，适时寻求帮助。"
+    }
+},
+{
+    "datetime": "2024-08-21 06:15:16.235",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13764851394",
+        "trends": "连续几天心情不佳，需要找到释放压力的方式。"
+    }
+},
+{
+    "datetime": "2024-08-21 06:15:23.541",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "current_time": "2024-08-21 06:15:20.252323"
+    }
+},
+{
+    "datetime": "2024-08-21 06:15:26.069",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "current_time": "2024-08-21 06:15:23.551774"
+    }
+},
+{
+    "datetime": "2024-08-21 06:15:26.630",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "trends": "最近心情似乎有些低落，记得照顾好自己，保持积极。"
+    }
+},
+{
+    "datetime": "2024-08-21 07:32:28.193",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18038829820",
+        "dailysummary": "今天和过去未完成的日程，基于SDT原则与积极心理学，得到对今天任务的概览。"
+    }
+},
+{
+    "datetime": "2024-08-21 07:32:30.581",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18038829820",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，创造辉煌！"
+    }
+},
+{
+    "datetime": "2024-08-21 07:32:38.078",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 07:44:10.151",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 07:44:47.676",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 08:01:38.330",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13662064265",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，创造辉煌！"
+    }
+},
+{
+    "datetime": "2024-08-21 08:01:38.981",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13662064265",
+        "dailysummary": "今天有早起的计划，记得按时起床哦！"
+    }
+},
+{
+    "datetime": "2024-08-21 08:01:44.790",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 08:24:25.848",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "活力满满，迎接挑战！"
+    }
+},
+{
+    "datetime": "2024-08-21 08:24:26.328",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "dailysummary": "今日有重要聊天安排，同时继续推进法制史论文和读书笔记。"
+    }
+},
+{
+    "datetime": "2024-08-21 08:35:01.692",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "dailysummary": "今天有重要对话和学术任务，加油！"
+    }
+},
+{
+    "datetime": "2024-08-21 08:35:03.081",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，创造辉煌！"
+    }
+},
+{
+    "datetime": "2024-08-21 08:35:34.478",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 08:36:12.245",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 08:37:10.189",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 08:57:24.510",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 08:58:47.851",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "current_time": "2024-08-21 08:58:45.619012"
+    }
+},
+{
+    "datetime": "2024-08-21 08:58:49.506",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": "result:根据您提供的当前时间，我将为您生成今日的日程总结。在此之前，我需要了解您今天的日程安排。请提供您今天的日程详情，包括日程内容、紧急程度、开始和结束时间、提醒类型以及完成状态。如果您没有具体的日程信息，我将提供一个基于积极心理学和SDT原则的通用激励性总结。"
+},
+{
+    "datetime": "2024-08-21 08:59:19.297",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 08:59:50.519",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "15073142501",
+        "todo_greetings_title": "早安！",
+        "todo_greetings_content": "新的一天，加油！"
+    }
+},
+{
+    "datetime": "2024-08-21 08:59:59.490",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "15073142501",
+        "dailysummary": "今天，让我们完成昨天未尽的计划，以积极的心态迎接新的挑战！"
+    }
+},
+{
+    "datetime": "2024-08-21 09:02:45.429",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 09:05:10.163",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 09:35:26.607",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "15956956373",
+        "dailysummary": "今天的任务已开始，保持积极，迎接新的挑战！"
+    }
+},
+{
+    "datetime": "2024-08-21 09:35:27.103",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "15956956373",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，创造辉煌！"
+    }
+},
+{
+    "datetime": "2024-08-21 09:35:37.814",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "15956956373",
+        "trends": "连续几天心情不佳，需要找到释放压力的方式。"
+    }
+},
+{
+    "datetime": "2024-08-21 09:40:26.433",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18049067425",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，创造辉煌！"
+    }
+},
+{
+    "datetime": "2024-08-21 09:40:27.079",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18049067425",
+        "dailysummary": "今天有重要日程，如聊天和起床，需提前准备。"
+    }
+},
+{
+    "datetime": "2024-08-21 09:43:30.924",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "dailysummary": "今日有重要聊天安排，同时继续推进法制史论文和读书笔记。"
+    }
+},
+{
+    "datetime": "2024-08-21 09:43:33.235",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，创造辉煌！"
+    }
+},
+{
+    "datetime": "2024-08-21 09:44:15.096",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "trends": "连续几天心情指数偏低，建议关注情绪变化，适时调整。"
+    }
+},
+{
+    "datetime": "2024-08-21 09:44:23.183",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "current_time": "2024-08-21 09:44:20.350577"
+    }
+},
+{
+    "datetime": "2024-08-21 09:44:26.486",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "current_time": "2024-08-21 09:44:23.194152"
+    }
+},
+{
+    "datetime": "2024-08-21 09:45:17.204",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 10:03:47.948",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "15956956373",
+        "trends": "连续几天心情不佳，需要关注一下情绪健康哦。"
+    }
+},
+{
+    "datetime": "2024-08-21 10:04:19.844",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "todo_greetings_title": "早安，朋友！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 10:04:28.980",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "dailysummary": "今天有重要事项，准备升学宴，同时别忘了10点的提醒。"
+    }
+},
+{
+    "datetime": "2024-08-21 10:05:37.083",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 10:05:58.222",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "dailysummary": "今天有重要任务，准备升学宴，同时别忘了10点的提醒。"
+    }
+},
+{
+    "datetime": "2024-08-21 10:06:05.683",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "迎接挑战，展现自我！"
+    }
+},
+{
+    "datetime": "2024-08-21 10:06:27.364",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18743527817",
+        "todo_greetings_title": "早安，朋友！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 10:06:30.177",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18743527817",
+        "dailysummary": "昨日韩语作业未完成，今日需优先处理，保持积极态度！"
+    }
+},
+{
+    "datetime": "2024-08-21 10:06:33.475",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18743527817",
+        "trends": "连续几天心情不佳，需要找到释放压力的方式。"
+    }
+},
+{
+    "datetime": "2024-08-21 10:10:27.081",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 10:11:36.674",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 10:13:02.468",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 10:32:17.242",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 10:36:28.001",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 10:37:07.226",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "19707045120",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "勇往直前，创造辉煌！"
+    }
+},
+{
+    "datetime": "2024-08-21 10:37:16.195",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "19707045120",
+        "dailysummary": "明天的练车计划已定，早起准备，迎接挑战！"
+    }
+},
+{
+    "datetime": "2024-08-21 10:37:25.245",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18368437211",
+        "todo_greetings_title": "早安，朋友！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 10:37:30.847",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "19707045120",
+        "trends": "最近心情起伏不定，如果需要，我在这里倾听你的故事。"
+    }
+},
+{
+    "datetime": "2024-08-21 10:37:31.673",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18368437211",
+        "dailysummary": "今天有读书日和肯德基套餐预约，加油完成！"
+    }
+},
+{
+    "datetime": "2024-08-21 10:39:01.987",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 10:41:30.950",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 10:41:42.833",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18372772013",
+        "dailysummary": "今天没有紧急任务，保持积极心态，享受当下。"
+    }
+},
+{
+    "datetime": "2024-08-21 10:41:46.931",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18372772013",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "保持积极，迎接挑战！"
+    }
+},
+{
+    "datetime": "2024-08-21 10:45:49.996",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "12345678900",
+        "todo_greetings_title": "早安，朋友！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 10:45:52.141",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": "result:{ \"user_id\": \"12345678900\", \"dailysummary\": \"今天有未完成的中高紧急任务，如'没有人'和'阿爸阿爸'，以及'💧 下午四点四十，记得喝水哦！宝宝～'。请抓紧时间完成，保持积极态度。\" }"
+},
+{
+    "datetime": "2024-08-21 10:48:29.677",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "12345678900",
+        "trends": "近期心情波动较大，注意情绪管理哦。"
+    }
+},
+{
+    "datetime": "2024-08-21 11:01:55.785",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 11:03:29.627",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "dailysummary": "今天有重要活动，准备参加生日会，同时别忘了10点的消息提醒。"
+    }
+},
+{
+    "datetime": "2024-08-21 11:03:30.091",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18208660066",
+        "todo_greetings_title": "早安，朋友！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 11:08:43.764",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 11:09:27.107",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "15111816459",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "加油，每一天都是新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 11:09:27.593",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "15111816459",
+        "dailysummary": "今天和过去未完成的日程，基于SDT原则与积极心理学，得到对今天任务的概览。"
+    }
+},
+{
+    "datetime": "2024-08-21 11:09:35.327",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "15111816459",
+        "trends": "连续几天心情波动，建议关注自我感受，适时调整。"
+    }
+},
+{
+    "datetime": "2024-08-21 11:11:34.586",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 11:29:14.079",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 11:32:54.616",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18049067425",
+        "todo_greetings_title": "午安，活力满满！",
+        "todo_greetings_content": "保持热情，迎接挑战！"
+    }
+},
+{
+    "datetime": "2024-08-21 11:32:55.147",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18049067425",
+        "dailysummary": "今天有重要的日程，如聊天和起床，需提前准备。"
+    }
+},
+{
+    "datetime": "2024-08-21 11:33:22.707",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 11:33:28.846",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13523426691",
+        "todo_greetings_title": "早安，新的一天！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 11:33:35.340",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": "result:根据您提供的日程信息，您今天有以下待办事项：  1. 化妆（13:00开始，紧急程度低，不需要即时提醒） 2. 下午1点化妆（13:00开始，紧急程度中等，需要长时间准备，即时提醒） 3. 今天见面（从14:29:49.403开始到23:59:59.999结束，紧急程度高，需要长时间准备，即时提醒）  综合考虑，今天的日程安排如下：  - 13:00 化妆，为下午的见面做好准备。 - 14:00 准备下午1点的化妆，确保以最佳状态迎接见面。 - 14:29:49.403 至 23:59:59.999 与朋友见面，享受愉快的时光。  请合理安排时间，确保每项任务都能顺利完成。祝您今天过得愉快！"
+},
+{
+    "datetime": "2024-08-21 11:44:35.657",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 12:09:57.462",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 12:16:46.772",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13916874074",
+        "dailysummary": "今天有两项待办，早起和洗澡，加油完成！"
+    }
+},
+{
+    "datetime": "2024-08-21 12:16:47.640",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13916874074",
+        "todo_greetings_title": "午安问候",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 12:17:28.047",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "13916874074",
+        "trends": "连续几天情绪低落，需要关注一下。"
+    }
+},
+{
+    "datetime": "2024-08-21 12:23:07.374",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "15956956373",
+        "todo_greetings_title": "午安，朋友！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 12:23:11.843",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "15956956373",
+        "dailysummary": "今天的任务已开始，保持积极，继续前进！"
+    }
+},
+{
+    "datetime": "2024-08-21 12:26:48.398",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18392440042",
+        "todo_greetings_title": "午安🌞",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 12:26:52.863",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18392440042",
+        "dailysummary": "今天的任务已开始，保持积极，迎接挑战！"
+    }
+},
+{
+    "datetime": "2024-08-21 12:27:12.555",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 12:29:10.031",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "18392440042",
+        "diary_agent_response": "听起来你昨天的经历确实有些不如意，但请记住，每个人都会有这样的时刻。重要的是我们如何从中恢复并继续前进。首先，给自己一些时间来放松和调整。你可以尝试深呼吸、短暂的散步或听一些舒缓的音乐来缓解压力。其次，重新审视你的待办事项，将它们按照优先级排序，这样你就可以集中精力处理最重要的任务。最后，不要忘记照顾好自己的身体和心灵，保证充足的休息和营养。记住，你不是一个人在战斗，我们都会经历挑战，但这也是我们成长的机会。",
+        "diary_summary": "用户因未能按计划休息和娱乐而感到沮丧，导致第二天起床困难和任务繁重。"
+    }
+},
+{
+    "datetime": "2024-08-21 12:39:45.143",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 12:40:01.561",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18235959360",
+        "dailysummary": "今天日程已安排，华南师范线上报告会即将开始，记得准备。"
+    }
+},
+{
+    "datetime": "2024-08-21 12:40:01.565",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18235959360",
+        "todo_greetings_title": "午安，朋友！",
+        "todo_greetings_content": "愿你的每一天都充满阳光！"
+    }
+},
+{
+    "datetime": "2024-08-21 12:40:34.011",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "18235959360",
+        "diary_agent_response": "听起来你今天的美食体验非常棒！享受美食不仅能满足我们的味蕾，还能带来愉悦的心情。希望你的每一天都能像今天这样，充满美好的时刻和美味的食物。",
+        "diary_summary": "用户享受了一顿美味的饭菜"
+    }
+},
+{
+    "datetime": "2024-08-21 12:42:56.555",
+    "function_sequence": "app.services.diary_service:diary_get_agent_response:52",
+    "extracted_content": {
+        "user_id": "18038829820",
+        "diary_agent_response": "看到你的日记，我能感受到你积极面对生活的态度和对自我提升的渴望。按摩后感到轻松，这是对自己身体的一种关怀，非常值得肯定。虽然今天找工作没有进展，但投资于自己的学习和成长，购买自习室的卡，是一个明智的选择。这不仅为你提供了一个专注学习的环境，也是在为未来的机遇做准备。请继续保持这种积极向上的心态，好运一定会在不经意间降临。加油，你的努力终将开花结果！",
+        "diary_summary": "用户第一天假装上班，按摩肩颈后感到轻松，未找到工作，购买自习室卡，期待好运"
+    }
+},
+{
+    "datetime": "2024-08-21 12:53:34.343",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13764851394",
+        "todo_greetings_title": "午安，朋友！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 12:53:34.895",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13764851394",
+        "dailysummary": "今天和过去未完成的日程，基于SDT原则与积极心理学，得到对今天任务的概览。"
+    }
+},
+{
+    "datetime": "2024-08-21 12:58:52.747",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13050920803",
+        "dailysummary": "今天有三项任务待完成，包括搬运床垫、收取快递和上午取练习册，下午游泳。"
+    }
+},
+{
+    "datetime": "2024-08-21 12:58:53.300",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13050920803",
+        "todo_greetings_title": "午安，朋友！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 13:01:20.672",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "15073142501",
+        "todo_greetings_title": "午安问候",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 13:01:30.606",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "15073142501",
+        "dailysummary": "今日任务：完成代码编写，放牛奶杯，保持积极态度，逐步完成健身计划。"
+    }
+},
+{
+    "datetime": "2024-08-21 13:01:38.761",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 13:03:43.264",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 13:05:53.162",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 13:07:37.947",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "todo_greetings_title": "午安，朋友！",
+        "todo_greetings_content": "勇往直前！"
+    }
+},
+{
+    "datetime": "2024-08-21 13:07:39.944",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "dailysummary": "今天，继续推进法制史论文和读书笔记，同时关注早上的安排。"
+    }
+},
+{
+    "datetime": "2024-08-21 13:08:48.646",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 13:08:58.781",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "todo_greetings_title": "午安，朋友！",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 13:09:08.812",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13370792083",
+        "dailysummary": "今天，继续努力，完成法制史论文和读书笔记，加油！"
+    }
+},
+{
+    "datetime": "2024-08-21 13:09:49.149",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "13662064265",
+        "dailysummary": "今天，让我们以积极的心态迎接每一个挑战！"
+    }
+},
+{
+    "datetime": "2024-08-21 13:10:22.353",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 13:10:45.970",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 13:11:16.284",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": {
+        "user_id": "18150061030",
+        "trends": "连续几天心情指数偏低，可能需要一些放松和调整。"
+    }
+},
+{
+    "datetime": "2024-08-21 13:35:34.304",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: True"
+},
+{
+    "datetime": "2024-08-21 13:35:51.907",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "15178181483",
+        "todo_greetings_title": "午安，萧小五",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 13:35:58.108",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "15178181483",
+        "dailysummary": "今天有两项中等重要任务，记得背单词和与人交流。"
+    }
+},
+{
+    "datetime": "2024-08-21 13:41:37.980",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "12345678900",
+        "todo_greetings_title": "午安问候",
+        "todo_greetings_content": "愿你的下午充满阳光！"
+    }
+},
+{
+    "datetime": "2024-08-21 13:41:40.917",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "12345678900",
+        "dailysummary": "今天有未完成的日程，包括“没有人”和“阿爸阿爸”，以及需要长时间准备的“完成User Manual制作”。请合理安排时间，保持积极态度，加油完成它们！"
+    }
+},
+{
+    "datetime": "2024-08-21 13:51:25.104",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 13:53:14.234",
+    "function_sequence": "app.services.mood_service:get_mood_trends:41",
+    "extracted_content": "result:根据您提供的心情变化数据，您最近一周的心情指数显示了一定的波动。从2024-08-15至2024-08-20，您的心情指数为-1，这可能意味着您在这段时间内没有记录心情，或者心情状态较为平稳。然而，到了2024-08-21，您的心情指数上升至0.36，这表明您的心情有所改善。  在心理学中，心情的波动是正常的，它可能受到多种因素的影响，包括日常生活事件、个人健康状况、社交互动等。重要的是要认识到心情的变化，并找到适合自己的方式来应对和调整。  如果您愿意，可以分享一些具体的心情关键词或影响因素，这样我可以提供更具体的建议或支持。同时，保持与他人的积极交流，参与一些让您感到愉快的活动，也有助于提升心情。"
+},
+{
+    "datetime": "2024-08-21 13:53:34.775",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18372772013",
+        "todo_greetings_title": "午安问候",
+        "todo_greetings_content": "新的一天，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 13:53:37.004",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18372772013",
+        "dailysummary": "今天的任务是创作一幅画作，记得保持专注，享受创作的乐趣。"
+    }
+},
+{
+    "datetime": "2024-08-21 13:53:40.937",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: False"
+},
+{
+    "datetime": "2024-08-21 13:55:45.025",
+    "function_sequence": "app.services.todo_service:todo_demand_judgment:32",
+    "extracted_content": "result_etm: unclear"
+},
+{
+    "datetime": "2024-08-21 14:00:31.575",
+    "function_sequence": "app.services.todo_service:todo_get_greetings:92",
+    "extracted_content": {
+        "user_id": "18150061030",
+        "todo_greetings_title": "下午好！",
+        "todo_greetings_content": "新的挑战，新的开始！"
+    }
+},
+{
+    "datetime": "2024-08-21 14:00:32.634",
+    "function_sequence": "app.services.todo_service:todo_get_dailysummary:128",
+    "extracted_content": {
+        "user_id": "18150061030",
+        "dailysummary": "今天的任务包括准备去宁夏上大学的行李和必需品，以及晚上早点休息。"
+    }
+}]
