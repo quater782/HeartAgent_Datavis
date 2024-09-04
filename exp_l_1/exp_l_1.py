@@ -304,6 +304,14 @@ print(f"bpn{len(bpn_end)}")
 print(f"bpn{len(bpn_mid)}")
 print(f"bpn{len(bpn_start)}")
 
+for i in range(len(resili_end_json)):
+    print(f"{resili_end_json[i]['user_id']}\n{resili_start_json[i]['user_id']}\n\n")
+
+for i in range(len(bpn_end_json)):
+    print(f"{bpn_end_json[i]['user_id']}\n{bpn_start_json[i]['user_id']}\n\n")
+
+
+
 '''线性回归'''
 
 # import pandas as pd
