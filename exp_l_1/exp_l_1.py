@@ -162,7 +162,7 @@ def UW_extract_stats_and_test(df1, df2, name):
             'Trend': trend
         }
         # 指定要写入的文件名
-    filename = f'UW分位报告_{name}.txt'
+    filename = f'SW_ttest_report_{name}.txt'
 
     # 使用 'with' 语句打开文件，确保正确关闭文件
     with open(filename, 'w', encoding='utf-8') as file:
