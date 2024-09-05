@@ -138,6 +138,14 @@ def UW_extract_stats_and_test(df1, df2, name):
         if stats2['mean'] > stats1['mean']:
             trend = f"{trend}, 均值增大"
 
+        if p_value<0.01:
+            trend = f"(**)极显著 {trend}"
+        elif p_value<0.05:
+            trend = f"(*)显著 {trend}"
+        elif p_value<0.1:
+            trend = f"(-)轻微显著 {trend}"
+
+
         results[question] = {
             'start_Mean': stats1['mean'],
             'start_SD': stats1['std'],
@@ -154,7 +162,7 @@ def UW_extract_stats_and_test(df1, df2, name):
             'Trend': trend
         }
         # 指定要写入的文件名
-    filename = f'UW分位报告_{name}.txt'
+    filename = f'SW_ttest_report_{name}.txt'
 
     # 使用 'with' 语句打开文件，确保正确关闭文件
     with open(filename, 'w', encoding='utf-8') as file:
@@ -185,8 +193,8 @@ resili_start, resili_end = filter_lists_by_common_userids(resili_start, resili_e
 bpn_start, bpn_mid = filter_lists_by_common_userids(bpn_start, bpn_mid)
 resili_start, resili_mid = filter_lists_by_common_userids(resili_start, resili_mid)
 
-bpn_mid, bpn_end = filter_lists_by_common_userids(bpn_start, bpn_end)
-resili_mid, resili_end = filter_lists_by_common_userids(resili_start, resili_end)
+bpn_mid, bpn_end = filter_lists_by_common_userids(bpn_mid, bpn_end)
+resili_mid, resili_end = filter_lists_by_common_userids(resili_mid, resili_end)
 
 print(f"reliend:{len(resili_end)}")
 print(f"reliend:{len(resili_mid)}")
@@ -210,13 +218,15 @@ resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_res
 filepath =f"exp_l_1\tReport"
 
 
+
+
 SWT(bpn_start_json, 'bpn_start')
 SWT(bpn_mid_json, 'bpn_mid')
 SWT(resili_start_json, 'bpn_start')
 SWT(resili_mid_json, 'bpn_mid')
 
-UWtest_json(bpn_start_json, bpn_mid_json, 'bpn_start_mid')
-UWtest_json(resili_start_json, resili_mid_json, 'resili_start_mid')
+# UWtest_json(bpn_start_json, bpn_mid_json, 'bpn_start_mid')
+# UWtest_json(resili_start_json, resili_mid_json, 'resili_start_mid')
 
 
 UW_extract_stats_and_test(bpn_start_json, bpn_mid_json, 'bpn_start_mid')
@@ -227,28 +237,38 @@ UW_extract_stats_and_test(resili_start_json, resili_mid_json, 'resili_start_mid'
 #     print(item[0])
 
 '''----------'''
-
-
 def sum(list):
     new = []
-    for item in list:
+    list1 = list
+    for item in list1:
         newlist = item[1:]
         #  print(newlist)
         i = 0
         for score in newlist:
             i+=score
-        item.append(i)
-        new.append(item)
+        li = item
+        li.append(i)
+        new.append(li)
         print(item)
     return new
 
-# bpn_start = sum(bpn_start)
-# bpn_mid = sum(bpn_mid)
-# bpn_end = sum(bpn_end)
+# bpn_start1 = bpn_start
+# bpn_mid1 = bpn_mid
+# bpn_end1 = bpn_end
 
-# resili_end = sum(resili_end)
-# resili_mid= sum(resili_mid)
-# resili_start = sum(resili_start)
+# resili_end1 = resili_end
+# resili_mid1= resili_mid
+# resili_start1 = resili_start
+
+
+# resili_end = sum(resili_end1)
+# resili_mid= sum(resili_mid1)
+# resili_start = sum(resili_start1)
+
+# bpn_start = sum(bpn_start1)
+# bpn_mid = sum(bpn_mid1)
+# bpn_end = sum(bpn_end1)
+
 
 bpn_start_json = toolkit.list_to_json(bpn_start,db_questioniares.questions_pns)
 bpn_end_json = toolkit.list_to_json(bpn_end, db_questioniares.questions_pns)
@@ -265,8 +285,8 @@ SWT(bpn_end_json, 'bpn_end')
 SWT(resili_start_json, 'bpn_start')
 SWT(resili_end_json, 'bpn_end')
 
-UWtest_json(bpn_start_json, bpn_end_json, 'bpn_start_end')
-UWtest_json(resili_start_json, resili_end_json, 'resili_start_end')
+# UWtest_json(bpn_start_json, bpn_end_json, 'bpn_start_end')
+# UWtest_json(resili_start_json, resili_end_json, 'resili_start_end')
 
 
 UW_extract_stats_and_test(bpn_start_json, bpn_end_json, 'bpn_start_end')
@@ -274,25 +294,29 @@ UW_extract_stats_and_test(resili_start_json, resili_end_json, 'resili_start_end'
 
 
 '''---------'''
-# bpn_mid_json = toolkit.list_to_json(bpn_mid,db_questioniares.questions_pns1)
-# bpn_end_json = toolkit.list_to_json(bpn_end, db_questioniares.questions_pns1)
-# resili_mid_json = toolkit.list_to_json(resili_mid, db_questioniares.questions_resilience1)
-# resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_resilience1)
-
-# filepath =f"exp_l_1\tReport"
 
 
-# SWT(bpn_mid_json, 'bpn_mid')
-# SWT(bpn_end_json, 'bpn_end')
-# SWT(resili_mid_json, 'bpn_mid')
-# SWT(resili_end_json, 'bpn_end')
+
+
+bpn_mid_json = toolkit.list_to_json(bpn_mid,db_questioniares.questions_pns)
+bpn_end_json = toolkit.list_to_json(bpn_end, db_questioniares.questions_pns)
+resili_mid_json = toolkit.list_to_json(resili_mid, db_questioniares.questions_resilience)
+resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_resilience)
+
+filepath =f"exp_l_1\tReport"
+
+
+SWT(bpn_mid_json, 'bpn_mid')
+SWT(bpn_end_json, 'bpn_end')
+SWT(resili_mid_json, 'bpn_mid')
+SWT(resili_end_json, 'bpn_end')
 
 # UWtest_json(bpn_mid_json, bpn_end_json, 'bpn_mid_end')
 # UWtest_json(resili_mid_json, resili_end_json, 'resili_mid_end')
 
 
-# UW_extract_stats_and_test(bpn_mid_json, bpn_end_json, 'bpn_mid_end')
-# UW_extract_stats_and_test(resili_mid_json, resili_end_json, 'resili_mid_end')
+UW_extract_stats_and_test(bpn_mid_json, bpn_end_json, 'bpn_mid_end')
+UW_extract_stats_and_test(resili_mid_json, resili_end_json, 'resili_mid_end')
 
 
 
@@ -305,11 +329,23 @@ print(f"bpn{len(bpn_mid)}")
 print(f"bpn{len(bpn_start)}")
 
 for i in range(len(resili_end_json)):
-    print(f"{resili_end_json[i]['user_id']}\n{resili_start_json[i]['user_id']}\n\n")
+    print(f"{resili_end_json[i]}\n{resili_start_json[i]}\n\n")
 
 for i in range(len(bpn_end_json)):
-    print(f"{bpn_end_json[i]['user_id']}\n{bpn_start_json[i]['user_id']}\n\n")
+    print(f"{bpn_end_json[i]}\n{bpn_start_json[i]}\n\n")
 
+for item in bpn_start:
+    print(item)
+
+print(f"\n\n")
+
+for item in bpn_mid:
+    print(item)
+
+print(f"\n\n")
+
+for item in bpn_end:
+    print(item)
 
 
 '''线性回归'''

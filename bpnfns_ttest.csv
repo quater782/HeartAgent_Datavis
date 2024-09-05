@@ -1,0 +1,25 @@
+﻿questionname,question,start_Mean,start_SD,end_Mean,end_SD,t-test p-value,,trend
+, (reversed) I feel disappointed with many of my performances. ,3.75 ,1.14 ,3.50 ,1.11 ,0.1655 ,,减小
+, I feel competent to achieve my goals. ,3.89 ,0.96 ,3.93 ,0.94 ,0.7455 ,,"维持, 均值增大"
+, (reversed) My daily activities feel like a chain of obligations. ,3.61 ,1.17 ,3.39 ,1.29 ,0.4702 ,,减小
+自主性 对于我所做的事情，我有可以自己去自由选择的感觉, I feel a sense of choice and freedom in the things I undertake. ,3.86 ,0.71 ,4.14 ,0.80 ,0.0297 ,*,"(*)显著 维持, 均值增大"
+, (reversed) I have the impression that people I spend time with dislike me. ,4.57 ,0.74 ,4.39 ,0.74 ,0.2318 ,,维持
+, I feel close and connected with other people who are important to me. ,4.07 ,0.77 ,4.00 ,1.05 ,0.7024 ,,维持
+关联性 (reversed) 我觉得被我想要融入的群体排挤, (reversed) I feel excluded from the group I want to belong to. ,4.25 ,0.80 ,4.54 ,0.51 ,0.0297 ,*,"(*)显著 增大, 均值增大"
+, I feel my choices express who I really am. ,3.75 ,0.93 ,3.82 ,0.98 ,0.6259 ,,"维持, 均值增大"
+, (reversed) I feel insecure about my abilities. ,3.36 ,1.31 ,3.39 ,1.34 ,0.8457 ,,"维持, 均值增大"
+, (reversed) I feel like a failure because of the mistakes I make. ,3.21 ,0.99 ,3.43 ,1.23 ,0.2270 ,,"维持, 均值增大"
+, (reversed) I feel forced to do many things I wouldn’t choose to do. ,3.39 ,1.31 ,3.54 ,1.14 ,0.5027 ,,"增大, 均值增大"
+, I experience a warm feeling with the people I spend time with. ,3.86 ,1.01 ,4.07 ,0.81 ,0.2812 ,,"维持, 均值增大"
+, (reversed) I have serious doubts about whether I can do things well. ,3.36 ,1.19 ,3.39 ,1.10 ,0.8514 ,,"减小, 均值增大"
+, I feel capable at what I do. ,3.71 ,0.98 ,3.86 ,0.93 ,0.2933 ,,"维持, 均值增大"
+, I feel I can successfully complete difficult tasks. ,3.57 ,1.17 ,3.71 ,1.08 ,0.4428 ,,"维持, 均值增大"
+, I feel I have been doing what really interests me. ,3.36 ,1.16 ,3.64 ,1.10 ,0.2233 ,,"增大, 均值增大"
+, (reversed) I feel that people who are important to me are cold and distant towards me. ,4.04 ,1.00 ,4.18 ,0.98 ,0.4242 ,,"增大, 均值增大"
+关联性 (reversed) 我感觉自己和别人的交往都只是很表面的, (reversed) I feel the relationships I have are just superficial. ,3.11 ,1.17 ,3.64 ,1.31 ,0.0258 ,*,"(*)显著 增大, 均值增大"
+, (reversed) I feel pressured to do too many things. ,3.29 ,1.15 ,3.36 ,1.19 ,0.7691 ,,"维持, 均值增大"
+能力 我有信心自己能把事情做好, I feel confident that I can do things well. ,3.79 ,1.03 ,4.07 ,0.90 ,0.0578 , - ,"(-)轻微显著 维持, 均值增大"
+关联性 对在乎我和我在乎的人，我觉得我和他们的心是连着的," I feel connected with people who care for me, and for whom I care. ",3.82 ,0.98 ,4.14 ,0.85 ,0.0475 ,*,"(*)显著 维持, 均值增大"
+自主性 (reversed) 我觉得我所做的事情大多都是出于不得已才去做的, (reversed) Most of the things I do feel like “I have to”. ,4.00 ,0.72 ,3.64 ,1.10 ,0.0478 ,*,(*)显著 维持
+, I feel that the people I care about also care about me. ,4.00 ,0.77 ,4.14 ,0.89 ,0.3262 ,,"维持, 均值增大"
+, I feel that my decisions reflect what I really want. ,3.93 ,0.81 ,4.11 ,0.69 ,0.2022 ,,"维持, 均值增大"

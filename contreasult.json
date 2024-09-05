@@ -1,0 +1,52 @@
+{
+    "app.services.chat_service:grow_demand_judgment:319": {
+        "count": 422,
+        "true": 118,
+        "f/un": 282,
+        "fail": 22
+    },
+    "app.services.chat_service:grow_SDT:362": {
+        "count": 112
+    },
+    "app.universalAPP:request:645": {
+        "count": 277
+    },
+    "app.services.chat_service:determine_completion:196": {
+        "count": 454,
+        "true": 103,
+        "f/un": 351,
+        "fail": 0
+    },
+    "app.services.todo_service:todo_demand_judgment:32": {
+        "count": 946,
+        "true": 277,
+        "f/un": 662,
+        "fail": 7
+    },
+    "app.services.todo_service:todo_get_greetings:92": {
+        "count": 753,
+        "fail": 81,
+        "wordcount": 9629
+    },
+    "app.services.todo_service:todo_get_dailysummary:128": {
+        "count": 743,
+        "fail": 41,
+        "wordcount": 17385
+    },
+    "app.services.mood_service:get_mood_trends:41": {
+        "count": 707,
+        "fail": 78,
+        "wordcount": 14057
+    },
+    "app.services.diary_service:diary_get_agent_response:52": {
+        "count": 268,
+        "fail": 0,
+        "wordcount": 43856
+    },
+    "app.routers.chat:run_reflection:83": {
+        "count": 0
+    },
+    "app.services.chat_service:star_reflection:684": {
+        "count": 0
+    }
+}

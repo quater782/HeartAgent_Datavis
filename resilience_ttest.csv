@@ -1,0 +1,26 @@
+﻿questionname,question,start_Mean,start_SD,end_Mean,end_SD,p-value,,trend
+, Know where to turn for help,3.75 ,0.97 ,3.89 ,0.99 ,0.4036 ,,"维持, 均值增大"
+乐观性 看到事情乐观的一面, See the humorous side of things,3.54 ,1.10 ,4.07 ,0.81 ,0.0085 ,**,"(**)极显著 维持, 均值增大"
+坚韧 能够管理好自己的生活, In control of your life,3.64 ,0.95 ,3.89 ,1.07 ,0.0698 , - ,"(-)轻微显著 维持, 均值增大"
+, You can achieve your goals,3.57 ,0.84 ,3.79 ,0.83 ,0.1610 ,,"增大, 均值增大"
+, Prefer to take the lead in problem solving,3.68 ,1.06 ,3.54 ,1.00 ,0.4428 ,,维持
+, Can deal with whatever comes,3.39 ,1.03 ,3.57 ,1.07 ,0.2587 ,,"维持, 均值增大"
+, Pride in your achievements,4.46 ,0.79 ,4.36 ,0.83 ,0.2643 ,,维持
+力量 在遭遇疾病或困难之后能够很快恢复, Tend to bounce back after illness or hardship,3.32 ,1.02 ,3.75 ,1.00 ,0.0432 ,*,"(*)显著 增大, 均值增大"
+, Strong sense of purpose,3.18 ,1.28 ,3.39 ,1.26 ,0.0830 , - ,"(-)轻微显著 增大, 均值增大"
+, Make unpopular or difficult decisions,3.39 ,1.10 ,3.54 ,1.14 ,0.3551 ,,"增大, 均值增大"
+, Able to adapt to change,4.04 ,0.88 ,4.21 ,0.63 ,0.1696 ,,"维持, 均值增大"
+, Things happen for a reason,3.75 ,0.93 ,3.64 ,0.91 ,0.4153 ,,维持
+," When things look hopeless, I don’t give up",3.46 ,1.10 ,3.61 ,0.96 ,0.4753 ,,"减小, 均值增大"
+, I like challenges,3.46 ,1.23 ,3.57 ,1.03 ,0.4486 ,,"增大, 均值增大"
+力量 过去的成功经历使你有信心来面对新的挑战, Past success gives confidence for new challenge,3.57 ,0.96 ,3.93 ,0.90 ,0.0097 ,**,"(**)极显著 维持, 均值增大"
+乐观性 有时候运气不错, Sometimes fate or God can help,3.93 ,1.02 ,4.00 ,1.09 ,0.6458 ,,"维持, 均值增大"
+," Under pressure, focus and think clearly",3.39 ,0.88 ,3.61 ,1.17 ,0.2812 ,,"增大, 均值增大"
+坚韧 自认是个强者, Think of self as strong person,3.04 ,1.14 ,3.29 ,1.15 ,0.0503 , - ,"(-)轻微显著 维持, 均值增大"
+, You work to attain your goals,4.00 ,0.82 ,4.00 ,0.98 ,1.0000 ,,维持
+, Can handle unpleasant feelings,3.29 ,0.90 ,3.46 ,1.04 ,0.3938 ,,"增大, 均值增大"
+力量 无论做什么都会竭尽全力, Best effort no matter what,3.18 ,0.98 ,3.50 ,1.11 ,0.0364 ,*,"(*)显著 增大, 均值增大"
+, Coping with stress strengthens,3.89 ,0.79 ,4.00 ,0.77 ,0.5868 ,,"维持, 均值增大"
+,  (reversed) Have to act on a hunch,2.11 ,0.92 ,2.14 ,0.89 ,0.7691 ,,"维持, 均值增大"
+, Not easily discouraged by failure,3.36 ,0.99 ,3.54 ,1.04 ,0.3788 ,,"减小, 均值增大"
+, Close and secure relationships,4.07 ,0.81 ,4.18 ,0.90 ,0.3753 ,,"维持, 均值增大"
