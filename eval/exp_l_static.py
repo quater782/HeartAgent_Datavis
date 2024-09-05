@@ -52,12 +52,37 @@ print(f"有效被试用户数量：{len(phone_numbers)} 人" )
 
 from collections import defaultdict
 import re
+import datetime
+import numpy as np
+import matplotlib.pyplot as plt
+from collections import Counter
+
 from DB.manage_chat import ChatLogManager
 from DB.manage_chatana import ChatAnaManager
 from DB.manage_diary import DiaryManager
 from DB.manage_todo import TodoManager
 from DB.manage_mindfuls import MindfulsManager
 from DB.manage_tomato import TomatoesManager
+from DB.manage_mood import MoodManager
+
+import colorsys
+
+def hsl_to_rgb(h, s, l):
+    """
+    将 HSL 颜色值转换为 RGB。
+    
+    参数：
+        h (float): Hue 色调，范围 [0, 360]
+        s (float): Saturation 饱和度，范围 [0, 1]
+        l (float): Lightness 亮度，范围 [0, 1]
+    
+    返回：
+        tuple: RGB 值，范围 [0, 1]
+    """
+    h = h / 360  # 将 hue 从 [0, 360] 映射到 [0, 1]
+    s = s / 100  # 饱和度百分比转换为小数
+    l = l / 100  # 亮度百分比转换为小数
+    return colorsys.hls_to_rgb(h, l, s)
 
 class ChatLogManagerWithStats(ChatLogManager):
     
@@ -577,6 +602,193 @@ class TomatoesManagerWithStats(TomatoesManager):
             else:
                 print("  没有番茄钟数据。")
 
+
+class MoodManagerWithStats(MoodManager):
+
+    def extract_mood_data(self, phone_numbers):
+        """
+        提取每个用户每天的心情值和情绪关联词条的正向度
+        
+        参数：
+            phone_numbers (list): 需要提取数据的用户ID列表
+        
+        返回：
+            dict: 包含用户每天心情值和正向度的信息
+        """
+        mood_data = defaultdict(lambda: defaultdict(list))  # 用户 -> 日期 -> [心情值, 关键词正向度]
+        
+        for user_id in phone_numbers:
+            user_moods = self.collection.find({"user_id": user_id})
+            
+            for mood in user_moods:
+                # 提取日期信息（只保留日期部分）
+                mood_time = mood["mood_time_logged"].date()
+                
+                # 将心情值重新映射到 [-100, 100] 的范围
+                mood_indicator = 100 - mood["mood_indicator"] * 200
+
+                # 计算正向度（所有关键词共享心情值）
+                mood_keywords = mood.get("mood_keywords", [])
+                positive_degree = mood_indicator / 100 if mood_keywords else 0
+
+                # 存储心情值和正向度
+                mood_data[user_id][mood_time].append((mood_indicator, positive_degree, mood_keywords))
+
+        return mood_data
+
+    def generate_mood_statistics(self, mood_data):
+        """
+        生成心情数据的描述性统计报告。
+        
+        参数：
+            mood_data (dict): 提取的用户心情数据
+        
+        返回：
+            dict: 包含统计信息的报告
+        """
+        report = defaultdict(lambda: {
+            'mood_summary': {},  # 心情值统计
+            'keyword_frequency': {},  # 关键词频率
+            'positive_degree_summary': {},  # 关键词正向度统计
+        })
+        
+        # 遍历所有用户的心情数据
+        for user_id, daily_data in mood_data.items():
+            all_mood_values = []
+            all_keywords = []
+            all_positive_degrees = []
+
+            for date, mood_entries in daily_data.items():
+                # 提取心情值和正向度
+                mood_values = [mood_value for mood_value, _, _ in mood_entries]
+                positive_degrees = [positive_degree for _, positive_degree, _ in mood_entries]
+                keywords = [kw for _, _, kws in mood_entries for kw in kws]
+
+                all_mood_values.extend(mood_values)
+                all_positive_degrees.extend(positive_degrees)
+                all_keywords.extend(keywords)
+
+            # 计算心情值的统计信息
+            mood_mean = np.mean(all_mood_values)
+            mood_std = np.std(all_mood_values)
+            mood_min = np.min(all_mood_values)
+            mood_max = np.max(all_mood_values)
+
+            # 关键词频率统计
+            keyword_counter = Counter(all_keywords)
+            total_keywords = sum(keyword_counter.values())
+            keyword_freq = {k: v / total_keywords for k, v in keyword_counter.items()}
+
+            # 关键词正向度统计
+            positive_degree_mean = np.mean(all_positive_degrees)
+            positive_degree_std = np.std(all_positive_degrees)
+
+            # 填充报告
+            report[user_id]['mood_summary'] = {
+                'mean': mood_mean,
+                'std_dev': mood_std,
+                'min': mood_min,
+                'max': mood_max,
+                'total_entries': len(all_mood_values)
+            }
+            report[user_id]['keyword_frequency'] = keyword_freq
+            report[user_id]['positive_degree_summary'] = {
+                'mean': positive_degree_mean,
+                'std_dev': positive_degree_std
+            }
+
+        return report
+
+    def print_mood_statistics_report(self, report):
+        """
+        打印心情数据的描述性统计报告。
+        
+        参数：
+            report (dict): 从 generate_mood_statistics 返回的统计结果
+        """
+        for user_id, stats in report.items():
+            print(f"\n### 用户 {user_id} 的心情统计报告：")
+            
+            # 打印心情值统计
+            mood_summary = stats['mood_summary']
+            print(f"心情值统计：")
+            print(f"  平均值: {mood_summary['mean']:.2f}")
+            print(f"  标准差: {mood_summary['std_dev']:.2f}")
+            print(f"  最小值: {mood_summary['min']:.2f}")
+            print(f"  最大值: {mood_summary['max']:.2f}")
+            print(f"  总记录数: {mood_summary['total_entries']}")
+
+            # 打印关键词频率
+            print(f"\n情绪关键词频率：")
+            for keyword, freq in stats['keyword_frequency'].items():
+                print(f"  {keyword}: {freq * 100:.2f}%")
+
+            # 打印关键词正向度统计
+            positive_degree_summary = stats['positive_degree_summary']
+            print(f"\n关键词正向度统计：")
+            print(f"  平均正向度: {positive_degree_summary['mean']:.2f}")
+            print(f"  正向度标准差: {positive_degree_summary['std_dev']:.2f}")
+            
+    def plot_mood_scatter(self, mood_data):
+        """
+        绘制情绪散点图，颜色从紫色到绿色到红色，表示心情程度。
+        
+        参数：
+            mood_data (dict): 每个用户每天的心情数据
+        """
+        plt.figure(figsize=(10, 6))
+        
+        for user_id, daily_data in mood_data.items():
+            for date, mood_values in daily_data.items():
+                for mood_indicator, _, _ in mood_values:
+                    # 使用 HSL 映射心情值到颜色
+                    value = (mood_indicator + 100) / 200  # 映射到 [0, 1] 范围
+                    hue = (1 - value) * 23 + value * 273  # HSL 中的 hue 值
+                    rgb_color = hsl_to_rgb(hue, 80, 50)  # 将 HSL 转换为 RGB
+                    
+                    # 绘制散点
+                    plt.scatter(date, mood_indicator, color=rgb_color, label=user_id)
+        
+        plt.title("Emotional scatter chart")
+        plt.xlabel("Date")
+        plt.ylabel("moods index [-100, 100]")
+        plt.grid(True)
+        plt.savefig('exp_l_static_mood_1.jpg')
+        plt.show()
+
+    def plot_mood_factor_trend(self,mood_data):
+        """
+        绘制情绪-因素影响关联度变化图。
+        
+        参数：
+            mood_data (dict): 每个用户每天的心情数据
+        """
+        plt.figure(figsize=(10, 6))
+
+        for user_id, daily_data in mood_data.items():
+            dates = []
+            positive_degrees = []
+            
+            for date, mood_values in daily_data.items():
+                total_positive_degree = sum(positive_degree for _, positive_degree, _ in mood_values)
+                dates.append(date)
+                positive_degrees.append(total_positive_degree)
+
+            # 绘制趋势图
+            plt.plot(dates, positive_degrees, label=f"{user_id} Positive degree change")
+        
+        plt.title("Emotion-factors influence the change of correlation degree")
+        plt.xlabel("Date")
+        plt.ylabel("Positive dimension")
+        plt.grid(True)
+        # 移动图例到图的外侧
+        plt.legend(loc='center left', bbox_to_anchor=(1, 0.5), ncol=1, fontsize='small')  # 将图例移到右侧
+
+        plt.tight_layout(rect=[0, 0, 0.85, 1])  # 调整图的布局，避免图例遮挡图像
+        plt.savefig('exp_l_static_mood_2.jpg')
+        plt.show()
+
+
 print("\n\n")
 print("# 用户聊天数据(chatlog)的描述性统计")
 manager_chatlog_sta = ChatLogManagerWithStats()
@@ -616,3 +828,13 @@ manager_tomato_sta.print_tomato_stats_summary(stats=sta)
 
 print("\n\n")
 print("# 用户心情数据(mood)的描述性统计")
+mood_manager_sta = MoodManagerWithStats()
+# 提取心情数据
+mood_data = mood_manager_sta.extract_mood_data(phone_numbers)
+# 绘制情绪散点图
+mood_manager_sta.plot_mood_scatter(mood_data)
+# 绘制情绪-因素关联度变化趋势图
+mood_manager_sta.plot_mood_factor_trend(mood_data)
+# 描述性统计
+sta = mood_manager_sta.generate_mood_statistics(mood_data)
+mood_manager_sta.print_mood_statistics_report(sta)
