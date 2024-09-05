@@ -742,7 +742,7 @@ class MoodManagerWithStats(MoodManager):
             for date, mood_values in daily_data.items():
                 for mood_indicator, _, _ in mood_values:
                     # 使用 HSL 映射心情值到颜色
-                    value = (mood_indicator + 100) / 200  # 映射到 [0, 1] 范围
+                    value = abs((mood_indicator + 100) / 200 - 1)  # 映射到 [0, 1] 范围
                     hue = (1 - value) * 23 + value * 273  # HSL 中的 hue 值
                     rgb_color = hsl_to_rgb(hue, 80, 50)  # 将 HSL 转换为 RGB
                     
