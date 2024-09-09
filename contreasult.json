@@ -29,19 +29,19 @@
         "wordcount": 9629
     },
     "app.services.todo_service:todo_get_dailysummary:128": {
-        "count": 743,
-        "fail": 41,
-        "wordcount": 17385
+        "count": 652,
+        "fail": 6,
+        "wordcount": 15129
     },
     "app.services.mood_service:get_mood_trends:41": {
-        "count": 707,
-        "fail": 78,
-        "wordcount": 14057
+        "count": 667,
+        "fail": 193,
+        "wordcount": 12016
     },
     "app.services.diary_service:diary_get_agent_response:52": {
-        "count": 268,
+        "count": 245,
         "fail": 0,
-        "wordcount": 43856
+        "wordcount": 36023
     },
     "app.routers.chat:run_reflection:83": {
         "count": 0

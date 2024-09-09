@@ -135,7 +135,7 @@ def list_files_in_directory(directory):
     # print(files)
     return files
 
-def main():
+def read_save_all_logs():
     directory = 'logdata/logs'  # 替换为你的目录路径
     files_list = list_files_in_directory(directory)
     for item in files_list:
@@ -145,6 +145,44 @@ def main():
 
 # main()
 
+
+phone_numbers = [
+    "13050920803",
+    "13370792083",
+    "13523426691",
+    "13662064265",
+    "13764851394",
+    "13896520229",
+    "13916874074",
+    "15073142501",
+    "15111816459",
+    "15178181483",
+    "15956956373",
+    "17857310325",
+    "17859910206",
+    "18038829820",
+    "18049067425",
+    "18120040923",
+    "18150061030",
+    "18159658021",
+    "18208660066",
+    "18268155717",
+    "18368437211",
+    "18372772013",
+    "18586127686",
+    "18743527817",
+    "18931628795",
+    "18963809846",
+    "19119732512",
+    "19527398569",
+    "19707045120"
+]
+
+def macth_user(id:str):
+    for item in phone_numbers:
+        if id == item:
+            return True
+    return False
 
 services_to_check = {"app.services.chat_service:grow_demand_judgment:319":{"count":0, "true":0, "f/un":0, "fail":0},#判断是不是要干预
     "app.services.chat_service:grow_SDT:362":{"count" : 0},#干预的js（ = demand_judgement = true）
@@ -232,16 +270,20 @@ def count_services_in_json(json_path):
                 content = {}
                 try:
                     content = entry["extracted_content"]
-                    sum=""
-                    result1 = content.get('dailysummary', 'notfound')
-                    if result1!="notfound":
-                        sum = f"{sum}{result1}"
-                    lenth = len(sum)
-                    if lenth<1:
-                        # print("添加了todo日程每日总结 - fail record 一条")
-                        services_to_check[relevant_functions[6]]["fail"]+=1
+                    userid = content["user_id"]
+                    if macth_user(userid):
+                        sum=""
+                        result1 = content.get('dailysummary', 'notfound')
+                        if result1!="notfound":
+                            sum = f"{sum}{result1}"
+                        lenth = len(sum)
+                        if lenth<1:
+                            # print("添加了todo日程每日总结 - fail record 一条")
+                            services_to_check[relevant_functions[6]]["fail"]+=1
+                        else:
+                            services_to_check[relevant_functions[6]]["wordcount"]+=lenth
                     else:
-                        services_to_check[relevant_functions[6]]["wordcount"]+=lenth
+                        services_to_check[relevant_functions[6]]["count"]-=1
                 except Exception as e:
                     # print("不符合格式规范，扣打分")
                     services_to_check[relevant_functions[7]]["fail"]+=1  
@@ -253,16 +295,20 @@ def count_services_in_json(json_path):
                 content = {}
                 try:
                     content = entry["extracted_content"]
-                    sum=""
-                    result1 = content.get('trends', 'notfound')
-                    if result1!="notfound":
-                        sum = f"{sum}{result1}"
-                    lenth = len(sum)
-                    if lenth<1:
-                        # print("添加了moodtrends - fail record 一条")
-                        services_to_check[relevant_functions[7]]["fail"]+=1
+                    userid = content["user_id"]
+                    if macth_user(userid):
+                        sum=""
+                        result1 = content.get('trends', 'notfound')
+                        if result1!="notfound":
+                            sum = f"{sum}{result1}"
+                        lenth = len(sum)
+                        if lenth<1:
+                            # print("添加了moodtrends - fail record 一条")
+                            services_to_check[relevant_functions[7]]["fail"]+=1
+                        else:
+                            services_to_check[relevant_functions[7]]["wordcount"]+=lenth
                     else:
-                        services_to_check[relevant_functions[7]]["wordcount"]+=lenth
+                        services_to_check[relevant_functions[7]]["count"]-=1
                 except Exception as e:
                     # print("不符合格式规范，扣打分")
                     services_to_check[relevant_functions[7]]["fail"]+=1
@@ -275,32 +321,30 @@ def count_services_in_json(json_path):
                 content = {}
                 try:
                     content = entry["extracted_content"]
-                    sum=""
-                    result1 = content.get('diary_agent_response', 'notfound')
-                    if result1!="notfound":
-                        sum = f"{sum}{result1}"
-                    lenth = len(sum)
-                    if lenth<1:
-                        # print("添加了日记回应 - fail record 一条")
-                        services_to_check[relevant_functions[8]]["fail"]+=1
+                    userid = content["user_id"]
+                    if macth_user(userid):
+                        sum=""
+                        result1 = content.get('diary_agent_response', 'notfound')
+                        if result1!="notfound":
+                            sum = f"{sum}{result1}"
+                        lenth = len(sum)
+                        if lenth<1:
+                            # print("添加了日记回应 - fail record 一条")
+                            services_to_check[relevant_functions[8]]["fail"]+=1
+                        else:
+                            services_to_check[relevant_functions[8]]["wordcount"]+=lenth
                     else:
-                        services_to_check[relevant_functions[8]]["wordcount"]+=lenth
+                        services_to_check[relevant_functions[8]]["count"]-=1
                 except Exception as e:
                     # print("不符合格式规范，扣打分")
-                    services_to_check[relevant_functions[7]]["fail"]+=1                       
-
-                
-
-
-
-
-
-                
+                    services_to_check[relevant_functions[7]]["fail"]+=1                      
 
     except FileNotFoundError:
         print("文件未找到，请检查文件路径是否正确。")
     except json.JSONDecodeError:
         print("JSON文件格式有误，请检查文件内容。")
+
+
 
 def read_a_json(path:str):
     json_file = f"logdata\extractedjson\{path}"
@@ -349,6 +393,66 @@ def calculate_statistics(services):
 
 # 调用函数计算统计数据
 calculate_statistics(services_to_check)
+
+'''
+app.services.chat_service:grow_demand_judgment:319 - Total Number: 422
+app.services.chat_service:grow_demand_judgment:319 - Fail Rate: 5.21%
+app.services.chat_service:grow_demand_judgment:319 - True Rate: 27.96%, F/UN Rate: 66.82%
+
+
+app.services.chat_service:grow_SDT:362 - Total Number: 112
+
+
+app.universalAPP:request:645 - Total Number: 277
+
+
+app.services.chat_service:determine_completion:196 - Total Number: 454
+app.services.chat_service:determine_completion:196 - Fail Rate: 0.00%
+app.services.chat_service:determine_completion:196 - True Rate: 22.69%, F/UN Rate: 77.31%
+
+
+app.services.todo_service:todo_demand_judgment:32 - Total Number: 946
+app.services.todo_service:todo_demand_judgment:32 - Fail Rate: 0.74%
+app.services.todo_service:todo_demand_judgment:32 - True Rate: 29.28%, F/UN Rate: 69.98%
+
+
+app.services.todo_service:todo_get_greetings:92 - Total Number: 753
+app.services.todo_service:todo_get_greetings:92 - Fail Rate: 10.76%
+app.services.todo_service:todo_get_greetings:92 - Average Words: 12.79
+
+
+app.services.todo_service:todo_get_dailysummary:128 - Total Number: 652
+app.services.todo_service:todo_get_dailysummary:128 - Fail Rate: 0.92%
+app.services.todo_service:todo_get_dailysummary:128 - Average Words: 23.20
+
+
+app.services.mood_service:get_mood_trends:41 - Total Number: 667
+app.services.mood_service:get_mood_trends:41 - Fail Rate: 28.94%
+app.services.mood_service:get_mood_trends:41 - Average Words: 18.01
+app.services.mood_service:get_mood_trends:41 - Average Words: 18.01
+
+
+
+app.services.diary_service:diary_get_agent_response:52 - Total Number: 245
+
+app.services.diary_service:diary_get_agent_response:52 - Total Number: 245
+app.services.diary_service:diary_get_agent_response:52 - Total Number: 245
+app.services.diary_service:diary_get_agent_response:52 - Fail Rate: 0.00%
+app.services.diary_service:diary_get_agent_response:52 - Average Words: 147.03
+
+
+app.routers.chat:run_reflection:83 - Total Number: 0
+
+
+app.services.chat_service:star_reflection:684 - Total Number: 0
+
+'''
+
+
+
+
+
+
 
 '''
 app.services.chat_service:grow_demand_judgment:319 - Total Number: 422

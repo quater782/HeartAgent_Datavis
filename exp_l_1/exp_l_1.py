@@ -59,73 +59,85 @@ def SWT(jsondata, name:str):
         json.dump(report, file, ensure_ascii=False,indent=4)
 
 
-def UWtest_json(group1_data, group2_data, name:str):
-    # 转换成DataFrame
-    df1 = pd.DataFrame(group1_data)
-    df2 = pd.DataFrame(group2_data)
+# def UWtest_json(group1_data, group2_data, name:str):
+#     # 转换成DataFrame
+#     df1 = pd.DataFrame(group1_data)
+#     df2 = pd.DataFrame(group2_data)
 
-    # 提取问题和维度
+#     # 提取问题和维度
 
-    # 处理数据
-    group1_scores = extract_dimension_and_question(df1)
-    group2_scores = extract_dimension_and_question(df2)
+#     # 处理数据
+#     group1_scores = extract_dimension_and_question(df1)
+#     group2_scores = extract_dimension_and_question(df2)
 
-    # 进行Mann-Whitney U检验
-    results = {}
-    for dimension in group1_scores:
-        if dimension not in results:
-            results[dimension] = {}
-        for question in group1_scores[dimension]:
-            if question in group2_scores[dimension]:  # 确保两组都有相同的问题
-                score1 = group1_scores[dimension][question]
-                score2 = group2_scores[dimension][question]
-                stat, p_value = mannwhitneyu(score1, score2, alternative='two-sided')
-                results[dimension][question] = {'U-statistic': stat, 'p-value': p_value}
+#     # 进行Mann-Whitney U检验
+#     results = {}
+#     for dimension in group1_scores:
+#         if dimension not in results:
+#             results[dimension] = {}
+#         for question in group1_scores[dimension]:
+#             if question in group2_scores[dimension]:  # 确保两组都有相同的问题
+#                 score1 = group1_scores[dimension][question]
+#                 score2 = group2_scores[dimension][question]
+#                 stat, p_value = mannwhitneyu(score1, score2, alternative='two-sided')
+#                 results[dimension][question] = {'U-statistic': stat, 'p-value': p_value}
 
-    # 输出结果
-    for dim, questions in results.items():
-        for q, res in questions.items():
-            print(f"Dimension: {dim}, Question: {q}, U-statistic: {res['U-statistic']}, p-value: {res['p-value']:.3f}")
+#     # 输出结果
+#     for dim, questions in results.items():
+#         for q, res in questions.items():
+#             print(f"Dimension: {dim}, Question: {q}, U-statistic: {res['U-statistic']}, p-value: {res['p-value']:.3f}")
 
-    # 输出结果
-        # 指定要写入的文件名
-    filename = f'UW报告_{name}.txt'
+#     # 输出结果
+#         # 指定要写入的文件名
+#     filename = f'UW报告_{name}.txt'
 
-    # 使用 'with' 语句打开文件，确保正确关闭文件
-    with open(filename, 'w', encoding='utf-8') as file:
-        # 使用 json.dump 将数据写入文件，确保使用utf-8编码
-        json.dump(results, file, ensure_ascii=False, indent=4)
+#     # 使用 'with' 语句打开文件，确保正确关闭文件
+#     with open(filename, 'w', encoding='utf-8') as file:
+#         # 使用 json.dump 将数据写入文件，确保使用utf-8编码
+#         json.dump(results, file, ensure_ascii=False, indent=4)
 
 
 
-def extract_dimension_and_question(df):
-    scores = {}
-    for index, row in df.iterrows():
-        for key in row.index:
-            if key.startswith('user_id'):
-                continue
-            dimension, question_type, question = key.split(' - ')
-            if dimension not in scores:
-                scores[dimension] = {}
-            if question not in scores[dimension]:
-                scores[dimension][question] = []
-            scores[dimension][question].append(row[key])
-    return scores
+# def extract_dimension_and_question(df):
+#     scores = {}
+#     for index, row in df.iterrows():
+#         for key in row.index:
+#             if key.startswith('user_id'):
+#                 continue
+#             dimension, question_type, question = key.split(' - ')
+#             if dimension not in scores:
+#                 scores[dimension] = {}
+#             if question not in scores[dimension]:
+#                 scores[dimension][question] = []
+#             scores[dimension][question].append(row[key])
+#     return scores
 
 
 def UW_extract_stats_and_test(df1, df2, name):
+    # print(df1)
+    # print(df2)
+    # print(f"\n")
     df1 = pd.DataFrame(df1)
     df2 = pd.DataFrame(df2)
+    # print(df1)
+    # print(df2)
+    # print(f"\n")
     results = {}
     questions = set(df1.columns) - {'user_id'}
+    print(questions)
+
     for question in questions:
         stats1 = df1[question].describe()
         stats2 = df2[question].describe()
 
+        # print(stats1)
+        # print(stats2)
+
         # Mann-Whitney U检验
         # stat, p_value = mannwhitneyu(df1[question], df2[question], alternative='two-sided')
-        print(f"{df1[question]}, {df2[question]}")
+        # print(f"{df1[question]}, {df2[question]}")
         stat, p_value = stats.ttest_rel(df1[question], df2[question], alternative='two-sided')
+
 
         # 比较中位数判断得分趋势
         if stats2['50%'] > stats1['50%']:
@@ -170,8 +182,8 @@ def UW_extract_stats_and_test(df1, df2, name):
         json.dump(results, file, ensure_ascii=False,indent=4)
 
     # 输出结果
-    for question, res in results.items():
-        print(f"Question: {question}")
+    # for question, res in results.items():
+    #     print(f"Question: {question}")
 
 
 '''----------'''
@@ -190,11 +202,11 @@ resili_end = toolkit.read_survey_data("exp_l_1/data/end_resilience.xlsx")
 bpn_start, bpn_end = filter_lists_by_common_userids(bpn_start, bpn_end)
 resili_start, resili_end = filter_lists_by_common_userids(resili_start, resili_end)
 
-bpn_start, bpn_mid = filter_lists_by_common_userids(bpn_start, bpn_mid)
-resili_start, resili_mid = filter_lists_by_common_userids(resili_start, resili_mid)
+# bpn_start, bpn_mid = filter_lists_by_common_userids(bpn_start, bpn_mid)
+# resili_start, resili_mid = filter_lists_by_common_userids(resili_start, resili_mid)
 
-bpn_mid, bpn_end = filter_lists_by_common_userids(bpn_mid, bpn_end)
-resili_mid, resili_end = filter_lists_by_common_userids(resili_mid, resili_end)
+# bpn_mid, bpn_end = filter_lists_by_common_userids(bpn_mid, bpn_end)
+# resili_mid, resili_end = filter_lists_by_common_userids(resili_mid, resili_end)
 
 print(f"reliend:{len(resili_end)}")
 print(f"reliend:{len(resili_mid)}")
@@ -229,28 +241,14 @@ SWT(resili_mid_json, 'bpn_mid')
 # UWtest_json(resili_start_json, resili_mid_json, 'resili_start_mid')
 
 
-UW_extract_stats_and_test(bpn_start_json, bpn_mid_json, 'bpn_start_mid')
-UW_extract_stats_and_test(resili_start_json, resili_mid_json, 'resili_start_mid')
+# UW_extract_stats_and_test(bpn_start_json, bpn_mid_json, 'bpn_start_mid')
+# UW_extract_stats_and_test(resili_start_json, resili_mid_json, 'resili_start_mid')
 
 
 # for item in resili_mid:
 #     print(item[0])
 
-'''----------'''
-def sum(list):
-    new = []
-    list1 = list
-    for item in list1:
-        newlist = item[1:]
-        #  print(newlist)
-        i = 0
-        for score in newlist:
-            i+=score
-        li = item
-        li.append(i)
-        new.append(li)
-        print(item)
-    return new
+
 
 # bpn_start1 = bpn_start
 # bpn_mid1 = bpn_mid
@@ -280,17 +278,17 @@ resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_res
 filepath =f"exp_l_1\tReport"
 
 
-SWT(bpn_start_json, 'bpn_start')
-SWT(bpn_end_json, 'bpn_end')
-SWT(resili_start_json, 'bpn_start')
-SWT(resili_end_json, 'bpn_end')
+# SWT(bpn_start_json, 'bpn_start')
+# SWT(bpn_end_json, 'bpn_end')
+# SWT(resili_start_json, 'bpn_start')
+# SWT(resili_end_json, 'bpn_end')
 
 # UWtest_json(bpn_start_json, bpn_end_json, 'bpn_start_end')
 # UWtest_json(resili_start_json, resili_end_json, 'resili_start_end')
 
 
-UW_extract_stats_and_test(bpn_start_json, bpn_end_json, 'bpn_start_end')
-UW_extract_stats_and_test(resili_start_json, resili_end_json, 'resili_start_end')
+# UW_extract_stats_and_test(bpn_start_json, bpn_end_json, 'bpn_start_end')
+# UW_extract_stats_and_test(resili_start_json, resili_end_json, 'resili_start_end')
 
 
 '''---------'''
@@ -306,17 +304,21 @@ resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_res
 filepath =f"exp_l_1\tReport"
 
 
-SWT(bpn_mid_json, 'bpn_mid')
-SWT(bpn_end_json, 'bpn_end')
-SWT(resili_mid_json, 'bpn_mid')
-SWT(resili_end_json, 'bpn_end')
+# SWT(bpn_mid_json, 'bpn_mid')
+# SWT(bpn_end_json, 'bpn_end')
+# SWT(resili_mid_json, 'bpn_mid')
+# SWT(resili_end_json, 'bpn_end')
 
 # UWtest_json(bpn_mid_json, bpn_end_json, 'bpn_mid_end')
 # UWtest_json(resili_mid_json, resili_end_json, 'resili_mid_end')
 
 
-UW_extract_stats_and_test(bpn_mid_json, bpn_end_json, 'bpn_mid_end')
-UW_extract_stats_and_test(resili_mid_json, resili_end_json, 'resili_mid_end')
+# UW_extract_stats_and_test(bpn_mid_json, bpn_end_json, 'bpn_mid_end')
+# UW_extract_stats_and_test(resili_mid_json, resili_end_json, 'resili_mid_end')
+
+
+'''----------'''
+
 
 
 
@@ -346,6 +348,110 @@ print(f"\n\n")
 
 for item in bpn_end:
     print(item)
+
+'''--------------------计算各个维度的总分，以及总分的差异----------------------'''
+def sum(list, quesionaire):
+    sum= []
+    list1 = list
+    #对于每一个问题：提取到各个维度，并且同时计算总分。
+    for i in range(len(list)):
+        user_score_cluster = {}
+        user_score_cluster["user_id"] = str(list1[i][0])
+        user_score_cluster["sumscore"] = 0
+        q_scores = list1[i][1:]
+        for m in range(len(q_scores)):
+            parsed_q = quesionaire[m].split(" - ")
+            if len(parsed_q)>1:
+                if("我觉得我所做的事情大多都是出于不得已才去做的" in parsed_q[2]):
+                    print("skipped problem item")
+                    # continue
+                if len(parsed_q)>1:
+                    demension = parsed_q[0]
+                    user_score_cluster["sumscore"]+=q_scores[m]
+                    if demension not in user_score_cluster:
+                        user_score_cluster[demension] = q_scores[m]
+                    else:
+                        user_score_cluster[demension]+=q_scores[m]
+            else:
+                # print(f"error in parsing question:{quesionaire[m]}")
+                break
+        sum.append(user_score_cluster)
+        # print(f"one user sum socres added as {user_score_cluster}")
+    # print(sum)
+    return sum
+
+
+
+
+resili_end_sum = sum(resili_end, questions.questions_resilience)
+resili_mid_sum= sum(resili_mid, questions.questions_resilience)
+resili_start_sum = sum(resili_start, questions.questions_resilience)
+
+bpn_start_sum = sum(bpn_start, questions.questions_pns)
+bpn_mid_sum = sum(bpn_mid,  questions.questions_pns)
+bpn_end_sum = sum(bpn_end,  questions.questions_pns)
+
+UW_extract_stats_and_test(resili_start_sum, resili_end_sum,"sum_demension_ttest_resili")
+UW_extract_stats_and_test(bpn_start_sum, bpn_end_sum, "sum_demension_ttest_bpn")
+
+
+
+
+dimension_compare_bpn = {
+    "自主":0,
+    "关联" : 0,
+    "能力" : 0,
+    "sum" : 0,
+    "count" : 0
+}
+
+
+dimension_compare_resi = {
+    "坚韧":0,
+    "力量" : 0,
+    "乐观" : 0,
+    "sum" : 0,
+    "count" : 0
+}
+
+print(f"{len(resili_end_sum)}")
+# Comparing resilience dimensions
+for item in resili_end_sum:
+    for i in resili_start_sum:
+        if i["user_id"] == item["user_id"]:
+            dimension_compare_resi["count"] += 1
+            # Compare "坚韧" dimension
+            if item["坚韧"] > i["坚韧"]:
+                dimension_compare_resi["坚韧"] += 1
+            # Compare "力量" dimension
+            if item["力量"] > i["力量"]:
+                dimension_compare_resi["力量"] += 1
+            # You can add more comparisons as needed
+            if item["乐观性"] > i["乐观性"]:
+                dimension_compare_resi["乐观"] += 1
+            if item["sumscore"] > i["sumscore"]:
+                dimension_compare_resi["sum"] += 1
+
+# Comparing basic psychological needs dimensions
+for item in bpn_end_sum:
+    for i in bpn_start_sum:
+        if i["user_id"] == item["user_id"]:
+            dimension_compare_bpn["count"] += 1
+            # Compare "自主" dimension
+            if item["自主性"] > i["自主性"]:
+                dimension_compare_bpn["自主"] += 1
+            # Compare "关联" dimension
+            if item["关联性"] > i["关联性"]:
+                dimension_compare_bpn["关联"] += 1
+            # Compare "能力" dimension
+            if item["能力"] > i["能力"]:
+                dimension_compare_bpn["能力"] += 1
+            if item["sumscore"] > i["sumscore"]:
+                dimension_compare_bpn["sum"] += 1
+
+print(dimension_compare_bpn)
+print(dimension_compare_resi)
+            
 
 
 '''线性回归'''
