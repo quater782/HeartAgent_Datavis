@@ -56,6 +56,7 @@ import datetime
 import numpy as np
 import matplotlib.pyplot as plt
 from collections import Counter
+from pymongo import MongoClient
 
 from DB.manage_chat import ChatLogManager
 from DB.manage_chatana import ChatAnaManager
@@ -195,6 +196,7 @@ class ChatAnaManagerWithStats(ChatAnaManager):
             'total_chatlog_rating_sum': 0,
             'total_finish_count': 0,
             'total_records': 0,
+            'total_records_ana':0,
             'user_stats': defaultdict(lambda: {
                 'autonomy_weak': 0,
                 'competence_weak': 0,
@@ -202,6 +204,7 @@ class ChatAnaManagerWithStats(ChatAnaManager):
                 'chatlog_rating_count': 0,
                 'chatlog_rating_sum': 0,
                 'finish_count': 0,
+                'record_count_ana': 0,
                 'record_count': 0
             })
         }
@@ -217,6 +220,8 @@ class ChatAnaManagerWithStats(ChatAnaManager):
                 # 仅当 SDT_analysis 是字典类型时才进行统计
                 sdt_analysis = doc.get("SDT_analysis")
                 if isinstance(sdt_analysis, dict):
+                    stats['total_records_ana'] += 1
+                    stats['user_stats'][user_id]['record_count_ana'] += 1
                     if sdt_analysis.get("autonomy_status") == "弱":
                         stats['total_autonomy_weak'] += 1
                         stats['user_stats'][user_id]['autonomy_weak'] += 1
@@ -249,10 +254,12 @@ class ChatAnaManagerWithStats(ChatAnaManager):
         参数：
             stats (dict): 从 get_sdt_analysis_stats 返回的统计结果
         """
+        print("SDT_analysis 总共分析数据条数:", stats['total_records'])
+        print("SDT_analysis 总共分析次数:", stats['total_records_ana'])
         print("SDT_analysis 中 '弱' 的总计频次:")
-        print("  自主感 (autonomy_status) 弱的频次:", stats['total_autonomy_weak'])
-        print("  胜任感 (competence_status) 弱的频次:", stats['total_competence_weak'])
-        print("  关联感 (relatedness_status) 弱的频次:", stats['total_relatedness_weak'])
+        print("  自主感 (autonomy_status) 弱的频次:", stats['total_autonomy_weak'], "占比：", stats['total_autonomy_weak']/stats['total_records_ana'])
+        print("  胜任感 (competence_status) 弱的频次:", stats['total_competence_weak'], "占比：", stats['total_competence_weak']/stats['total_records_ana'])
+        print("  关联感 (relatedness_status) 弱的频次:", stats['total_relatedness_weak'], "占比：", stats['total_relatedness_weak']/stats['total_records_ana'])
         
         print("\nchatlog_rating 统计:")
         if stats['total_chatlog_rating_count'] > 0:
@@ -787,6 +794,25 @@ class MoodManagerWithStats(MoodManager):
         plt.tight_layout(rect=[0, 0, 0.85, 1])  # 调整图的布局，避免图例遮挡图像
         plt.savefig('exp_l_static_mood_2.jpg')
         plt.show()
+
+
+
+def count_sent_documents(collection_name):
+    # 连接 MongoDB 数据库
+    client = MongoClient("mongodb://localhost:27017/")  # 修改为你的 MongoDB 连接 URI
+    db = client['heartDBEval']  # 修改为你的数据库名
+    collection = db[collection_name]
+
+    # 查询 sent = true 的文档数量
+    sent_count = collection.count_documents({"sent": True})
+
+    return sent_count
+
+# 使用示例
+collection_name = "autoMessage"  # 修改为你的集合名
+sent_count = count_sent_documents(collection_name)
+print("# 用户主动发消息(autoMessage)的描述性统计")
+print(f"Sent 为 true 的文档数量: {sent_count}")
 
 
 print("\n\n")
