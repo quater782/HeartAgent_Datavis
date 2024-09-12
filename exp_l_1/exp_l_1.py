@@ -59,58 +59,6 @@ def SWT(jsondata, name:str):
         json.dump(report, file, ensure_ascii=False,indent=4)
 
 
-# def UWtest_json(group1_data, group2_data, name:str):
-#     # 转换成DataFrame
-#     df1 = pd.DataFrame(group1_data)
-#     df2 = pd.DataFrame(group2_data)
-
-#     # 提取问题和维度
-
-#     # 处理数据
-#     group1_scores = extract_dimension_and_question(df1)
-#     group2_scores = extract_dimension_and_question(df2)
-
-#     # 进行Mann-Whitney U检验
-#     results = {}
-#     for dimension in group1_scores:
-#         if dimension not in results:
-#             results[dimension] = {}
-#         for question in group1_scores[dimension]:
-#             if question in group2_scores[dimension]:  # 确保两组都有相同的问题
-#                 score1 = group1_scores[dimension][question]
-#                 score2 = group2_scores[dimension][question]
-#                 stat, p_value = mannwhitneyu(score1, score2, alternative='two-sided')
-#                 results[dimension][question] = {'U-statistic': stat, 'p-value': p_value}
-
-#     # 输出结果
-#     for dim, questions in results.items():
-#         for q, res in questions.items():
-#             print(f"Dimension: {dim}, Question: {q}, U-statistic: {res['U-statistic']}, p-value: {res['p-value']:.3f}")
-
-#     # 输出结果
-#         # 指定要写入的文件名
-#     filename = f'UW报告_{name}.txt'
-
-#     # 使用 'with' 语句打开文件，确保正确关闭文件
-#     with open(filename, 'w', encoding='utf-8') as file:
-#         # 使用 json.dump 将数据写入文件，确保使用utf-8编码
-#         json.dump(results, file, ensure_ascii=False, indent=4)
-
-
-
-# def extract_dimension_and_question(df):
-#     scores = {}
-#     for index, row in df.iterrows():
-#         for key in row.index:
-#             if key.startswith('user_id'):
-#                 continue
-#             dimension, question_type, question = key.split(' - ')
-#             if dimension not in scores:
-#                 scores[dimension] = {}
-#             if question not in scores[dimension]:
-#                 scores[dimension][question] = []
-#             scores[dimension][question].append(row[key])
-#     return scores
 
 
 def UW_extract_stats_and_test(df1, df2, name):
@@ -191,31 +139,21 @@ bpn_start = toolkit.read_survey_data("exp_l_1/data/start_BFNSNF.xlsx")
 bpn_mid = toolkit.read_survey_data("exp_l_1/data/mid_BFNSNF.xlsx")
 resili_start = toolkit.read_survey_data("exp_l_1/data/start_resilience.xlsx")
 resili_mid = toolkit.read_survey_data("exp_l_1/data/mid_resilience.xlsx")
-
 bpn_end = toolkit.read_survey_data("exp_l_1/data/end_BFNSNF.xlsx")
 resili_end = toolkit.read_survey_data("exp_l_1/data/end_resilience.xlsx")
 
 
-# bpn_start, bpn_mid = filter_lists_by_common_userids(bpn_start, bpn_mid)
-# resili_start, resili_mid = filter_lists_by_common_userids(resili_start, resili_mid)
-
 bpn_start, bpn_end = filter_lists_by_common_userids(bpn_start, bpn_end)
 resili_start, resili_end = filter_lists_by_common_userids(resili_start, resili_end)
 
-# bpn_start, bpn_mid = filter_lists_by_common_userids(bpn_start, bpn_mid)
-# resili_start, resili_mid = filter_lists_by_common_userids(resili_start, resili_mid)
+print(f"len reliend:{len(resili_end)}") # 29
+print(f"len reliend:{len(resili_mid)}")
+print(f"len reliend:{len(resili_start)}")
 
-# bpn_mid, bpn_end = filter_lists_by_common_userids(bpn_mid, bpn_end)
-# resili_mid, resili_end = filter_lists_by_common_userids(resili_mid, resili_end)
-
-print(f"reliend:{len(resili_end)}")
-print(f"reliend:{len(resili_mid)}")
-print(f"reliend:{len(resili_start)}")
-
-print(f"bpn{len(bpn_end)}")
-print(f"bpn{len(bpn_mid)}")
-print(f"bpn{len(bpn_start)}")
-print(resili_mid)
+print(f"len bpn{len(bpn_end)}")
+print(f"len bpn{len(bpn_mid)}")
+print(f"len bpn{len(bpn_start)}")
+# print(resili_mid)
 
 '''json化'''
 bpn_start_json = toolkit.list_to_json(bpn_start,db_questioniares.questions_pns)
@@ -226,70 +164,19 @@ resili_start_json = toolkit.list_to_json(resili_start, db_questioniares.question
 resili_mid_json = toolkit.list_to_json(resili_mid,db_questioniares.questions_resilience)
 resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_resilience)
 
-
 filepath =f"exp_l_1\tReport"
 
-
-
-
+# # 数据独立性检验
 SWT(bpn_start_json, 'bpn_start')
 SWT(bpn_mid_json, 'bpn_mid')
 SWT(resili_start_json, 'bpn_start')
 SWT(resili_mid_json, 'bpn_mid')
-
-# UWtest_json(bpn_start_json, bpn_mid_json, 'bpn_start_mid')
-# UWtest_json(resili_start_json, resili_mid_json, 'resili_start_mid')
-
-
-# UW_extract_stats_and_test(bpn_start_json, bpn_mid_json, 'bpn_start_mid')
-# UW_extract_stats_and_test(resili_start_json, resili_mid_json, 'resili_start_mid')
-
-
-# for item in resili_mid:
-#     print(item[0])
-
-
-
-# bpn_start1 = bpn_start
-# bpn_mid1 = bpn_mid
-# bpn_end1 = bpn_end
-
-# resili_end1 = resili_end
-# resili_mid1= resili_mid
-# resili_start1 = resili_start
-
-
-# resili_end = sum(resili_end1)
-# resili_mid= sum(resili_mid1)
-# resili_start = sum(resili_start1)
-
-# bpn_start = sum(bpn_start1)
-# bpn_mid = sum(bpn_mid1)
-# bpn_end = sum(bpn_end1)
 
 
 bpn_start_json = toolkit.list_to_json(bpn_start,db_questioniares.questions_pns)
 bpn_end_json = toolkit.list_to_json(bpn_end, db_questioniares.questions_pns)
 resili_start_json = toolkit.list_to_json(resili_start, db_questioniares.questions_resilience)
 resili_end_json = toolkit.list_to_json(resili_end,db_questioniares.questions_resilience)
-
-
-
-filepath =f"exp_l_1\tReport"
-
-
-# SWT(bpn_start_json, 'bpn_start')
-# SWT(bpn_end_json, 'bpn_end')
-# SWT(resili_start_json, 'bpn_start')
-# SWT(resili_end_json, 'bpn_end')
-
-# UWtest_json(bpn_start_json, bpn_end_json, 'bpn_start_end')
-# UWtest_json(resili_start_json, resili_end_json, 'resili_start_end')
-
-
-# UW_extract_stats_and_test(bpn_start_json, bpn_end_json, 'bpn_start_end')
-# UW_extract_stats_and_test(resili_start_json, resili_end_json, 'resili_start_end')
-
 
 '''---------'''
 
@@ -330,24 +217,26 @@ print(f"bpn{len(bpn_end)}")
 print(f"bpn{len(bpn_mid)}")
 print(f"bpn{len(bpn_start)}")
 
-for i in range(len(resili_end_json)):
-    print(f"{resili_end_json[i]}\n{resili_start_json[i]}\n\n")
 
-for i in range(len(bpn_end_json)):
-    print(f"{bpn_end_json[i]}\n{bpn_start_json[i]}\n\n")
+## 这部分打印下来好多hhh
+# for i in range(len(resili_end_json)):
+#     print(f"{resili_end_json[i]}\n{resili_start_json[i]}\n\n")
 
-for item in bpn_start:
-    print(item)
+# for i in range(len(bpn_end_json)):
+#     print(f"{bpn_end_json[i]}\n{bpn_start_json[i]}\n\n")
 
-print(f"\n\n")
+# for item in bpn_start:
+#     print(item)
 
-for item in bpn_mid:
-    print(item)
+# print(f"\n\n")
 
-print(f"\n\n")
+# for item in bpn_mid:
+#     print(item)
 
-for item in bpn_end:
-    print(item)
+# print(f"\n\n")
+
+# for item in bpn_end:
+#     print(item)
 
 '''--------------------计算各个维度的总分，以及总分的差异----------------------'''
 def sum(list, quesionaire):
@@ -414,7 +303,7 @@ dimension_compare_resi = {
     "count" : 0
 }
 
-print(f"{len(resili_end_sum)}")
+print(f"len(resili_end_sum): {len(resili_end_sum)}")
 # Comparing resilience dimensions
 for item in resili_end_sum:
     for i in resili_start_sum:
